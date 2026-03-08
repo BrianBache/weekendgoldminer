@@ -43,8 +43,8 @@ export default function USMap() {
         style={{ width: "100%", height: "auto" }}
       >
         <Geographies geography={geoUrl}>
-          {({ geographies }) =>
-            geographies.map((geo) => {
+          {({ geographies }: { geographies: any[] }) =>
+            geographies.map((geo: any) => {
               const fips = geo.id as string;
               const name = stateNames[fips] ?? "Unknown";
               const isHovered = hoveredState === name;
