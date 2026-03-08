@@ -1,8 +1,9 @@
 "use client";
 
+// @ts-ignore
+import { ComposableMap, Geographies, Geography } from "react-simple-maps";
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { ComposableMap, Geographies, Geography, Annotation } from "react-simple-maps";
 
 const geoUrl = "https://cdn.jsdelivr.net/npm/us-atlas@3/states-10m.json";
 
