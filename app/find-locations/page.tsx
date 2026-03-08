@@ -1,61 +1,4 @@
-import Link from "next/link";
-
-const US_STATES = [
-  "Alabama",
-  "Alaska",
-  "Arizona",
-  "Arkansas",
-  "California",
-  "Colorado",
-  "Connecticut",
-  "Delaware",
-  "Florida",
-  "Georgia",
-  "Hawaii",
-  "Idaho",
-  "Illinois",
-  "Indiana",
-  "Iowa",
-  "Kansas",
-  "Kentucky",
-  "Louisiana",
-  "Maine",
-  "Maryland",
-  "Massachusetts",
-  "Michigan",
-  "Minnesota",
-  "Mississippi",
-  "Missouri",
-  "Montana",
-  "Nebraska",
-  "Nevada",
-  "New Hampshire",
-  "New Jersey",
-  "New Mexico",
-  "New York",
-  "North Carolina",
-  "North Dakota",
-  "Ohio",
-  "Oklahoma",
-  "Oregon",
-  "Pennsylvania",
-  "Rhode Island",
-  "South Carolina",
-  "South Dakota",
-  "Tennessee",
-  "Texas",
-  "Utah",
-  "Vermont",
-  "Virginia",
-  "Washington",
-  "West Virginia",
-  "Wisconsin",
-  "Wyoming",
-];
-
-function stateToSlug(state: string): string {
-  return state.toLowerCase().replace(/\s+/g, "-");
-}
+import USMap from "@/components/USMap";
 
 export default function FindLocationsPage() {
   return (
@@ -76,21 +19,10 @@ export default function FindLocationsPage() {
 
       {/* Main Content */}
       <div className="max-w-7xl mx-auto px-4 py-12">
-        {/* States Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 mb-12">
-          {US_STATES.map((state) => (
-            <Link
-              key={state}
-              href={`/find-locations/${stateToSlug(state)}`}
-              className="bg-white dark:bg-dark-surface border-2 border-earth-200 dark:border-earth-700 rounded-lg p-4 text-center hover:bg-gold-50 hover:border-gold-400 hover:shadow-lg transition-all duration-200"
-            >
-              <span className="text-earth-800 dark:text-dark-text font-semibold">{state}</span>
-            </Link>
-          ))}
-        </div>
+        <USMap />
 
         {/* Legal Disclaimer */}
-        <div className="bg-earth-100 dark:bg-dark-surface border-l-4 border-earth-800 dark:border-earth-700 rounded p-6 max-w-3xl">
+        <div className="bg-earth-100 dark:bg-dark-surface border-l-4 border-earth-800 dark:border-earth-700 rounded p-6 max-w-3xl mt-12">
           <p className="text-earth-800 dark:text-dark-text text-sm leading-relaxed">
             <strong>Legal Disclaimer:</strong> Always verify regulations with
             local, state, and federal authorities before prospecting.
