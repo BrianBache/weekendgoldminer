@@ -19,7 +19,7 @@ export default function RootLayout({
       <body className="antialiased">
         <BetaBanner />
         <Navbar />
-        <main className="pt-[70px] min-h-screen">
+        <main className="pt-[106px] min-h-screen">
           {children}
         </main>
         <Footer />

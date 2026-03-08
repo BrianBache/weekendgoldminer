@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 interface NavItem {
   label: string;
@@ -112,11 +113,10 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-earth-800 text-earth-50 shadow-lg" style={{ height: "70px" }}>
+    <nav className="fixed top-[36px] left-0 right-0 z-50 bg-earth-800 text-earth-50 shadow-lg" style={{ height: "70px" }}>
       <div className="max-w-7xl mx-auto px-4 h-full flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 shrink-0">
-          <span className="text-gold-400 text-xl font-bold">⛏️</span>
-          <span className="text-gold-400 font-bold text-lg hidden sm:inline">WeekendGoldMiner</span>
+        <Link href="/" className="flex items-center shrink-0">
+          <Image src="/logo.png" alt="WeekendGoldMiner" width={120} height={60} priority />
         </Link>
 
         {/* Desktop nav */}
