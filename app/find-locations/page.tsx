@@ -59,9 +59,9 @@ function stateToSlug(state: string): string {
 
 export default function FindLocationsPage() {
   return (
-    <div className="min-h-screen bg-earth-50">
+    <div className="min-h-screen bg-earth-50 dark:bg-dark-bg">
       {/* Header Section */}
-      <div className="bg-earth-800 text-gold-400 py-12 px-4">
+      <div className="bg-earth-800 dark:bg-dark-bg text-gold-400 py-12 px-4">
         <div className="max-w-7xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             Find Gold Prospecting Locations
@@ -82,16 +82,16 @@ export default function FindLocationsPage() {
             <Link
               key={state}
               href={`/find-locations/${stateToSlug(state)}`}
-              className="bg-white border-2 border-earth-200 rounded-lg p-4 text-center hover:bg-gold-50 hover:border-gold-400 hover:shadow-lg transition-all duration-200"
+              className="bg-white dark:bg-dark-surface border-2 border-earth-200 dark:border-earth-700 rounded-lg p-4 text-center hover:bg-gold-50 hover:border-gold-400 hover:shadow-lg transition-all duration-200"
             >
-              <span className="text-earth-800 font-semibold">{state}</span>
+              <span className="text-earth-800 dark:text-dark-text font-semibold">{state}</span>
             </Link>
           ))}
         </div>
 
         {/* Legal Disclaimer */}
-        <div className="bg-earth-100 border-l-4 border-earth-800 rounded p-6 max-w-3xl">
-          <p className="text-earth-800 text-sm leading-relaxed">
+        <div className="bg-earth-100 dark:bg-dark-surface border-l-4 border-earth-800 dark:border-earth-700 rounded p-6 max-w-3xl">
+          <p className="text-earth-800 dark:text-dark-text text-sm leading-relaxed">
             <strong>Legal Disclaimer:</strong> Always verify regulations with
             local, state, and federal authorities before prospecting.
           </p>

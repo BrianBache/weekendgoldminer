@@ -11,9 +11,9 @@ export default function GearPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-earth-50">
+    <div className="min-h-screen bg-earth-50 dark:bg-dark-bg">
       {/* Header */}
-      <div className="bg-earth-800 py-12">
+      <div className="bg-earth-800 dark:bg-dark-bg py-12">
         <div className="max-w-6xl mx-auto px-4">
           <Link href="/gold-mining-tv" className="text-gold-400 hover:text-gold-300 mb-4 inline-block">
             ← Back to Gold Mining TV
@@ -27,14 +27,14 @@ export default function GearPage() {
       <div className="max-w-6xl mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {equipment.map((item) => (
-            <div key={item.name} className="bg-white border-2 border-earth-300 rounded-lg p-6 hover:shadow-lg transition">
-              <div className="aspect-video bg-earth-200 rounded mb-4 flex items-center justify-center">
-                <span className="text-earth-600 text-sm">Equipment Image</span>
+            <div key={item.name} className="bg-white dark:bg-dark-surface border-2 border-earth-300 dark:border-earth-700 rounded-lg p-6 hover:shadow-lg transition">
+              <div className="aspect-video bg-earth-200 dark:bg-earth-700 rounded mb-4 flex items-center justify-center">
+                <span className="text-earth-600 dark:text-earth-300 text-sm">Equipment Image</span>
               </div>
-              <h3 className="text-xl font-bold text-earth-800 mb-2">{item.name}</h3>
-              <p className="text-earth-600 mb-4">{item.description}</p>
+              <h3 className="text-xl font-bold text-earth-800 dark:text-dark-text mb-2">{item.name}</h3>
+              <p className="text-earth-600 dark:text-earth-300 mb-4">{item.description}</p>
               <div className="p-3 bg-gold-50 border-l-4 border-gold-400 rounded">
-                <p className="text-sm text-earth-800">
+                <p className="text-sm text-earth-800 dark:text-dark-text">
                   <span className="font-semibold">Affiliate link placeholder:</span> Coming soon
                 </p>
               </div>

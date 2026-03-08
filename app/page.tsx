@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-earth-800 text-earth-50 py-20 px-4">
+      <section className="bg-earth-800 dark:bg-dark-bg text-earth-50 py-20 px-4">
         <div className="max-w-5xl mx-auto text-center">
           <div className="w-40 h-40 mx-auto mb-6 flex items-center justify-center">
             <Image src="/logo.png" alt="WeekendGoldMiner" width={160} height={160} priority />
@@ -55,7 +55,7 @@ export default function Home() {
 
       {/* Featured Articles */}
       <section className="max-w-7xl mx-auto px-4 py-16">
-        <h2 className="text-2xl font-bold text-earth-800 mb-8">Featured Articles</h2>
+        <h2 className="text-2xl font-bold text-earth-800 dark:text-dark-text mb-8">Featured Articles</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {featuredArticles.map((article) => (
             <PlaceholderCard key={article.title} title={article.title} description={article.description} />
@@ -69,17 +69,17 @@ export default function Home() {
       </section>
 
       {/* Quick Tools */}
-      <section className="bg-earth-100 py-16 px-4">
+      <section className="bg-earth-100 dark:bg-dark-surface py-16 px-4">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-2xl font-bold text-earth-800 mb-8">Quick Tools</h2>
+          <h2 className="text-2xl font-bold text-earth-800 dark:text-dark-text mb-8">Quick Tools</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {quickTools.map((tool) => (
-              <div key={tool.title} className="bg-white border border-earth-200 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+              <div key={tool.title} className="bg-white dark:bg-dark-surface border border-earth-200 dark:border-earth-700 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
                 <div className="w-12 h-12 bg-gold-100 rounded-lg mb-4 flex items-center justify-center text-gold-600 text-xl">
                   🛠️
                 </div>
-                <h3 className="text-lg font-bold text-earth-800 mb-2">{tool.title}</h3>
-                <p className="text-earth-600 text-sm">{tool.description}</p>
+                <h3 className="text-lg font-bold text-earth-800 dark:text-dark-text mb-2">{tool.title}</h3>
+                <p className="text-earth-600 dark:text-earth-300 text-sm">{tool.description}</p>
                 <p className="text-earth-400 text-xs mt-3 italic">Coming soon</p>
               </div>
             ))}
@@ -89,7 +89,7 @@ export default function Home() {
 
       {/* Latest News */}
       <section className="max-w-7xl mx-auto px-4 py-16">
-        <h2 className="text-2xl font-bold text-earth-800 mb-8">Latest News</h2>
+        <h2 className="text-2xl font-bold text-earth-800 dark:text-dark-text mb-8">Latest News</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           {latestNews.map((news) => (
             <PlaceholderCard key={news.title} title={news.title} description={news.description} />

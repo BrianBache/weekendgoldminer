@@ -94,14 +94,14 @@ const newsSections: NewsSection[] = [
 
 export default function NewsPage() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-earth-50 to-earth-100 py-16 px-4 sm:px-6 lg:px-8">
+    <main className="min-h-screen bg-gradient-to-b from-earth-50 to-earth-100 dark:from-dark-bg dark:to-dark-surface py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="mb-16 text-center">
-          <h1 className="text-4xl sm:text-5xl font-bold text-earth-900 mb-4">
+          <h1 className="text-4xl sm:text-5xl font-bold text-earth-900 dark:text-dark-text mb-4">
             News & Updates
           </h1>
-          <p className="text-lg text-earth-700">
+          <p className="text-lg text-earth-700 dark:text-earth-300">
             Stay informed with the latest prospecting news and industry updates.
           </p>
         </div>
@@ -112,7 +112,7 @@ export default function NewsPage() {
             <section key={section.title}>
               {/* Section Header */}
               <div className="mb-8 pb-4 border-b-2 border-gold-400">
-                <h2 className="text-2xl sm:text-3xl font-bold text-earth-900">
+                <h2 className="text-2xl sm:text-3xl font-bold text-earth-900 dark:text-dark-text">
                   {section.title}
                 </h2>
               </div>
@@ -122,16 +122,16 @@ export default function NewsPage() {
                 {section.cards.map((card) => (
                   <article
                     key={card.id}
-                    className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow border border-earth-200 overflow-hidden"
+                    className="bg-white dark:bg-dark-surface rounded-lg shadow-md hover:shadow-lg transition-shadow border border-earth-200 dark:border-earth-700 overflow-hidden"
                   >
                     {/* Card Header with Date */}
-                    <div className="px-6 py-4 bg-earth-50 border-b border-earth-200">
+                    <div className="px-6 py-4 bg-earth-50 dark:bg-dark-bg border-b border-earth-200 dark:border-earth-700">
                       <p className="text-sm font-semibold text-gold-600">{card.date}</p>
                     </div>
 
                     {/* Card Content */}
                     <div className="p-6">
-                      <h3 className="text-lg font-bold text-earth-900 leading-snug mb-4 hover:text-gold-600 transition-colors">
+                      <h3 className="text-lg font-bold text-earth-900 dark:text-dark-text leading-snug mb-4 hover:text-gold-600 transition-colors">
                         {card.title}
                       </h3>
 
@@ -148,11 +148,11 @@ export default function NewsPage() {
         </div>
 
         {/* Subscribe Section */}
-        <div className="mt-20 bg-white rounded-lg shadow-md border border-earth-200 p-8 sm:p-12 text-center">
-          <h2 className="text-2xl font-bold text-earth-900 mb-4">
+        <div className="mt-20 bg-white dark:bg-dark-surface rounded-lg shadow-md border border-earth-200 dark:border-earth-700 p-8 sm:p-12 text-center">
+          <h2 className="text-2xl font-bold text-earth-900 dark:text-dark-text mb-4">
             Don't Miss Important Updates
           </h2>
-          <p className="text-earth-700 mb-6 max-w-2xl mx-auto">
+          <p className="text-earth-700 dark:text-earth-300 mb-6 max-w-2xl mx-auto">
             Subscribe to our newsletter to receive the latest news, guides, and prospecting tips
             delivered to your inbox.
           </p>

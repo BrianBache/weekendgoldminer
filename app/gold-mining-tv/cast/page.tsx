@@ -41,9 +41,9 @@ export default function CastPage() {
   ];
 
   return (
-    <div className="min-h-screen bg-earth-50">
+    <div className="min-h-screen bg-earth-50 dark:bg-dark-bg">
       {/* Header */}
-      <div className="bg-earth-800 py-12">
+      <div className="bg-earth-800 dark:bg-dark-bg py-12">
         <div className="max-w-6xl mx-auto px-4">
           <Link href="/gold-mining-tv" className="text-gold-400 hover:text-gold-300 mb-4 inline-block">
             ← Back to Gold Mining TV
@@ -57,14 +57,14 @@ export default function CastPage() {
       <div className="max-w-6xl mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {castMembers.map((member) => (
-            <div key={member.id} className="bg-white border-2 border-earth-300 rounded-lg overflow-hidden hover:shadow-lg transition">
-              <div className="aspect-square bg-earth-200 flex items-center justify-center">
-                <span className="text-earth-600">Photo Placeholder</span>
+            <div key={member.id} className="bg-white dark:bg-dark-surface border-2 border-earth-300 dark:border-earth-700 rounded-lg overflow-hidden hover:shadow-lg transition">
+              <div className="aspect-square bg-earth-200 dark:bg-earth-700 flex items-center justify-center">
+                <span className="text-earth-600 dark:text-earth-300">Photo Placeholder</span>
               </div>
               <div className="p-6">
-                <h3 className="text-xl font-bold text-earth-800 mb-1">{member.name}</h3>
+                <h3 className="text-xl font-bold text-earth-800 dark:text-dark-text mb-1">{member.name}</h3>
                 <p className="text-gold-600 font-semibold mb-3">{member.role}</p>
-                <p className="text-earth-600 text-sm leading-relaxed">{member.bio}</p>
+                <p className="text-earth-600 dark:text-earth-300 text-sm leading-relaxed">{member.bio}</p>
               </div>
             </div>
           ))}

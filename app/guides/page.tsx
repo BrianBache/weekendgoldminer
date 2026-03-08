@@ -40,14 +40,14 @@ const guides = [
 
 export default function ProspectingGuidesPage() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-earth-50 to-earth-100 py-16 px-4 sm:px-6 lg:px-8">
+    <main className="min-h-screen bg-gradient-to-b from-earth-50 to-earth-100 dark:from-dark-bg dark:to-dark-surface py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <div className="mb-12 text-center">
-          <h1 className="text-4xl sm:text-5xl font-bold text-earth-900 mb-4">
+          <h1 className="text-4xl sm:text-5xl font-bold text-earth-900 dark:text-dark-text mb-4">
             Prospecting Guides
           </h1>
-          <p className="text-lg text-earth-700">
+          <p className="text-lg text-earth-700 dark:text-earth-300">
             Master the art and science of gold prospecting with our comprehensive guides.
           </p>
         </div>
@@ -56,27 +56,27 @@ export default function ProspectingGuidesPage() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {guides.map((guide) => (
             <Link key={guide.slug} href={`/guides/${guide.slug}`}>
-              <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow overflow-hidden cursor-pointer border border-earth-200">
+              <div className="bg-white dark:bg-dark-surface rounded-lg shadow-md hover:shadow-lg transition-shadow overflow-hidden cursor-pointer border border-earth-200 dark:border-earth-700">
                 {/* Image Placeholder */}
-                <div className="w-full h-48 bg-gradient-to-br from-earth-200 to-gold-200 flex items-center justify-center">
+                <div className="w-full h-48 bg-gradient-to-br from-earth-200 to-gold-200 dark:from-earth-700 flex items-center justify-center">
                   <div className="text-center">
                     <div className="text-gold-600 text-4xl mb-2">⛏️</div>
-                    <p className="text-earth-600 text-sm font-medium">Prospecting Guide</p>
+                    <p className="text-earth-600 dark:text-earth-300 text-sm font-medium">Prospecting Guide</p>
                   </div>
                 </div>
 
                 {/* Content */}
                 <div className="p-6">
-                  <h2 className="text-xl font-bold text-earth-900 mb-2 hover:text-gold-600 transition-colors">
+                  <h2 className="text-xl font-bold text-earth-900 dark:text-dark-text mb-2 hover:text-gold-600 transition-colors">
                     {guide.title}
                   </h2>
-                  <p className="text-earth-700 text-sm leading-relaxed">
+                  <p className="text-earth-700 dark:text-earth-300 text-sm leading-relaxed">
                     {guide.description}
                   </p>
                 </div>
 
                 {/* Footer */}
-                <div className="px-6 py-4 bg-earth-50 border-t border-earth-200">
+                <div className="px-6 py-4 bg-earth-50 dark:bg-dark-bg border-t border-earth-200 dark:border-earth-700">
                   <p className="text-gold-600 font-semibold text-sm hover:text-gold-700">
                     Read Guide →
                   </p>

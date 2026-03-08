@@ -23,9 +23,9 @@ export default function GoldValueTool() {
   };
 
   return (
-    <div className="min-h-screen bg-earth-50">
+    <div className="min-h-screen bg-earth-50 dark:bg-dark-bg">
       {/* Header */}
-      <div className="bg-gradient-to-r from-earth-800 to-earth-700 text-white py-12">
+      <div className="bg-gradient-to-r from-earth-800 to-earth-700 dark:from-dark-bg dark:to-dark-surface text-white py-12">
         <div className="max-w-4xl mx-auto px-6">
           <h1 className="text-4xl font-bold mb-2">Gold Value Estimator</h1>
           <p className="text-earth-100">
@@ -39,12 +39,12 @@ export default function GoldValueTool() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Form Section */}
           <div className="lg:col-span-2">
-            <form className="bg-white rounded-lg shadow-lg p-8">
-              <h2 className="text-2xl font-bold text-earth-800 mb-6">Enter Your Gold Details</h2>
+            <form className="bg-white dark:bg-dark-surface rounded-lg shadow-lg p-8">
+              <h2 className="text-2xl font-bold text-earth-800 dark:text-dark-text mb-6">Enter Your Gold Details</h2>
 
               {/* Location */}
               <div className="mb-6">
-                <label htmlFor="location" className="block text-sm font-semibold text-earth-700 mb-2">
+                <label htmlFor="location" className="block text-sm font-semibold text-earth-700 dark:text-earth-300 mb-2">
                   Location
                 </label>
                 <input
@@ -54,13 +54,13 @@ export default function GoldValueTool() {
                   placeholder="e.g., California, Colorado, Oregon"
                   value={formData.location}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-2 border border-earth-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold-500 bg-white text-earth-800"
+                  className="w-full px-4 py-2 border border-earth-300 dark:border-earth-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold-500 bg-white dark:bg-dark-surface text-earth-800 dark:text-dark-text"
                 />
               </div>
 
               {/* Gold Form */}
               <div className="mb-6">
-                <label htmlFor="goldForm" className="block text-sm font-semibold text-earth-700 mb-2">
+                <label htmlFor="goldForm" className="block text-sm font-semibold text-earth-700 dark:text-earth-300 mb-2">
                   Gold Form
                 </label>
                 <select
@@ -68,7 +68,7 @@ export default function GoldValueTool() {
                   name="goldForm"
                   value={formData.goldForm}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-2 border border-earth-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold-500 bg-white text-earth-800"
+                  className="w-full px-4 py-2 border border-earth-300 dark:border-earth-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold-500 bg-white dark:bg-dark-surface text-earth-800 dark:text-dark-text"
                 >
                   <option value="dust">Gold Dust</option>
                   <option value="flakes">Gold Flakes</option>
@@ -80,7 +80,7 @@ export default function GoldValueTool() {
               {/* Weight */}
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <div>
-                  <label htmlFor="weight" className="block text-sm font-semibold text-earth-700 mb-2">
+                  <label htmlFor="weight" className="block text-sm font-semibold text-earth-700 dark:text-earth-300 mb-2">
                     Weight
                   </label>
                   <input
@@ -92,11 +92,11 @@ export default function GoldValueTool() {
                     onChange={handleInputChange}
                     step="0.01"
                     min="0"
-                    className="w-full px-4 py-2 border border-earth-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold-500 bg-white text-earth-800"
+                    className="w-full px-4 py-2 border border-earth-300 dark:border-earth-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold-500 bg-white dark:bg-dark-surface text-earth-800 dark:text-dark-text"
                   />
                 </div>
                 <div>
-                  <label htmlFor="unit" className="block text-sm font-semibold text-earth-700 mb-2">
+                  <label htmlFor="unit" className="block text-sm font-semibold text-earth-700 dark:text-earth-300 mb-2">
                     Unit
                   </label>
                   <select
@@ -104,7 +104,7 @@ export default function GoldValueTool() {
                     name="unit"
                     value={formData.unit}
                     onChange={handleInputChange}
-                    className="w-full px-4 py-2 border border-earth-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold-500 bg-white text-earth-800"
+                    className="w-full px-4 py-2 border border-earth-300 dark:border-earth-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold-500 bg-white dark:bg-dark-surface text-earth-800 dark:text-dark-text"
                   >
                     <option value="grams">Grams</option>
                     <option value="troy-oz">Troy Ounces</option>
@@ -115,7 +115,7 @@ export default function GoldValueTool() {
 
               {/* Purity */}
               <div className="mb-6">
-                <label htmlFor="purity" className="block text-sm font-semibold text-earth-700 mb-2">
+                <label htmlFor="purity" className="block text-sm font-semibold text-earth-700 dark:text-earth-300 mb-2">
                   Purity
                 </label>
                 <select
@@ -123,7 +123,7 @@ export default function GoldValueTool() {
                   name="purity"
                   value={formData.purity}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-2 border border-earth-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold-500 bg-white text-earth-800"
+                  className="w-full px-4 py-2 border border-earth-300 dark:border-earth-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold-500 bg-white dark:bg-dark-surface text-earth-800 dark:text-dark-text"
                 >
                   <option value="10K">10K (41.7%)</option>
                   <option value="14K">14K (58.3%)</option>
@@ -136,7 +136,7 @@ export default function GoldValueTool() {
 
               {/* Buyer Type */}
               <div className="mb-8">
-                <label htmlFor="buyerType" className="block text-sm font-semibold text-earth-700 mb-2">
+                <label htmlFor="buyerType" className="block text-sm font-semibold text-earth-700 dark:text-earth-300 mb-2">
                   Buyer Type
                 </label>
                 <select
@@ -144,7 +144,7 @@ export default function GoldValueTool() {
                   name="buyerType"
                   value={formData.buyerType}
                   onChange={handleInputChange}
-                  className="w-full px-4 py-2 border border-earth-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold-500 bg-white text-earth-800"
+                  className="w-full px-4 py-2 border border-earth-300 dark:border-earth-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-gold-500 bg-white dark:bg-dark-surface text-earth-800 dark:text-dark-text"
                 >
                   <option value="refiner">Refiner</option>
                   <option value="jeweler">Jeweler</option>
@@ -161,7 +161,7 @@ export default function GoldValueTool() {
               >
                 Coming Soon
               </button>
-              <p className="text-center text-earth-600 text-sm mt-3">
+              <p className="text-center text-earth-600 dark:text-earth-300 text-sm mt-3">
                 Calculation feature launching soon
               </p>
             </form>
@@ -169,25 +169,25 @@ export default function GoldValueTool() {
 
           {/* Results Placeholder */}
           <div className="lg:col-span-1">
-            <div className="bg-white rounded-lg shadow-lg p-8 sticky top-6">
-              <h3 className="text-xl font-bold text-earth-800 mb-4">Estimated Value</h3>
-              <div className="bg-earth-50 rounded-lg p-6 mb-4">
-                <p className="text-earth-600 text-sm mb-2">Fill out the form to see results</p>
+            <div className="bg-white dark:bg-dark-surface rounded-lg shadow-lg p-8 sticky top-6">
+              <h3 className="text-xl font-bold text-earth-800 dark:text-dark-text mb-4">Estimated Value</h3>
+              <div className="bg-earth-50 dark:bg-dark-bg rounded-lg p-6 mb-4">
+                <p className="text-earth-600 dark:text-earth-300 text-sm mb-2">Fill out the form to see results</p>
                 <p className="text-3xl font-bold text-gold-600">--</p>
-                <p className="text-sm text-earth-500 mt-2">USD</p>
+                <p className="text-sm text-earth-500 dark:text-earth-400 mt-2">USD</p>
               </div>
               <div className="space-y-3 text-sm">
-                <div className="bg-earth-50 p-3 rounded">
-                  <p className="text-earth-600">Spot Price</p>
-                  <p className="font-semibold text-earth-800">--</p>
+                <div className="bg-earth-50 dark:bg-dark-bg p-3 rounded">
+                  <p className="text-earth-600 dark:text-earth-300">Spot Price</p>
+                  <p className="font-semibold text-earth-800 dark:text-dark-text">--</p>
                 </div>
-                <div className="bg-earth-50 p-3 rounded">
-                  <p className="text-earth-600">Buyer Markup</p>
-                  <p className="font-semibold text-earth-800">-- %</p>
+                <div className="bg-earth-50 dark:bg-dark-bg p-3 rounded">
+                  <p className="text-earth-600 dark:text-earth-300">Buyer Markup</p>
+                  <p className="font-semibold text-earth-800 dark:text-dark-text">-- %</p>
                 </div>
-                <div className="bg-earth-50 p-3 rounded">
-                  <p className="text-earth-600">Final Payout</p>
-                  <p className="font-semibold text-earth-800">--</p>
+                <div className="bg-earth-50 dark:bg-dark-bg p-3 rounded">
+                  <p className="text-earth-600 dark:text-earth-300">Final Payout</p>
+                  <p className="font-semibold text-earth-800 dark:text-dark-text">--</p>
                 </div>
               </div>
             </div>

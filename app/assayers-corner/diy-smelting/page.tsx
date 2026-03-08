@@ -36,7 +36,7 @@ export default function DIYSmelting() {
   ];
 
   return (
-    <div className="min-h-screen bg-earth-50">
+    <div className="min-h-screen bg-earth-50 dark:bg-dark-bg">
       {/* Warning Banner */}
       <div className="bg-gradient-to-r from-red-700 via-yellow-600 to-red-700 text-white">
         <div className="max-w-5xl mx-auto px-6 py-6">
@@ -56,7 +56,7 @@ export default function DIYSmelting() {
       </div>
 
       {/* Header */}
-      <div className="bg-gradient-to-r from-earth-800 to-earth-700 text-white py-12">
+      <div className="bg-gradient-to-r from-earth-800 to-earth-700 dark:from-dark-bg dark:to-dark-surface text-white py-12">
         <div className="max-w-5xl mx-auto px-6">
           <h1 className="text-4xl font-bold mb-2">DIY Smelting</h1>
           <p className="text-xl text-earth-100">Educational Resources</p>
@@ -79,15 +79,15 @@ export default function DIYSmelting() {
         {/* Content Sections */}
         <div className="space-y-8">
           {sections.map((section) => (
-            <div key={section.title} className="bg-white rounded-lg shadow-lg p-8">
-              <h2 className="text-2xl font-bold text-earth-800 mb-6 pb-4 border-b-2 border-gold-400">
+            <div key={section.title} className="bg-white dark:bg-dark-surface rounded-lg shadow-lg p-8">
+              <h2 className="text-2xl font-bold text-earth-800 dark:text-dark-text mb-6 pb-4 border-b-2 border-gold-400">
                 {section.title}
               </h2>
               <ul className="space-y-3">
                 {section.subsections.map((subsection, index) => (
                   <li key={index} className="flex items-start gap-4">
                     <span className="text-gold-600 font-bold text-lg flex-shrink-0">•</span>
-                    <span className="text-earth-700">{subsection}</span>
+                    <span className="text-earth-700 dark:text-earth-300">{subsection}</span>
                   </li>
                 ))}
               </ul>
@@ -96,12 +96,12 @@ export default function DIYSmelting() {
         </div>
 
         {/* Additional Resources */}
-        <div className="mt-12 bg-earth-100 rounded-lg p-8">
-          <h3 className="text-xl font-bold text-earth-800 mb-4">Recommended Resources</h3>
-          <p className="text-earth-700 mb-4">
+        <div className="mt-12 bg-earth-100 dark:bg-dark-surface rounded-lg p-8">
+          <h3 className="text-xl font-bold text-earth-800 dark:text-dark-text mb-4">Recommended Resources</h3>
+          <p className="text-earth-700 dark:text-earth-300 mb-4">
             Before attempting any smelting work, we strongly recommend:
           </p>
-          <ul className="space-y-2 text-earth-700">
+          <ul className="space-y-2 text-earth-700 dark:text-earth-300">
             <li className="flex items-center gap-3">
               <span className="text-gold-600">→</span>
               Consult professional refiners and metallurgists

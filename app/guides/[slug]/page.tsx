@@ -16,7 +16,7 @@ export default async function GuidePage({
   const title = slugToTitle(slug);
 
   return (
-    <main className="min-h-screen bg-gradient-to-b from-earth-50 to-earth-100 py-12 px-4 sm:px-6 lg:px-8">
+    <main className="min-h-screen bg-gradient-to-b from-earth-50 to-earth-100 dark:from-dark-bg dark:to-dark-surface py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-3xl mx-auto">
         {/* Back Link */}
         <div className="mb-8">
@@ -29,22 +29,22 @@ export default async function GuidePage({
         </div>
 
         {/* Article Header */}
-        <article className="bg-white rounded-lg shadow-md border border-earth-200 overflow-hidden">
+        <article className="bg-white dark:bg-dark-surface rounded-lg shadow-md border border-earth-200 dark:border-earth-700 overflow-hidden">
           {/* Image Placeholder */}
           <div className="w-full h-64 bg-gradient-to-br from-earth-300 to-gold-300 flex items-center justify-center">
             <div className="text-center">
               <div className="text-gold-700 text-6xl mb-3">⛏️</div>
-              <p className="text-earth-700 font-medium text-lg">{title}</p>
+              <p className="text-earth-700 dark:text-earth-300 font-medium text-lg">{title}</p>
             </div>
           </div>
 
           {/* Content */}
           <div className="p-8 sm:p-10">
             {/* Title */}
-            <h1 className="text-4xl font-bold text-earth-900 mb-8">{title}</h1>
+            <h1 className="text-4xl font-bold text-earth-900 dark:text-dark-text mb-8">{title}</h1>
 
             {/* Article Body */}
-            <div className="prose prose-sm max-w-none text-earth-800 leading-relaxed space-y-6">
+            <div className="prose prose-sm max-w-none text-earth-800 dark:text-dark-text leading-relaxed space-y-6">
               <p>
                 The pursuit of precious minerals demands both patience and systematic methodology. In
                 the annals of prospecting, those who have succeeded invariably possessed a keen
@@ -76,10 +76,10 @@ export default async function GuidePage({
             </div>
 
             {/* Disclaimer */}
-            <div className="mt-10 pt-8 border-t border-earth-200">
-              <div className="bg-earth-50 border border-earth-300 rounded-md p-4">
-                <p className="text-sm text-earth-700 font-semibold mb-2">Legal Notice</p>
-                <p className="text-sm text-earth-700">
+            <div className="mt-10 pt-8 border-t border-earth-200 dark:border-earth-700">
+              <div className="bg-earth-50 dark:bg-dark-bg border border-earth-300 dark:border-earth-700 rounded-md p-4">
+                <p className="text-sm text-earth-700 dark:text-earth-300 font-semibold mb-2">Legal Notice</p>
+                <p className="text-sm text-earth-700 dark:text-earth-300">
                   Check with local authorities for confirmation of all regulations, permits, and
                   access restrictions before beginning any prospecting activity.
                 </p>
