@@ -138,16 +138,20 @@ function NavItemDesktop({
   return (
     <div className="relative h-full flex items-center group">
       {item.children ? (
-        <button
-          onClick={() => toggleDropdown(item.label)}
-          className={hoverClass}
-        >
-          {item.label}
-          {item.locked && !isMember && <LockIcon />}
-          <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
-          </svg>
-        </button>
+        <div className="flex items-center">
+          <Link href={item.href} className={linkHoverClass}>
+            {item.label}
+            {item.locked && !isMember && <LockIcon />}
+          </Link>
+          <button
+            onClick={() => toggleDropdown(item.label)}
+            className="px-1 py-2 hover:text-gold-400 transition-colors"
+          >
+            <svg className="w-3 h-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+            </svg>
+          </button>
+        </div>
       ) : (
         <Link href={item.href} className={linkHoverClass}>
           {item.label}
