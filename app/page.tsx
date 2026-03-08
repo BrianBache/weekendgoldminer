@@ -1,65 +1,105 @@
-import Image from "next/image";
+import Link from "next/link";
+import PlaceholderCard from "@/components/PlaceholderCard";
+
+const quickTools = [
+  { title: "Equipment Recommender", description: "Tell us your budget and experience level — we'll match you with the right gear." },
+  { title: "Kit-Up Planner", description: "Build your prospecting kit from scratch. We'll make sure you don't forget the essentials." },
+  { title: "Where Can I Go?", description: "Enter your location and find legal prospecting sites near you." },
+  { title: "Gold Value Estimator", description: "Estimate what your finds are worth based on weight, purity, and current spot price." },
+];
+
+const featuredArticles = [
+  { title: "Intro to Gold Prospecting", description: "Everything a beginner needs to know before heading to the creek." },
+  { title: "Reading a Stream", description: "Where gold settles, how water moves it, and where to dig." },
+  { title: "Digging Ethics & Courtesy", description: "Leave it better than you found it. The unwritten rules of the creek." },
+];
+
+const latestNews = [
+  { title: "BLM Updates Public Land Access Rules", description: "New guidelines for recreational prospecting on federal lands." },
+  { title: "Gold Prices Hold Steady Above $2,000", description: "What steady prices mean for weekend prospectors and small-scale miners." },
+  { title: "Spring Prospecting Season Preview", description: "Water levels, weather patterns, and what to expect this year." },
+];
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
+    <div>
+      {/* Hero Section */}
+      <section className="bg-earth-800 text-earth-50 py-20 px-4">
+        <div className="max-w-5xl mx-auto text-center">
+          <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-earth-600 flex items-center justify-center text-5xl">
+            ⛏️
+          </div>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 text-gold-400">
+            The Weekend Prospector&apos;s Field Guide
           </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+          <p className="text-lg text-earth-200 mb-8 max-w-2xl mx-auto">
+            Everything you need to know about recreational gold prospecting — where to go, what to bring, and how to do it right.
           </p>
+          <div className="max-w-xl mx-auto">
+            <div className="flex bg-earth-700 rounded-lg overflow-hidden border border-earth-500">
+              <input
+                type="text"
+                placeholder="Search locations, guides, equipment..."
+                className="flex-1 px-4 py-3 bg-transparent text-earth-100 placeholder-earth-400 outline-none"
+                disabled
+              />
+              <button className="px-6 py-3 bg-gold-600 text-white font-medium hover:bg-gold-500 transition-colors">
+                Search
+              </button>
+            </div>
+            <p className="text-earth-400 text-xs mt-2">Search coming soon</p>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </section>
+
+      {/* Featured Articles */}
+      <section className="max-w-7xl mx-auto px-4 py-16">
+        <h2 className="text-2xl font-bold text-earth-800 mb-8">Featured Articles</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {featuredArticles.map((article) => (
+            <PlaceholderCard key={article.title} title={article.title} description={article.description} />
+          ))}
         </div>
-      </main>
+        <div className="text-center mt-8">
+          <Link href="/guides" className="text-gold-600 font-medium hover:text-gold-500 transition-colors">
+            View all guides →
+          </Link>
+        </div>
+      </section>
+
+      {/* Quick Tools */}
+      <section className="bg-earth-100 py-16 px-4">
+        <div className="max-w-7xl mx-auto">
+          <h2 className="text-2xl font-bold text-earth-800 mb-8">Quick Tools</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            {quickTools.map((tool) => (
+              <div key={tool.title} className="bg-white border border-earth-200 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+                <div className="w-12 h-12 bg-gold-100 rounded-lg mb-4 flex items-center justify-center text-gold-600 text-xl">
+                  🛠️
+                </div>
+                <h3 className="text-lg font-bold text-earth-800 mb-2">{tool.title}</h3>
+                <p className="text-earth-600 text-sm">{tool.description}</p>
+                <p className="text-earth-400 text-xs mt-3 italic">Coming soon</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Latest News */}
+      <section className="max-w-7xl mx-auto px-4 py-16">
+        <h2 className="text-2xl font-bold text-earth-800 mb-8">Latest News</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {latestNews.map((news) => (
+            <PlaceholderCard key={news.title} title={news.title} description={news.description} />
+          ))}
+        </div>
+        <div className="text-center mt-8">
+          <Link href="/news" className="text-gold-600 font-medium hover:text-gold-500 transition-colors">
+            All news &amp; updates →
+          </Link>
+        </div>
+      </section>
     </div>
   );
 }
