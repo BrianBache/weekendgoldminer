@@ -47,6 +47,10 @@ body {
   color: var(--color-dark-text);
 }
 
+.hero-gradient {
+  background: radial-gradient(ellipse at center, #0D1F0E 0%, #162810 45%, #2D5A27 100%);
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Georgia', 'Times New Roman', serif;
 }

@@ -147,7 +147,7 @@ export default function Home() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-dark-hero text-earth-50 py-24 px-4">
+      <section className="hero-gradient text-earth-50 py-24 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <div className="w-36 h-36 mx-auto mb-8 flex items-center justify-center">
             <Image src="/logo.png" alt="WeekendGoldMiner" width={144} height={144} priority />
