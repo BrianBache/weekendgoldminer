@@ -48,7 +48,7 @@ body {
 }
 
 .hero-gradient {
-  background: radial-gradient(ellipse at center, #0D1F0E 0%, #162810 45%, #2D5A27 100%);
+  background: radial-gradient(ellipse 80% 120% at center, #0D1F0E 0%, #162810 50%, #2D5A27 100%);
 }
 
 h1, h2, h3, h4, h5, h6 {
