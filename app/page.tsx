@@ -58,6 +58,91 @@ const latestNews = [
   },
 ];
 
+function ArticleIllustration({ category }: { category: string }) {
+  if (category === "Gear") {
+    // Mountain stream scene
+    return (
+      <svg viewBox="0 0 400 192" className="w-full h-48" aria-label="Mountain stream illustration">
+        <rect width="400" height="192" fill="#162810" />
+        {/* Mountains */}
+        <polygon points="0,140 80,50 160,140" fill="#2D5A27" />
+        <polygon points="100,140 200,30 300,140" fill="#1f4a1f" />
+        <polygon points="220,140 320,60 400,140" fill="#2D5A27" />
+        {/* Snow caps */}
+        <polygon points="200,30 185,55 215,55" fill="#d4eed4" opacity="0.6" />
+        <polygon points="80,50 68,68 92,68" fill="#d4eed4" opacity="0.5" />
+        {/* Stream */}
+        <path d="M0,165 Q100,150 200,165 Q300,180 400,160" fill="none" stroke="#4caf4c" strokeWidth="2" opacity="0.6" />
+        <path d="M0,172 Q100,158 200,172 Q300,185 400,168" fill="none" stroke="#4caf4c" strokeWidth="1.5" opacity="0.4" />
+        {/* Gold flecks in stream */}
+        <circle cx="120" cy="164" r="2" fill="#D4A017" opacity="0.8" />
+        <circle cx="250" cy="170" r="1.5" fill="#D4A017" opacity="0.7" />
+        <circle cx="180" cy="168" r="1.8" fill="#D4A017" opacity="0.6" />
+        <circle cx="310" cy="166" r="1.5" fill="#D4A017" opacity="0.8" />
+        {/* Trees */}
+        <polygon points="50,140 55,110 60,140" fill="#1f4a1f" />
+        <polygon points="340,140 346,105 352,140" fill="#1f4a1f" />
+        <polygon points="360,140 365,115 370,140" fill="#2D5A27" />
+      </svg>
+    );
+  }
+
+  if (category === "Regulations") {
+    // Shovel and landscape
+    return (
+      <svg viewBox="0 0 400 192" className="w-full h-48" aria-label="Shovel and landscape illustration">
+        <rect width="400" height="192" fill="#162810" />
+        {/* Rolling hills */}
+        <ellipse cx="100" cy="192" rx="200" ry="80" fill="#2D5A27" />
+        <ellipse cx="350" cy="192" rx="150" ry="60" fill="#1f4a1f" />
+        {/* Shovel */}
+        <line x1="200" y1="40" x2="200" y2="150" stroke="#a07d4a" strokeWidth="4" strokeLinecap="round" />
+        <path d="M185,150 Q200,180 215,150 Q200,140 185,150Z" fill="#7a5a32" />
+        {/* Handle grip */}
+        <line x1="192" y1="40" x2="208" y2="40" stroke="#5c4021" strokeWidth="4" strokeLinecap="round" />
+        {/* Small sign/post */}
+        <rect x="280" y="100" width="3" height="50" fill="#5c4021" />
+        <rect x="270" y="95" width="30" height="18" rx="2" fill="#2D5A27" stroke="#4caf4c" strokeWidth="1" />
+        {/* Gold nuggets on ground */}
+        <circle cx="160" cy="155" r="3" fill="#D4A017" opacity="0.8" />
+        <circle cx="230" cy="148" r="2.5" fill="#D4A017" opacity="0.7" />
+        <circle cx="175" cy="160" r="2" fill="#D4A017" opacity="0.6" />
+        {/* Grass tufts */}
+        <path d="M120,145 L123,130 L126,145" fill="none" stroke="#4caf4c" strokeWidth="1.5" opacity="0.5" />
+        <path d="M250,140 L253,125 L256,140" fill="none" stroke="#4caf4c" strokeWidth="1.5" opacity="0.5" />
+        <path d="M320,145 L323,132 L326,145" fill="none" stroke="#4caf4c" strokeWidth="1.5" opacity="0.4" />
+      </svg>
+    );
+  }
+
+  // Technique — water/ripple motif
+  return (
+    <svg viewBox="0 0 400 192" className="w-full h-48" aria-label="River ripples illustration">
+      <rect width="400" height="192" fill="#162810" />
+      {/* Water ripples */}
+      <path d="M0,60 Q50,45 100,60 Q150,75 200,60 Q250,45 300,60 Q350,75 400,60" fill="none" stroke="#4caf4c" strokeWidth="2" opacity="0.3" />
+      <path d="M0,80 Q50,65 100,80 Q150,95 200,80 Q250,65 300,80 Q350,95 400,80" fill="none" stroke="#4caf4c" strokeWidth="2" opacity="0.4" />
+      <path d="M0,100 Q50,85 100,100 Q150,115 200,100 Q250,85 300,100 Q350,115 400,100" fill="none" stroke="#4caf4c" strokeWidth="2.5" opacity="0.5" />
+      <path d="M0,120 Q50,105 100,120 Q150,135 200,120 Q250,105 300,120 Q350,135 400,120" fill="none" stroke="#4caf4c" strokeWidth="2" opacity="0.4" />
+      <path d="M0,140 Q50,125 100,140 Q150,155 200,140 Q250,125 300,140 Q350,155 400,140" fill="none" stroke="#4caf4c" strokeWidth="1.5" opacity="0.3" />
+      {/* Boulder in river */}
+      <ellipse cx="200" cy="95" rx="30" ry="18" fill="#2D5A27" />
+      <ellipse cx="200" cy="92" rx="28" ry="14" fill="#1f4a1f" />
+      {/* Gold settling behind boulder */}
+      <circle cx="210" cy="108" r="2.5" fill="#D4A017" opacity="0.9" />
+      <circle cx="220" cy="112" r="2" fill="#D4A017" opacity="0.7" />
+      <circle cx="205" cy="113" r="1.8" fill="#D4A017" opacity="0.8" />
+      <circle cx="215" cy="116" r="1.5" fill="#D4A017" opacity="0.6" />
+      {/* Bedrock crack line */}
+      <path d="M80,150 L100,148 L115,155 L140,145 L160,152" fill="none" stroke="#5c4021" strokeWidth="1.5" opacity="0.4" />
+      {/* Inside bend deposit */}
+      <circle cx="320" cy="108" r="2" fill="#D4A017" opacity="0.7" />
+      <circle cx="330" cy="115" r="2.5" fill="#D4A017" opacity="0.8" />
+      <circle cx="325" cy="120" r="1.5" fill="#D4A017" opacity="0.6" />
+    </svg>
+  );
+}
+
 export default function Home() {
   return (
     <div>
@@ -126,11 +211,7 @@ export default function Home() {
               href={article.href}
               className="group bg-white dark:bg-dark-surface border border-earth-200 dark:border-earth-700 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all"
             >
-              <div className="h-48 bg-forest-800 dark:bg-forest-900 flex items-center justify-center">
-                <span className="text-forest-400 text-sm tracking-wider uppercase">
-                  {article.category}
-                </span>
-              </div>
+              <ArticleIllustration category={article.category} />
               <div className="p-6">
                 <span className="inline-block text-xs font-bold uppercase tracking-wider text-gold-600 mb-2">
                   {article.category}
