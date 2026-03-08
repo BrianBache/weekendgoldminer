@@ -58,8 +58,8 @@ export default function USMap() {
                   style={{
                     default: {
                       fill: "#2D5A27",
-                      stroke: "rgba(212,160,23,0.4)",
-                      strokeWidth: 0.5,
+                      stroke: "rgba(212,160,23,0.65)",
+                      strokeWidth: 0.8,
                       outline: "none",
                     },
                     hover: {
