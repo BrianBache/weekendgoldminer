@@ -189,7 +189,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="fixed top-[36px] left-0 right-0 z-50 text-earth-50 shadow-lg" style={{ height: "70px", backgroundColor: "#1A2A1A" }}>
+    <nav className="fixed top-[36px] left-0 right-0 z-50 text-earth-50 shadow-lg" style={{ height: "70px", backgroundColor: "#1C2526" }}>
       <div className="max-w-7xl mx-auto px-4 h-full flex items-center justify-between">
         <Link href="/" className="flex items-center shrink-0">
           <Image src="/logo.png" alt="WeekendGoldMiner" width={120} height={60} priority />
@@ -253,7 +253,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="lg:hidden bg-earth-800 dark:bg-dark-bg border-t border-earth-600 dark:border-earth-700 max-h-[calc(100vh-70px)] overflow-y-auto">
+        <div className="lg:hidden bg-[#1C2526] dark:bg-dark-bg border-t border-earth-600 dark:border-earth-700 max-h-[calc(100vh-70px)] overflow-y-auto">
           {/* Free section */}
           {freeItems.map((item) => (
             <MobileNavItem
