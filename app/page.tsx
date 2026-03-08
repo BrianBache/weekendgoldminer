@@ -25,7 +25,7 @@ export default function Home() {
   return (
     <div>
       {/* Hero Section */}
-      <section className="bg-earth-800 dark:bg-dark-hero text-earth-50 py-20 px-4">
+      <section className="bg-dark-hero text-earth-50 py-20 px-4">
         <div className="max-w-5xl mx-auto text-center">
           <div className="w-40 h-40 mx-auto mb-6 flex items-center justify-center">
             <Image src="/logo.png" alt="WeekendGoldMiner" width={160} height={160} priority />
