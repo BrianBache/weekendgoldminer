@@ -150,7 +150,7 @@ export default function Home() {
       <section className="hero-gradient text-earth-50 py-24 px-4">
         <div className="max-w-4xl mx-auto text-center">
           <div className="w-36 h-36 mx-auto mb-8 flex items-center justify-center relative">
-            <div className="absolute inset-0 rounded-full" style={{background: 'radial-gradient(ellipse at center, rgba(0,0,0,0.45) 0%, rgba(0,0,0,0.2) 60%, transparent 100%)'}}></div>
+            <div className="absolute z-0" style={{width: '320px', height: '220px', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', background: 'radial-gradient(ellipse at center, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.25) 40%, transparent 75%)', pointerEvents: 'none'}}></div>
             <Image src="/logo.png" alt="WeekendGoldMiner" width={144} height={144} priority className="relative z-10" />
           </div>
           <h1 className="text-4xl md:text-6xl font-bold mb-6 text-gold-400 leading-tight">
