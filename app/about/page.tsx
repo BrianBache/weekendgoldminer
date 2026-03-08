@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import PageHeader from '@/components/PageHeader';
 
 export default function AboutPage() {
   const [formData, setFormData] = useState({
@@ -23,13 +24,7 @@ export default function AboutPage() {
 
   return (
     <div className="min-h-screen bg-earth-50 dark:bg-dark-bg">
-      {/* Header */}
-      <div className="bg-earth-800 dark:bg-dark-bg py-12">
-        <div className="max-w-6xl mx-auto px-4">
-          <h1 className="text-4xl font-bold text-gold-400 mb-2">About WeekendGoldMiner</h1>
-          <p className="text-earth-200">Learn more about our mission</p>
-        </div>
-      </div>
+      <PageHeader title="About WeekendGoldMiner" subtitle="Learn more about our mission" />
 
       {/* Main Content */}
       <div className="max-w-6xl mx-auto px-4 py-12">

@@ -1,3 +1,5 @@
+import PageHeader from '@/components/PageHeader';
+
 interface NewsCard {
   id: string;
   title: string;
@@ -94,17 +96,10 @@ const newsSections: NewsSection[] = [
 
 export default function NewsPage() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-earth-50 to-earth-100 dark:from-dark-bg dark:to-dark-surface py-16 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-6xl mx-auto">
-        {/* Header */}
-        <div className="mb-16 text-center">
-          <h1 className="text-4xl sm:text-5xl font-bold text-earth-900 dark:text-dark-text mb-4">
-            News & Updates
-          </h1>
-          <p className="text-lg text-earth-700 dark:text-earth-300">
-            Stay informed with the latest prospecting news and industry updates.
-          </p>
-        </div>
+    <main className="min-h-screen bg-earth-50 dark:bg-dark-bg">
+      <PageHeader title="News & Updates" subtitle="Stay informed with the latest prospecting news and industry updates." />
+
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
         {/* News Sections */}
         <div className="space-y-16">

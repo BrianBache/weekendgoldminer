@@ -1,4 +1,5 @@
 import Link from "next/link";
+import PageHeader from "@/components/PageHeader";
 
 export default function EquipmentPage() {
   const categories = [
@@ -13,13 +14,7 @@ export default function EquipmentPage() {
 
   return (
     <div className="min-h-screen bg-earth-50 dark:bg-dark-bg">
-      {/* Header */}
-      <div className="bg-gradient-to-r from-earth-800 to-earth-700 dark:from-dark-bg dark:to-dark-surface text-white py-12 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-6xl mx-auto">
-          <h1 className="text-4xl font-bold mb-2">Equipment & Reviews</h1>
-          <p className="text-earth-100">Find the best gold prospecting equipment and read expert reviews</p>
-        </div>
-      </div>
+      <PageHeader title="Equipment & Reviews" subtitle="Find the best gold prospecting equipment and read expert reviews" />
 
       {/* Main Content */}
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">

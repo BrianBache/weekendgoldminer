@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import PageHeader from '@/components/PageHeader';
 
 export default function GoBigPage() {
   const sections = [
@@ -21,13 +22,7 @@ export default function GoBigPage() {
 
   return (
     <div className="min-h-screen bg-earth-50 dark:bg-dark-bg">
-      {/* Header */}
-      <div className="bg-earth-800 dark:bg-dark-bg py-12">
-        <div className="max-w-6xl mx-auto px-4">
-          <h1 className="text-4xl font-bold text-gold-400 mb-2">Go Big or Go Home</h1>
-          <p className="text-earth-200">Scale your mining operation to the next level</p>
-        </div>
-      </div>
+      <PageHeader title="Go Big or Go Home" subtitle="Scale your mining operation to the next level" />
 
       {/* Main Content */}
       <div className="max-w-6xl mx-auto px-4 py-12">

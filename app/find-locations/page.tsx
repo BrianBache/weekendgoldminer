@@ -1,21 +1,10 @@
 import USMap from "@/components/USMap";
+import PageHeader from "@/components/PageHeader";
 
 export default function FindLocationsPage() {
   return (
     <div className="min-h-screen bg-earth-50 dark:bg-dark-bg">
-      {/* Header Section */}
-      <div className="bg-earth-800 dark:bg-dark-bg text-gold-400 py-12 px-4">
-        <div className="max-w-7xl mx-auto">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Find Gold Prospecting Locations
-          </h1>
-          <p className="text-earth-200 text-lg max-w-2xl">
-            Explore gold prospecting opportunities across all 50 US states. Click
-            a state to discover regulations, Bureau of Land Management links, and
-            popular prospecting areas.
-          </p>
-        </div>
-      </div>
+      <PageHeader title="Find Gold Prospecting Locations" subtitle="Explore gold prospecting opportunities across all 50 US states. Click a state to discover regulations, Bureau of Land Management links, and popular prospecting areas." />
 
       {/* Main Content */}
       <div className="max-w-7xl mx-auto px-4 py-12">

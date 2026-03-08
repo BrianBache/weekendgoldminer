@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import PageHeader from '@/components/PageHeader';
 
 export default function AssayersCorner() {
   const articles = [
@@ -24,15 +25,7 @@ export default function AssayersCorner() {
 
   return (
     <div className="min-h-screen bg-earth-50 dark:bg-dark-bg">
-      {/* Header */}
-      <div className="bg-gradient-to-r from-earth-800 to-earth-700 dark:from-dark-bg dark:to-dark-surface text-white py-16">
-        <div className="max-w-5xl mx-auto px-6">
-          <h1 className="text-5xl font-bold mb-4">Assayer's Corner</h1>
-          <p className="text-xl text-earth-100">
-            Your hub for gold prospecting knowledge, valuation tools, and buyer resources.
-          </p>
-        </div>
-      </div>
+      <PageHeader title="Assayer's Corner" subtitle="Your hub for gold prospecting knowledge, valuation tools, and buyer resources." />
 
       {/* Main Content */}
       <div className="max-w-5xl mx-auto px-6 py-16">

@@ -1,17 +1,12 @@
 import Link from 'next/link';
+import PageHeader from '@/components/PageHeader';
 
 export default function GoldMiningTVPage() {
   const seasons = Array.from({ length: 14 }, (_, i) => i + 1);
 
   return (
     <div className="min-h-screen bg-earth-50 dark:bg-dark-bg">
-      {/* Header */}
-      <div className="bg-earth-800 dark:bg-dark-bg py-12">
-        <div className="max-w-6xl mx-auto px-4">
-          <h1 className="text-4xl font-bold text-gold-400 mb-2">Gold Mining TV</h1>
-          <p className="text-earth-200">Your guide to Gold Rush episodes and equipment</p>
-        </div>
-      </div>
+      <PageHeader title="Gold Mining TV" subtitle="Your guide to Gold Rush episodes and equipment" />
 
       {/* Navigation Links */}
       <div className="bg-earth-100 dark:bg-dark-surface border-b border-earth-300 dark:border-earth-700">

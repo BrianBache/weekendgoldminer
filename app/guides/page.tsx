@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import PageHeader from '@/components/PageHeader';
 
 const guides = [
   {
@@ -40,17 +41,10 @@ const guides = [
 
 export default function ProspectingGuidesPage() {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-earth-50 to-earth-100 dark:from-dark-bg dark:to-dark-surface py-16 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-6xl mx-auto">
-        {/* Header */}
-        <div className="mb-12 text-center">
-          <h1 className="text-4xl sm:text-5xl font-bold text-earth-900 dark:text-dark-text mb-4">
-            Prospecting Guides
-          </h1>
-          <p className="text-lg text-earth-700 dark:text-earth-300">
-            Master the art and science of gold prospecting with our comprehensive guides.
-          </p>
-        </div>
+    <main className="min-h-screen bg-earth-50 dark:bg-dark-bg">
+      <PageHeader title="Prospecting Guides" subtitle="Master the art and science of gold prospecting with our comprehensive guides." />
+
+      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
         {/* Guides Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
