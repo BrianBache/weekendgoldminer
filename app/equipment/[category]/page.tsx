@@ -101,7 +101,7 @@ function ProductCard({ product }: { product: ProductReview }) {
               rel="noopener noreferrer sponsored"
               className="flex-1 text-center bg-gold-500 hover:bg-gold-600 text-white text-sm font-semibold py-2 px-4 rounded transition-colors"
             >
-              Buy on Amazon
+              Check Amazon price
             </a>
           )}
         </div>

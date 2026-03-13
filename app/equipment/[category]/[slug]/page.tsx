@@ -34,7 +34,7 @@ function StarRating({ rating, size = "lg" }: { rating: number; size?: "sm" | "lg
 
 function AmazonButton({
   asin,
-  label = "Buy on Amazon",
+  label = "Check Amazon price",
   className = "",
 }: {
   asin: string;
@@ -103,7 +103,7 @@ export default async function ProductReviewPage({ params }: PageProps) {
             </div>
             <div className="text-2xl font-bold text-gold-300">~${product.price}</div>
             {product.asin && (
-              <AmazonButton asin={product.asin} label="Buy on Amazon" />
+              <AmazonButton asin={product.asin} label="Check Amazon price" />
             )}
           </div>
         </div>
@@ -275,7 +275,7 @@ export default async function ProductReviewPage({ params }: PageProps) {
                 <div className="mt-6">
                   <AmazonButton
                     asin={product.asin}
-                    label="Buy on Amazon"
+                    label="Check Amazon price"
                     className="w-full text-center"
                   />
                   <p className="text-xs text-earth-500 dark:text-earth-400 text-center mt-2">
