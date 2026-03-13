@@ -1,0 +1,68 @@
+{
+  "state": "maine",
+  "displayName": "Maine",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Maine has real gold prospecting opportunities, particularly in the western mountain counties. The Swift River in Oxford County and streams in the Dead River watershed have produced placer gold, and Maine's diverse geology includes gold-bearing schists and quartzites. Maine is far better known for its world-class gem mineral collecting (tourmaline, aquamarine, amethyst at Mount Mica and other pegmatite deposits), but genuine placer gold exists in several drainages. Maine Public Reserved Lands and portions managed by North Maine Woods provide prospecting access.",
+    "keyRules": [
+      "Maine does not require a specific permit for recreational hand panning on public land stream segments — the activity is allowed as general public recreation.",
+      "In-stream work in Maine waterways beyond hand tools may require a Maine DEP Site Location of Development permit or Army Corps Section 404 coordination.",
+      "Motorized in-stream equipment (suction dredges) in Maine streams requires coordination with Maine DEP — the state has specific rules on dredging in salmon rivers and cold-water fishery streams.",
+      "Maine has Atlantic salmon rivers (Penobscot, Kennebec) where significant in-stream disturbance is very heavily regulated — avoid prospecting near salmon rivers with mechanized equipment.",
+      "Private timber land (North Maine Woods) covers much of western Maine — access to these lands requires purchasing a day use permit from North Maine Woods, Inc."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Maine does not have a state HPA system. Maine DEP regulates significant in-stream and wetland work through the Site Location of Development Act and Natural Resources Protection Act. For recreational hand panning on public land with no significant streambed disturbance, no specific state permit is required. Contact Maine DEP Land Bureau for specific watercourse guidance.",
+    "suctionDredgeStatus": "Regulated — suction dredging in Maine requires Maine DEP review under the Natural Resources Protection Act and potentially Army Corps Section 404. Maine's Atlantic salmon rivers and cold-water fishery streams have significant habitat protections. Dredging is not commonly permitted for recreational use in Maine. Hand panning only for most recreational prospectors.",
+    "handPanning": "Hand panning is allowed on Maine Public Reserved Lands and open public stream corridors. The Swift River in Oxford County (Byron area) is the best-known gold panning location. Western Maine drainages offer legitimate, if modest, placer gold for patient prospectors.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [
+    {
+      "name": "Swift River (Byron Township / Roxbury)",
+      "county": "Oxford",
+      "description": "The Swift River near Byron in Oxford County is Maine's most productive and well-known recreational gold panning location. The river drains the gold-bearing schist terrain of the western Maine mountains and has produced fine to small nugget placer gold. Maine Public Reserved Land and the nearby Coos Canyon recreation area (managed by the Bureau of Parks and Lands) provide public access. Coos Canyon itself is a stunning geological feature and popular tourist destination.",
+      "goldType": "placer",
+      "landManagement": "State",
+      "permitRequired": false,
+      "permitNotes": "Open for recreational hand panning at Coos Canyon and Maine Public Reserved Lands along the Swift River. No permit required for non-motorized personal use. Contact Maine Bureau of Parks and Lands for current access information.",
+      "url": "https://www.maine.gov/dacf/parks",
+      "urlLabel": "Maine Bureau of Parks and Lands"
+    },
+    {
+      "name": "Dead River Watershed (Somerset County)",
+      "county": "Somerset",
+      "description": "The Dead River drainage in western Somerset County has documented gold occurrences associated with the same geological package as the Oxford County gold deposits. Maine Public Reserved Lands in the area provide some public access. This is a more remote and less-visited prospecting destination than the Swift River, but offers legitimate gold-bearing terrain.",
+      "goldType": "placer",
+      "landManagement": "State",
+      "permitRequired": false,
+      "permitNotes": "Access through Maine Public Reserved Lands. North Maine Woods private timber lands may require a day-use permit. Contact Maine Bureau of Parks and Lands for current access information.",
+      "url": "https://www.maine.gov/dacf/parks",
+      "urlLabel": "Maine Bureau of Parks and Lands"
+    }
+  ],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "Maine Bureau of Parks and Lands",
+      "url": "https://www.maine.gov/dacf/parks",
+      "description": "Manages Maine Public Reserved Lands — primary public land access for recreational gold panning in western Maine."
+    },
+    {
+      "title": "Maine DEP — Natural Resources Protection Act",
+      "url": "https://www.maine.gov/dep/land/nrpa",
+      "description": "Maine Department of Environmental Protection permit program governing in-stream and wetland disturbance activities."
+    },
+    {
+      "title": "Maine Geological Survey",
+      "url": "https://www.maine.gov/dacf/mgs",
+      "description": "State geological survey with geologic maps and mineral occurrence data — includes Maine's gold and gemstone deposit information."
+    },
+    {
+      "title": "North Maine Woods",
+      "url": "https://northmainewoods.org",
+      "description": "Day-use and camping permits for the private timber land in northern and western Maine — required for access to many remote areas."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
