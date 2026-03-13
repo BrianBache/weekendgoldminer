@@ -1,0 +1,33 @@
+{
+  "state": "delaware",
+  "displayName": "Delaware",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Delaware is the second-smallest US state and has no gold deposits or gold prospecting activity. The northern portion of the state has some Precambrian Piedmont metamorphic rocks (the Wilmington Complex), but no gold mineralization is associated with them. The rest of the state is coastal plain sedimentary deposits. Delaware offers no viable gold prospecting opportunities.",
+    "keyRules": [
+      "Delaware does not have a recreational gold prospecting permit system — there are no gold deposits in the state.",
+      "In-stream work in Delaware waterways is regulated by the Delaware DNREC (Department of Natural Resources and Environmental Control).",
+      "Delaware state parks prohibit mineral and rock collecting."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Not applicable — there are no gold-bearing streams in Delaware.",
+    "suctionDredgeStatus": "Not applicable — Delaware has no productive placer gold streams.",
+    "handPanning": "Gold panning in Delaware streams is not a viable activity — the state has no gold-bearing geology. Delaware is better known for fossil shark teeth collecting on Atlantic Coast beaches.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "Delaware Geological Survey",
+      "url": "https://www.dgs.udel.edu",
+      "description": "State geological survey — Delaware has no gold-bearing geology; the survey focuses on groundwater, coastal geology, and the Coastal Plain."
+    },
+    {
+      "title": "Delaware DNREC",
+      "url": "https://dnrec.delaware.gov",
+      "description": "Delaware Department of Natural Resources and Environmental Control — manages state lands and environmental regulations."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
