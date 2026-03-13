@@ -1,0 +1,34 @@
+{
+  "state": "new-jersey",
+  "displayName": "New Jersey",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "New Jersey has essentially no gold prospecting potential. The state has three distinct geological regions — the Highlands (Precambrian metamorphic rock), the Piedmont (Triassic sedimentary and igneous), and the Coastal Plain (Cretaceous-Quaternary sedimentary) — none of which contain productive gold deposits. New Jersey is famous for franklinite and zincite from the Franklin/Sterling Hill zinc mines, and various minerals from the Highlands region, but gold is not a part of the state's mineral profile.",
+    "keyRules": [
+      "New Jersey does not have a recreational gold prospecting permit system — there are no gold deposits in the state.",
+      "Mineral collecting in New Jersey state forests is generally allowed for personal use — contact the specific forest for current rules.",
+      "In-stream work in New Jersey is regulated by the NJ Department of Environmental Protection (DEP) under the Flood Hazard Area Control Act and Freshwater Wetlands Protection Act.",
+      "New Jersey state parks prohibit mineral collecting — focus on state forest land if rockhounding."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Not applicable — there are no gold-bearing streams in New Jersey.",
+    "suctionDredgeStatus": "Not applicable — New Jersey has no productive placer gold streams.",
+    "handPanning": "Gold panning in New Jersey streams is not a viable activity — the state has no gold-bearing geology. New Jersey rockhounds should focus on the Franklin Mineral Museum for zinc minerals, or wulfenite and other minerals from Highlands localities.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "NJ Geological and Water Survey",
+      "url": "https://www.nj.gov/dep/njgs",
+      "description": "State geological survey — New Jersey has no gold-bearing geology; the survey covers zinc, iron, and other minerals."
+    },
+    {
+      "title": "NJ State Forests",
+      "url": "https://www.nj.gov/dep/parksandforests/forest",
+      "description": "Manages New Jersey state forest land — allows personal mineral collecting in some areas."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
