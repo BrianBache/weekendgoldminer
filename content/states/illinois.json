@@ -1,0 +1,33 @@
+{
+  "state": "illinois",
+  "displayName": "Illinois",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Illinois has no gold deposits and is not a gold prospecting destination. The state is underlain by Paleozoic sedimentary rocks and extensive glacial deposits — no gold-bearing geology is present. Illinois has historically been important for fluorspar and coal production, and its glacial gravels contain transported minerals from the north, but no meaningful gold. This entry is included for completeness.",
+    "keyRules": [
+      "Illinois does not have a recreational gold prospecting permit system — there are no gold deposits in the state.",
+      "Rock and mineral collecting on Shawnee National Forest land in southern Illinois is allowed for personal use in reasonable quantities.",
+      "In-stream work in Illinois waterways requires coordination with the Illinois EPA and Army Corps of Engineers."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Not applicable — there are no gold-bearing streams in Illinois.",
+    "suctionDredgeStatus": "Not applicable — there are no productive placer gold streams in Illinois.",
+    "handPanning": "Gold panning in Illinois streams is not a viable activity. The state has no gold-bearing geology. Southern Illinois (Shawnee National Forest) is a good destination for fluorite collecting and geode hunting, not gold prospecting.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "Illinois State Geological Survey",
+      "url": "https://isgs.illinois.edu",
+      "description": "State geological survey — Illinois has no gold-bearing geology; the survey covers coal, fluorspar, and industrial minerals."
+    },
+    {
+      "title": "Shawnee National Forest",
+      "url": "https://www.fs.usda.gov/shawnee",
+      "description": "USFS-managed land in southern Illinois — allows mineral collecting for personal use. Fluorite and geodes, not gold."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
