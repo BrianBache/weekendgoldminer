@@ -1,0 +1,52 @@
+{
+  "state": "tennessee",
+  "displayName": "Tennessee",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Tennessee has minor gold occurrences primarily in the eastern part of the state, in the Valley and Ridge and Blue Ridge physiographic provinces. Gold was historically mined in small quantities in Polk and Monroe counties, and some streams in the Cherokee National Forest carry trace placer gold. Tennessee is not a significant gold prospecting destination — the state is far more known for gemstones (garnets in the Corundum area) and fossils. Gold panning is possible but productive sessions are rare.",
+    "keyRules": [
+      "Tennessee does not have a specific recreational prospecting permit system — hand panning on Cherokee National Forest land is allowed under USFS rules for casual non-motorized use.",
+      "In-stream work in Tennessee waterways beyond hand panning requires coordination with the Tennessee Department of Environment and Conservation (TDEC) and potentially Army Corps Section 404.",
+      "Tennessee state parks and wildlife management areas prohibit mineral collecting — focus on National Forest land.",
+      "Suction dredging in Tennessee streams would require TDEC permits and compliance with aquatic habitat protections — not a practical activity for recreational prospectors in TN.",
+      "Most gold-bearing drainages in Tennessee are on or near private farmland — confirm land access before prospecting any creek segment."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Tennessee does not have a state HPA system. The TDEC Division of Water Resources governs significant in-stream activities. For recreational hand panning with no significant streambed disturbance, no specific state permit is required on National Forest land. Contact TDEC before any in-stream work beyond basic hand panning.",
+    "suctionDredgeStatus": "Not a practical activity in Tennessee. Suction dredging in Tennessee streams would require TDEC permits under water quality regulations. The state has not established a recreational dredging permit program. Hand panning only.",
+    "handPanning": "Hand panning is allowed on Cherokee National Forest land without a permit for casual use. Gold quantities in Tennessee streams are generally very small — this is a scenic adventure more than a productive prospecting destination. Confirm National Forest vs. private land boundaries before panning any creek segment.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [
+    {
+      "name": "Coker Creek (Polk County / Cherokee National Forest)",
+      "county": "Polk",
+      "description": "Coker Creek in Polk County is the most famous gold panning location in Tennessee, with a documented history of placer gold production dating to the 1830s. The creek flows through Cherokee National Forest land and the surrounding area includes the historic Coker Creek Village. The Tellico Ranger District confirms recreational panning is allowed on National Forest land along Coker Creek. Gold is fine flour gold — expect very small quantities.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Open for recreational hand panning on Cherokee National Forest land. Contact the Tellico Ranger District to confirm current open areas. Panning is limited to hand tools.",
+      "url": "https://www.fs.usda.gov/cherokee",
+      "urlLabel": "Cherokee National Forest"
+    }
+  ],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "Cherokee National Forest",
+      "url": "https://www.fs.usda.gov/cherokee",
+      "description": "Primary public land manager for eastern Tennessee — contact the Tellico Ranger District for Coker Creek prospecting access."
+    },
+    {
+      "title": "Tennessee Department of Environment and Conservation",
+      "url": "https://www.tn.gov/environment",
+      "description": "State environmental agency — governs in-stream work permits and water quality regulations in Tennessee."
+    },
+    {
+      "title": "Tennessee Geological Survey",
+      "url": "https://www.tn.gov/environment/program-areas/wr-water-resources/geologic-resources.html",
+      "description": "Tennessee geological information including mineral occurrence data and geologic maps."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
