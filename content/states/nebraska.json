@@ -1,0 +1,33 @@
+{
+  "state": "nebraska",
+  "displayName": "Nebraska",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Nebraska has no significant gold deposits and is not a gold prospecting destination. The state's geology is dominated by Cretaceous sedimentary rock and extensive Quaternary sand and gravel (notably the Sandhills). There are no known placer gold occurrences in Nebraska. The state is well-suited for fossil hunting (especially in the Badlands of the Panhandle region) but offers nothing of practical interest to gold prospectors.",
+    "keyRules": [
+      "Nebraska does not have a recreational gold prospecting permit system — there are no productive gold prospecting sites in the state.",
+      "Fossil and mineral collecting on Nebraska's national forests (Nebraska National Forest) and BLM land may have specific regulations — contact the managing agency for current rules.",
+      "In-stream work in Nebraska waterways requires coordination with the Nebraska Department of Environment and Energy and Army Corps of Engineers."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Not applicable — there are no gold-bearing streams in Nebraska requiring stream-work permitting for prospecting purposes.",
+    "suctionDredgeStatus": "Not applicable — there are no productive placer gold streams in Nebraska.",
+    "handPanning": "Gold panning in Nebraska streams is not a viable recreational activity — the state has no known placer gold deposits. The Panhandle region around Scottsbluff is excellent for fossil hunting and agate collecting on public land.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "Nebraska Geological Survey",
+      "url": "https://snr.unl.edu/research/nebraskaatlas/nebraskaatlas.aspx",
+      "description": "State geological survey information — Nebraska's mineral resources do not include productive gold deposits."
+    },
+    {
+      "title": "Nebraska National Forest and Grasslands",
+      "url": "https://www.fs.usda.gov/nebraska",
+      "description": "USFS-managed land in Nebraska — allows recreational collecting but gold is not a viable target."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
