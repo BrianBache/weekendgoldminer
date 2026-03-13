@@ -350,7 +350,7 @@ export default async function StateDetailPage({ params }: PageProps) {
   return (
     <div className="min-h-screen bg-earth-50 dark:bg-dark-bg">
       {/* Hero Header */}
-      <div className="relative bg-gradient-to-br from-earth-900 via-earth-800 to-earth-700 overflow-hidden py-14 px-4">
+      <div className="relative overflow-hidden py-14 px-4" style={{ backgroundColor: "#1C2526" }}>
         {/* Topographic SVG background pattern */}
         <div className="absolute inset-0 opacity-[0.07] pointer-events-none" aria-hidden="true">
           <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
