@@ -34,10 +34,12 @@ export default function USMap() {
   const router = useRouter();
 
   return (
-    <div className="w-full">
-      {hoveredState && (
-        <p className="text-center text-gold-500 font-semibold text-lg mb-2">{hoveredState}</p>
-      )}
+    <div className="w-full overflow-hidden">
+      {/* Always reserve this space — conditional rendering here causes layout shift
+          which makes the map jump when the cursor touches the top border (jitter loop). */}
+      <p className="text-center text-gold-500 font-semibold text-lg mb-2 min-h-[1.75rem]">
+        {hoveredState ?? "\u00A0"}
+      </p>
       <ComposableMap
         projection="geoAlbersUsa"
         style={{ width: "100%", height: "auto" }}
