@@ -3,15 +3,135 @@
   "displayName": "Washington",
   "lastResearched": "2026-03-13",
   "regulationSummary": {
-    "overview": "Washington state has specific recreational mining regulations managed by WDFW and BLM.",
+    "overview": "Washington is one of the more regulated states for gold prospecting due to strong salmon and steelhead protections. The WDFW 'Gold and Fish' pamphlet (2021 edition) serves as your Hydraulic Project Approval (HPA) for non-motorized methods like hand panning and non-motorized sluicing — no separate permit required for those activities. However, suction dredges, motorized highbankers, and all motorized equipment require both an individual HPA from WDFW and, in most gold-producing areas, an NPDES permit from the Department of Ecology.",
     "keyRules": [
-      "Hand panning generally allowed on most public streams",
-      "Suction dredging requires permits and has seasonal restrictions"
+      "The 2021 Gold and Fish pamphlet (free download from WDFW) serves as your HPA for hand panning, non-motorized sluicing, and other non-motorized methods — carry it in the field.",
+      "Suction dredges and all motorized or gravity-siphon equipment are PROHIBITED in waters designated as critical habitat for salmon, steelhead, or bull trout under the ESA — which includes most of Washington's classic gold country rivers.",
+      "If you want to use motorized equipment in a 'potential use area' (certain counties including Adams, Benton, Grant, Spokane, and Whitman), you must apply for an individual NPDES permit from WA Dept. of Ecology at least 180 days before mining, plus a separate HPA from WDFW.",
+      "You must obtain landowner permission before prospecting on private land, even if you have a valid HPA or Gold and Fish pamphlet — the pamphlet does not grant land access rights.",
+      "Federal land rules (BLM, USFS) add a layer on top of state rules: check with the relevant land manager (Okanogan-Wenatchee NF, Colville NF, or BLM Spokane District) before going out, as some areas may have additional closures or permit requirements."
     ],
-    "disclaimer": "Regulations change. Verify current rules before going out."
+    "hpaRequired": true,
+    "hpaInfo": "An HPA (Hydraulic Project Approval) is required for any work in or near Washington's waters that could affect fish habitat. For non-motorized prospecting (hand panning, non-motorized sluicing), the 2021 Gold and Fish pamphlet from WDFW acts as your HPA — print or download it and bring it with you. For any motorized equipment, you must apply for an individual, written HPA through WDFW's online APPS portal at https://hpa.wdfw.wa.gov/. WDFW typically has 45 days to issue or deny after receiving a complete application. You can also call your local WDFW habitat biologist before starting a project.",
+    "suctionDredgeStatus": "Effectively prohibited in most gold-producing areas. As of June 11, 2020 (RCW 90.48.615), suction dredging and all motorized/gravity-siphon aquatic mining is prohibited in waters designated as critical salmonid habitat — which covers the majority of WA's productive gold rivers including those in Chelan, Kittitas, Ferry, Okanogan, and Whatcom counties. Motorized mining may still be allowed in 'potential use areas' outside salmonid habitat (portions of Adams, Benton, Grant, Spokane, and Whitman counties) with both an NPDES permit from WA Ecology and an HPA from WDFW.",
+    "handPanning": "Hand panning is allowed in Washington with no individual HPA required, as long as you follow the rules in the 2021 Gold and Fish pamphlet. The pamphlet covers non-motorized hand tools including pans, shovels, and non-motorized sluice boxes. You must still follow seasonal restrictions and stay within the areas and methods authorized in the pamphlet. Download it free from WDFW before you go.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out. Washington's prospecting regulations are among the most complex in the West due to salmon protections — always check with WDFW and the relevant land manager before planning a trip."
   },
-  "publicLocations": [],
-  "privateLocations": [],
-  "blmResources": [],
-  "dnrResources": []
+  "publicLocations": [
+    {
+      "name": "Blewett Mining District (Peshastin Creek)",
+      "county": "Chelan",
+      "description": "One of Washington's most historically productive placer gold areas, located along Peshastin Creek and its tributaries near the town of Blewett in the Wenatchee River drainage. The district was actively mined in the late 1800s and early 1900s, producing both placer gold from creek gravels and lode gold from quartz veins. Public land portions fall within the Okanogan-Wenatchee National Forest; verify current access with the Wenatchee River Ranger District before visiting.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Non-motorized prospecting allowed under the 2021 Gold and Fish pamphlet. Suction dredging prohibited in most of the drainage (salmonid habitat). Confirm open areas with the Okanogan-Wenatchee NF Wenatchee River Ranger District.",
+      "url": "https://www.fs.usda.gov/okawen",
+      "urlLabel": "Okanogan-Wenatchee National Forest"
+    },
+    {
+      "name": "Liberty Mining District (Swauk Creek)",
+      "county": "Kittitas",
+      "description": "The area around the historic mining town of Liberty along Swauk Creek is one of the oldest gold-producing districts in Washington state. Placer gold has been worked from Swauk Creek and its tributaries since the 1870s. The townsite and surrounding public lands (Okanogan-Wenatchee National Forest, Cle Elum Ranger District) are accessible and historically yield small placer gold for hand panners. This is a popular destination for recreational prospectors.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Non-motorized hand panning allowed under Gold and Fish pamphlet. Motorized equipment prohibited in salmonid habitat areas. Contact the Cle Elum Ranger District for current area status.",
+      "url": "https://www.fs.usda.gov/okawen",
+      "urlLabel": "Okanogan-Wenatchee National Forest"
+    },
+    {
+      "name": "Republic Mining District",
+      "county": "Ferry",
+      "description": "The Republic area in Ferry County is historically one of the largest gold and silver producing regions in Washington state. The Knob Hill and other mines operated extensively in the early 20th century. The Colville National Forest surrounds the Republic area and some portions of the district offer public access for recreational prospecting. Both placer gold in area creeks and float gold from the historical lode deposits can be found.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Non-motorized prospecting allowed under Gold and Fish pamphlet on USFS lands. Contact the Colville NF Republic Ranger District to confirm which specific areas are open to recreational prospecting.",
+      "url": "https://www.fs.usda.gov/colville",
+      "urlLabel": "Colville National Forest"
+    },
+    {
+      "name": "Slate Creek Mining District",
+      "county": "Whatcom",
+      "description": "Located in the rugged North Cascades near Slate Creek (a tributary of the Skagit River), this district was actively mined for gold and silver in the late 1800s. The area is remote and access can be challenging, but it falls within the Mt. Baker-Snoqualmie National Forest and offers opportunities for hand panning. Note that much of the Skagit drainage has significant salmon protections — suction dredging is prohibited throughout.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Non-motorized prospecting only under Gold and Fish pamphlet. The Skagit drainage is designated salmonid habitat — suction dredges and motorized equipment are prohibited. Contact the Mt. Baker Ranger District before visiting.",
+      "url": "https://www.fs.usda.gov/mbs",
+      "urlLabel": "Mt. Baker-Snoqualmie National Forest"
+    },
+    {
+      "name": "Okanogan County Public Lands (Various Creeks)",
+      "county": "Okanogan",
+      "description": "Okanogan County hosts some of Washington's most productive gold country, with BLM and USFS lands covering numerous gold-bearing drainages. The Ruby Hill Mining District near Okanogan and numerous unnamed creeks in the Okanogan Highlands have produced placer and flour gold for over a century. BLM Spokane District administers public lands in this area — use the MLRS to check for existing active mining claims before prospecting on any parcel.",
+      "goldType": "flour",
+      "landManagement": "Mixed",
+      "permitRequired": false,
+      "permitNotes": "Non-motorized prospecting on open public lands allowed under Gold and Fish pamphlet. Check BLM MLRS (mlrs.blm.gov) for existing mining claims — you cannot prospect on claimed ground without permission. Contact BLM Spokane District for current open areas.",
+      "url": "https://www.blm.gov/office/spokane-district-office",
+      "urlLabel": "BLM Spokane District Office"
+    }
+  ],
+  "privateLocations": [
+    {
+      "name": "Gold Prospectors Association of America (GPAA)",
+      "location": "Washington statewide (national organization with WA claims)",
+      "description": "The GPAA is the largest gold prospecting membership organization in the U.S., offering access to over 99,000 acres of gold-bearing land nationwide, including claims in Washington state. The claims access arm is LDMA (Lost Dutchman's Mining Association). Members get access to club claims not open to the general public, which is particularly valuable in WA given how heavily regulated public waters are. GPAA also hosts outings, events, and a chapter network.",
+      "accessModel": "Membership",
+      "estimatedCost": "Varies — check current pricing at gpaastore.com (annual membership required for claim access)",
+      "url": "https://gpaastore.com/pages/membership-in-the-gold-prospectors-association-of-america",
+      "notes": "Membership does not guarantee gold. Verify that any WA claims you plan to visit are in areas where your intended method (hand pan vs. motorized) is legal under current WDFW rules. GPAA chapter for WA: https://www.goldprospectors.org/Community/AboutGPAAChapters/washington"
+    }
+  ],
+  "blmResources": [
+    {
+      "name": "BLM Spokane District Office",
+      "description": "Administers over several hundred thousand acres of public land in eastern Washington — the primary BLM office for WA gold country in Okanogan, Ferry, Stevens, and surrounding counties, plus mineral rights across split-estate lands statewide.",
+      "url": "https://www.blm.gov/office/spokane-district-office"
+    },
+    {
+      "name": "Mineral & Land Records System (MLRS)",
+      "description": "BLM's online records system for looking up existing mining claims, withdrawals, and land status in Washington — essential for confirming that a parcel is open to prospecting before you go out (the old LR2000 system has been replaced by MLRS).",
+      "url": "https://mlrs.blm.gov"
+    },
+    {
+      "name": "BLM Locatable Minerals Program",
+      "description": "Federal program governing hardrock mining claims on BLM lands — explains the Mining Law of 1872 framework, how to locate claims, and what activities are permitted on open public lands under the law.",
+      "url": "https://www.blm.gov/programs/energy-and-minerals/mining-and-minerals/locatable-minerals"
+    }
+  ],
+  "dnrResources": [
+    {
+      "name": "WDFW Gold and Fish Pamphlet (2021)",
+      "description": "The essential document every WA prospector needs — serves as your HPA for non-motorized prospecting, outlines exactly what equipment and methods are allowed, and is required to have on your person while prospecting.",
+      "url": "https://wdfw.wa.gov/publications/02150"
+    },
+    {
+      "name": "WDFW HPA Application Portal (APPS)",
+      "description": "The online portal for applying for an individual Hydraulic Project Approval — required if you want to use suction dredges or any motorized equipment where it is still allowed under the 2020 law.",
+      "url": "https://hpa.wdfw.wa.gov/"
+    },
+    {
+      "name": "WDFW HPA Application Process",
+      "description": "Official WDFW page explaining how to apply for an HPA, what documentation is needed, and how to track your application — start here if you plan to use motorized equipment.",
+      "url": "https://wdfw.wa.gov/licenses/environmental/hpa/application"
+    },
+    {
+      "name": "WA Dept. of Ecology — Mineral Prospecting and Placer Mining",
+      "description": "The Ecology Department's page on the 2020 suction dredge law (RCW 90.48.615), including an interactive map of 'potential use areas' where motorized mining may still be allowed and how to apply for the required NPDES permit.",
+      "url": "https://ecology.wa.gov/regulations-permits/permits-certifications/mineral-prospecting-and-placer-mining"
+    },
+    {
+      "name": "Washington DNR — Geological Survey (Coal, Metallic & Mineral Resources)",
+      "description": "Washington DNR's geological survey page covering the state's major metal-mining districts (Blewett, Liberty, Republic, and others), historical production data, and geological maps useful for prospectors.",
+      "url": "https://www.dnr.wa.gov/washington-geological-survey/energy-mining-and-minerals/coal-metallic-and-mineral-resources"
+    },
+    {
+      "name": "Washington DNR — Mining and Mineral Leases",
+      "description": "For prospectors interested in leasing state trust lands for mineral exploration — outlines the commercial mineral prospecting lease program (note: this is a commercial program, not for recreational prospectors).",
+      "url": "https://www.dnr.wa.gov/product-sales-and-leasing/mining-and-mineral-leases"
+    }
+  ]
 }
