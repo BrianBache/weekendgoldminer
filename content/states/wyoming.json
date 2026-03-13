@@ -1,0 +1,73 @@
+{
+  "state": "wyoming",
+  "displayName": "Wyoming",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Wyoming has a meaningful gold prospecting history centered on the South Pass area in Fremont County, site of Wyoming's gold rush in the late 1860s. BLM and USFS lands cover extensive portions of Wyoming's gold-bearing regions, and recreational prospecting is allowed on open public lands under the 1872 Mining Law. The state's regulations are generally straightforward for non-motorized prospecting.",
+    "keyRules": [
+      "Recreational hand panning and non-motorized prospecting are allowed on open BLM and USFS lands — confirm land status using BLM MLRS to avoid active mining claims.",
+      "Casual use on BLM land (non-motorized, minimal surface disturbance) does not require a Notice of Intent; operations exceeding 5 cubic yards require filing with the relevant BLM field office.",
+      "Suction dredging in Wyoming watercourses may require a permit from the Wyoming State Engineer's Office and coordination with Wyoming DEQ for any in-stream work.",
+      "Prospecting within wilderness areas (like the Wind River Range) is restricted to non-motorized methods; vehicle access is prohibited.",
+      "State streambed prospecting rules: contact Wyoming DEQ and the relevant BLM field office before operating any motorized equipment in or adjacent to stream channels."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Wyoming does not have a state HPA system. The Wyoming State Engineer's Office manages water rights and in-stream activities. For significant motorized in-stream work, contact Wyoming DEQ (Wyming Department of Environmental Quality) and the Army Corps of Engineers Omaha District for Section 404 guidance. Recreational hand panning does not require a state stream-work permit.",
+    "suctionDredgeStatus": "Not subject to a statewide ban, but in-stream motorized equipment requires coordination with the Wyoming State Engineer's Office and potentially DEQ. Most of Wyoming's prospecting is done on dry or semi-arid terrain where suction dredging is not the primary method. Contact the relevant BLM field office for current requirements before planning motorized in-stream operations.",
+    "handPanning": "Hand panning is freely allowed on open BLM and USFS lands in Wyoming without a permit. Confirm open land status via BLM MLRS before going out.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [
+    {
+      "name": "South Pass City / Atlantic City Area",
+      "county": "Fremont",
+      "description": "South Pass City was the epicenter of Wyoming's 1867-1870 gold rush, and the surrounding area remains the best bet for recreational gold prospecting in the state. The BLM manages extensive public land around the historic townsite (now a State Historic Site). Willow Creek and other drainages in the area have produced placer gold for over 150 years, and the area is open to recreational prospecting on BLM land.",
+      "goldType": "placer",
+      "landManagement": "BLM",
+      "permitRequired": false,
+      "permitNotes": "Open for recreational prospecting on BLM land. South Pass City itself is a State Historic Site where no collecting is allowed. Confine prospecting to open BLM land around the townsite. Contact BLM Lander Field Office for specific open areas.",
+      "url": "https://www.blm.gov/office/lander-field-office",
+      "urlLabel": "BLM Lander Field Office"
+    },
+    {
+      "name": "Sweetwater River (Fremont County BLM)",
+      "county": "Fremont",
+      "description": "The Sweetwater River drainage in Fremont County passes through extensive BLM-managed public land and has a history of placer gold production associated with the South Pass gold belt. The river and its tributaries offer opportunities for hand panning on open public land. This is a remote but rewarding area for experienced prospectors.",
+      "goldType": "placer",
+      "landManagement": "BLM",
+      "permitRequired": false,
+      "permitNotes": "Verify open land status on BLM MLRS. Contact BLM Lander Field Office for current guidance on accessible areas.",
+      "url": "https://www.blm.gov/office/lander-field-office",
+      "urlLabel": "BLM Lander Field Office"
+    }
+  ],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "BLM Wyoming State Office",
+      "url": "https://www.blm.gov/wyoming",
+      "description": "Primary BLM office for Wyoming public land information and mineral program guidance."
+    },
+    {
+      "title": "BLM Mineral & Land Records System (MLRS)",
+      "url": "https://mlrs.blm.gov",
+      "description": "Search for active mining claims and land status before prospecting in Wyoming."
+    },
+    {
+      "title": "Wyoming State Geological Survey",
+      "url": "https://www.wsgs.wyo.gov",
+      "description": "Geologic maps, historical mine data, and mineral resource information for Wyoming."
+    },
+    {
+      "title": "Wyoming DEQ — Land Quality Division",
+      "url": "https://deq.wyoming.gov/lqd",
+      "description": "Wyoming Department of Environmental Quality Land Quality Division — oversees mining permits and surface disturbance in Wyoming."
+    },
+    {
+      "title": "South Pass City State Historic Site",
+      "url": "https://wyoparks.wyo.gov/index.php/places-to-go/south-pass-city",
+      "description": "Information on the historic gold mining townsite of South Pass City — no collecting within the historic site boundaries."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
