@@ -1,0 +1,52 @@
+{
+  "state": "maryland",
+  "displayName": "Maryland",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Maryland has documented placer gold in several Piedmont streams, particularly in Montgomery, Howard, and Carroll counties — the northern extension of the Virginia/Pennsylvania gold belt. Small amounts of placer gold have been found by recreational panners in streams like the Patuxent River tributaries and Great Seneca Creek. Gold quantities are very small by any practical standard, but Maryland does have genuine gold-bearing streams in the public domain. The Patuxent Research Refuge and state-managed stream corridors provide some public access.",
+    "keyRules": [
+      "Maryland does not have a specific recreational gold prospecting permit for non-motorized hand panning on public stream segments.",
+      "In-stream work in Maryland waterways is regulated by the Maryland Department of the Environment (MDE) — any work disturbing the streambed beyond hand panning may require a Waterway Construction Permit.",
+      "Many of Maryland's gold-bearing streams flow through public parks or stream valley parks (Montgomery County, Howard County parks) — collecting is prohibited in most county and state parks.",
+      "Focus on public stream corridor access points; most stream banks in suburban Maryland are privately owned.",
+      "Patuxent Research Refuge (federal, US Fish and Wildlife) prohibits collecting — focus on stream segments outside the refuge."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Maryland does not have a state HPA system. The Maryland Department of the Environment (MDE) regulates in-stream work under Waterway Construction and Tidal Wetland permits. For basic hand panning with no significant streambed disturbance on public stream corridors, no specific permit is required, but collecting is prohibited in most state and county parks. Contact MDE for clarity on specific watercourses.",
+    "suctionDredgeStatus": "Not practical in Maryland. Suction dredging in Maryland streams would require MDE Waterway Construction permits and is not commonly performed as a recreational activity. The suburban nature of Maryland's gold-bearing terrain makes motorized equipment largely impractical anyway. Hand panning only.",
+    "handPanning": "Hand panning is the practical method for gold prospecting in Maryland. The Piedmont streams of central Maryland (Montgomery, Howard, Carroll counties) have documented placer gold. Access requires locating legal public stream corridor access — most stream banks are private or within parks that prohibit collecting.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [
+    {
+      "name": "Great Seneca Creek (Montgomery County)",
+      "county": "Montgomery",
+      "description": "Great Seneca Creek and its tributaries in Montgomery County flow through Precambrian Piedmont metamorphic rocks and have documented placer gold occurrences. Public stream corridor access exists through several Montgomery County trail systems. The gold is very fine flour gold — expectations should be managed accordingly. This is primarily a scenic hiking and nature access corridor where gold panning is a secondary activity.",
+      "goldType": "placer",
+      "landManagement": "County",
+      "permitRequired": false,
+      "permitNotes": "County parks may prohibit mineral collecting — verify current rules with Montgomery County Parks before going. Focus on stream segments with clear public access outside designated park collecting-prohibited areas.",
+      "url": "https://www.montgomeryparks.org",
+      "urlLabel": "Montgomery County Parks"
+    }
+  ],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "Maryland Geological Survey",
+      "url": "https://mgs.md.gov",
+      "description": "State geological survey with geologic maps and mineral occurrence data — includes information on Maryland's Piedmont gold occurrences."
+    },
+    {
+      "title": "Maryland Department of the Environment — Waterway Construction",
+      "url": "https://mde.maryland.gov/programs/Water/WetlandsandWaterways/Pages/wwpermits.aspx",
+      "description": "MDE permit requirements for any in-stream construction or disturbance work in Maryland waterways."
+    },
+    {
+      "title": "Montgomery County Parks",
+      "url": "https://www.montgomeryparks.org",
+      "description": "Montgomery County park system — manages stream valley parks along Great Seneca Creek and other gold-bearing drainages."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
