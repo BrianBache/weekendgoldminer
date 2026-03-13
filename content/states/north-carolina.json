@@ -1,0 +1,79 @@
+{
+  "state": "north-carolina",
+  "displayName": "North Carolina",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "North Carolina holds a unique place in American gold history — the first documented gold discovery in the US was made in Cabarrus County in 1799, and the Carolina Gold Belt stretches across the central Piedmont. The state has several public prospecting opportunities, including Uwharrie National Forest and Reed Gold Mine State Historic Site. North Carolina requires a Basic Prospecting Permit for recreational gold panning on state-controlled lands and has specific rules about in-stream equipment.",
+    "keyRules": [
+      "A Basic Prospecting Permit from the NC Division of Land Resources is required to prospect for gold on state-owned stream bottoms (which the state claims ownership of under the public trust doctrine) — permit is free and available online.",
+      "Hand panning and non-motorized sluicing are generally allowed with the Basic Prospecting Permit; motorized equipment including suction dredges requires a separate Excavation Permit from NC DEMLR.",
+      "Prospecting in North Carolina streams that are classified as Outstanding Resource Waters (ORW) or High Quality Waters (HQW) may face additional restrictions — check the NC DEMLR before prospecting in any classified waterway.",
+      "On Uwharrie National Forest land, recreational prospecting is allowed under USFS rules; check with the Uwharrie NF office for any specific area restrictions.",
+      "Collecting rocks, minerals, or fossils from National Forests for personal use is generally allowed in small amounts — commercial collection requires a special use permit."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "North Carolina uses a Basic Prospecting Permit system rather than an HPA. The permit (free, from NC Division of Energy, Mineral and Land Resources) authorizes hand panning and non-motorized prospecting in state stream bottoms. For motorized equipment or suction dredges, a separate Excavation/Fill Permit from DEMLR is required. Contact NC DEMLR Raleigh central office or the relevant regional office for current permit applications.",
+    "suctionDredgeStatus": "Restricted — suction dredging in North Carolina streams requires an Excavation/Fill Permit from the NC Division of Energy, Mineral and Land Resources (DEMLR) and compliance with state water quality standards. This permit process has real application requirements; contact DEMLR before planning any motorized dredge operation in NC streams.",
+    "handPanning": "Hand panning is allowed throughout North Carolina with a free Basic Prospecting Permit from NC DEMLR. The permit can be obtained online and authorizes non-motorized prospecting in state stream bottoms. Some private and restricted areas may require additional permission even with the permit.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [
+    {
+      "name": "Reed Gold Mine State Historic Site",
+      "county": "Cabarrus",
+      "description": "Reed Gold Mine is the site of the first authenticated gold discovery in the United States, made in 1799 when young Conrad Reed found a 17-pound gold nugget. The State Historic Site offers guided panning demonstrations and designated panning areas where visitors can legally pan for gold. This is the most beginner-friendly and historically significant prospecting experience in the Southeast, operated directly by NC State Parks.",
+      "goldType": "placer",
+      "landManagement": "State",
+      "permitRequired": true,
+      "permitNotes": "Day use fee applies. Panning is done in designated areas with equipment provided or available for rent. This is a managed experience site, not open freestyle prospecting.",
+      "url": "https://www.ncdcr.gov/about/history/division-historical-resources/nc-historic-sites/reed-gold-mine",
+      "urlLabel": "Reed Gold Mine State Historic Site"
+    },
+    {
+      "name": "Uwharrie National Forest (various streams)",
+      "county": "Montgomery / Randolph / Davidson",
+      "description": "The Uwharrie National Forest sits in the heart of the Carolina Gold Belt and covers portions of the ancient Uwharrie Mountains, one of the oldest mountain ranges in North America. Gold has been mined in this region since the early 1800s, and several creeks draining the National Forest carry placer gold. Prospectors can access forest streams for hand panning under USFS rules.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": true,
+      "permitNotes": "NC Basic Prospecting Permit required for in-stream panning. Obtain free from NC DEMLR before going out. Contact Uwharrie National Forest Ranger District for current open access areas and any specific restrictions.",
+      "url": "https://www.fs.usda.gov/uwharrie",
+      "urlLabel": "Uwharrie National Forest"
+    },
+    {
+      "name": "Gold Hill Mining District (Rowan County)",
+      "county": "Rowan",
+      "description": "Gold Hill was one of North Carolina's most productive gold mining communities in the 19th century, with lode mines producing gold from extensive quartz vein systems. The Gold Hill Mines Historic Park preserves much of the area and has information on local prospecting. BLM and public road-accessible stream areas near the historic district offer some panning opportunities.",
+      "goldType": "placer",
+      "landManagement": "State",
+      "permitRequired": true,
+      "permitNotes": "NC Basic Prospecting Permit required. The Gold Hill Mines Historic Park is managed by local government — contact Rowan County for access information. Public access to nearby stream segments should be confirmed with landowners.",
+      "url": "https://deq.nc.gov/about/divisions/energy-mineral-land-resources",
+      "urlLabel": "NC Division of Energy, Mineral and Land Resources"
+    }
+  ],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "NC Division of Energy, Mineral and Land Resources (DEMLR)",
+      "url": "https://deq.nc.gov/about/divisions/energy-mineral-land-resources",
+      "description": "Issues Basic Prospecting Permits for recreational gold panning and Excavation/Fill Permits for motorized in-stream work in North Carolina."
+    },
+    {
+      "title": "NC Basic Prospecting Permit Information",
+      "url": "https://deq.nc.gov/permits-rules/mining-permits/basic-prospecting-permit",
+      "description": "Direct link to the free Basic Prospecting Permit required for recreational gold panning on NC state stream bottoms."
+    },
+    {
+      "title": "Reed Gold Mine State Historic Site",
+      "url": "https://www.ncdcr.gov/about/history/division-historical-resources/nc-historic-sites/reed-gold-mine",
+      "description": "The site of the first US gold discovery — offers public panning areas and educational exhibits on NC gold history."
+    },
+    {
+      "title": "NC Geological Survey — Gold in North Carolina",
+      "url": "https://www.ncdeq.gov/about/divisions/energy-mineral-land-resources/north-carolina-geological-survey",
+      "description": "State geological survey with information on gold occurrences, the Carolina Gold Belt, and mineral resources."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
