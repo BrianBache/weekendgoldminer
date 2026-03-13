@@ -1,0 +1,68 @@
+{
+  "state": "south-carolina",
+  "displayName": "South Carolina",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "South Carolina shares the Carolina Gold Belt with North Carolina and Georgia, and the upstate Piedmont region has a real history of gold production. The Haile Gold Mine in Lancaster County was one of the largest gold mines east of the Mississippi and is still operating commercially today. Recreational gold prospecting in South Carolina is allowed on some public lands, but access to good prospecting ground is more limited than in neighboring states. The Sumter National Forest provides the primary public land access.",
+    "keyRules": [
+      "South Carolina claims ownership of navigable stream bottoms under the public trust doctrine — a state permit may be required for any in-stream prospecting on navigable waterways; contact SC DHEC for current requirements.",
+      "Recreational hand panning on Sumter National Forest land is allowed under USFS rules — contact the Andrew Pickens or Long Cane Ranger Districts for specific access information.",
+      "Motorized equipment (suction dredges) in South Carolina streams requires coordination with SC DHEC and Army Corps Section 404 — not commonly practiced in SC due to regulatory complexity.",
+      "Do not trespass on private land or active mining operations — the Haile Gold Mine and other active operations have private land surrounding them.",
+      "South Carolina state parks prohibit collecting of rocks, minerals, or any natural materials."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "South Carolina does not have a state HPA system. In-stream work in navigable waterways may require permits from SC DHEC (Department of Health and Environmental Control) under state water quality rules. For recreational hand panning, the practical requirement is to confirm you are on National Forest or other open public land. Contact SC DHEC for specific guidance on navigable stream permitting.",
+    "suctionDredgeStatus": "Not recommended without prior coordination with SC DHEC and Army Corps. South Carolina does not have a streamlined permit for recreational suction dredging comparable to the western states. The regulatory complexity makes motorized in-stream equipment impractical for most recreational prospectors. Hand panning and non-motorized methods are the practical choice.",
+    "handPanning": "Hand panning is the practical choice for recreational prospecting in South Carolina. On Sumter National Forest land, access is open under USFS rules. For in-stream work on navigable waterways, confirm current SC state permit requirements with SC DHEC before going out.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [
+    {
+      "name": "Sumter National Forest (Andrew Pickens District)",
+      "county": "Oconee / Pickens",
+      "description": "The Andrew Pickens District of the Sumter National Forest in the northwestern corner of South Carolina covers the Blue Ridge foothills and associated Piedmont gold-bearing geology. Several small creeks and streams draining the national forest carry fine placer gold associated with the Carolina Gold Belt mineralization. This is the most accessible public prospecting area in the state.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Open for recreational prospecting on National Forest land. Contact Andrew Pickens Ranger District for current access information and any area-specific restrictions.",
+      "url": "https://www.fs.usda.gov/scnfs",
+      "urlLabel": "Sumter National Forest"
+    },
+    {
+      "name": "Broad River Drainages (Cherokee / York County)",
+      "county": "Cherokee / York",
+      "description": "The Broad River and its tributaries in the upstate Piedmont of South Carolina flow through gold-bearing geology associated with the Carolina Gold Belt. Some public river access points exist along the Broad River system, though much of the surrounding land is private. Prospectors should focus on confirmed public access points and National Forest land in the headwaters.",
+      "goldType": "placer",
+      "landManagement": "Mixed",
+      "permitRequired": false,
+      "permitNotes": "Carefully verify public vs. private land. Public river access points (boat ramps, river parks) provide legal water access, but prospecting rights on the streambed should be confirmed with SC DHEC. Focus on Sumter NF land for clearest legal access.",
+      "url": "https://www.fs.usda.gov/scnfs",
+      "urlLabel": "Sumter National Forest"
+    }
+  ],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "Sumter National Forest",
+      "url": "https://www.fs.usda.gov/scnfs",
+      "description": "Primary public land manager for recreational prospecting access in upstate South Carolina."
+    },
+    {
+      "title": "SC DHEC — Mining and Quarrying Permits",
+      "url": "https://scdhec.gov/environment/air-land-waste-permits/land-permits/mining-quarrying-permits",
+      "description": "South Carolina Department of Health and Environmental Control — oversees mining permits and water quality for in-stream work in SC."
+    },
+    {
+      "title": "South Carolina Geological Survey",
+      "url": "https://geology.sc.gov",
+      "description": "State geological survey with geologic maps, mineral occurrence data, and historical mining information for South Carolina."
+    },
+    {
+      "title": "BLM Mineral & Land Records System (MLRS)",
+      "url": "https://mlrs.blm.gov",
+      "description": "Check for active federal mining claims on any BLM land in South Carolina before prospecting."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
