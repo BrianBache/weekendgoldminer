@@ -1,0 +1,33 @@
+{
+  "state": "kansas",
+  "displayName": "Kansas",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Kansas has no gold deposits and is not a gold prospecting destination. The state is underlain entirely by sedimentary rock formations — Permian salt and gypsum, Cretaceous chalk, and Quaternary alluvium — with no gold-bearing geology. Kansas is an excellent destination for fossil hunting (Niobrara Chalk fossils, mosasaurs, pterosaurs) but offers nothing for gold prospectors.",
+    "keyRules": [
+      "Kansas does not have a recreational gold prospecting permit system — there are no gold deposits in the state.",
+      "Fossil collecting on Kansas public land (Cimarron National Grassland) is regulated — vertebrate fossils require a permit; invertebrates and plants can be collected for personal use.",
+      "In-stream work in Kansas waterways requires coordination with the Kansas Department of Agriculture and Army Corps of Engineers."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Not applicable — there are no gold-bearing streams in Kansas.",
+    "suctionDredgeStatus": "Not applicable — there are no productive placer gold streams in Kansas.",
+    "handPanning": "Gold panning in Kansas streams is not a viable activity — the state has no gold-bearing geology. Kansas prospectors should instead explore the state's remarkable fossil record on the Cimarron National Grassland.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "Kansas Geological Survey",
+      "url": "https://www.kgs.ku.edu",
+      "description": "State geological survey — Kansas has no gold deposits; the survey focuses on oil, gas, water, salt, and chalk geology."
+    },
+    {
+      "title": "Cimarron National Grassland",
+      "url": "https://www.fs.usda.gov/recarea/psicc/recreation/recarea/?recid=12435",
+      "description": "The only significant USFS-managed public land in Kansas — allows fossil collecting under specific rules but gold prospecting is not viable."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
