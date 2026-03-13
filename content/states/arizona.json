@@ -1,0 +1,101 @@
+{
+  "state": "arizona",
+  "displayName": "Arizona",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Arizona is one of the premier recreational gold prospecting states in the US, with abundant BLM and USFS public land covering historically productive gold regions. The state has a prospector-friendly regulatory environment, and recreational hand panning on open public lands requires no permit. Arizona's desert environment means most prospecting is dry-washing and metal detecting rather than wet sluicing, though stream prospecting is viable in the wetter mountain drainages.",
+    "keyRules": [
+      "Recreational hand panning, dry washing, and metal detecting are allowed on open BLM and National Forest lands without a permit — always verify land is open (not under active mining claim or withdrawal) via BLM MLRS.",
+      "Disturbance of more than 5 cubic yards of material on BLM land requires filing a Notice of Intent with the relevant BLM field office; larger operations require a Plan of Operations.",
+      "Suction dredging in Arizona streams may require coordination with the Arizona Department of Environmental Quality (ADEQ) and Army Corps of Engineers — contact the local BLM field office before operating motorized equipment in or near watercourses.",
+      "Prospecting within wilderness areas is restricted to non-motorized, non-mechanized methods; vehicle access to wilderness is prohibited.",
+      "Always check for active mining claims on BLM MLRS — Arizona has extensive active claim coverage especially in the Rich Hill and Bradshaw Mountains areas."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Arizona does not have a state HPA system. In-stream work with motorized equipment may require coordination with the Army Corps of Engineers (Section 404) and ADEQ for water quality permits. For recreational hand panning in streams, no state stream-work permit is required. Contact the relevant BLM field office for guidance on specific watercourses.",
+    "suctionDredgeStatus": "Not subject to a statewide ban. Suction dredging is generally possible on BLM land in Arizona, but requires BLM field office approval and may require Section 404 coordination with the Army Corps for in-channel work. Arizona's desert climate means most waterways are ephemeral — dredging opportunities are limited. Contact the relevant BLM field office before operating any motorized equipment in or near stream channels.",
+    "handPanning": "Hand panning is freely allowed on open BLM and USFS lands in Arizona without a permit. No state stream-work authorization is required for non-motorized panning. Bring a map or use the BLM MLRS to confirm you are on open public land not under an active mining claim.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [
+    {
+      "name": "Rich Hill (Antelope Creek Placers)",
+      "county": "Yavapai",
+      "description": "Rich Hill near Wickenburg is arguably the most famous recreational gold prospecting site in Arizona and possibly the US. In 1863, prospectors picked gold nuggets — some weighing several pounds — directly off the surface of the hill. The area is managed by the BLM and is open to recreational prospecting. The Weaver/Antelope Creek drainage at the base of Rich Hill is the focus of most recreational activity today.",
+      "goldType": "placer",
+      "landManagement": "BLM",
+      "permitRequired": false,
+      "permitNotes": "Open BLM land for recreational prospecting. Check MLRS for any active claims in specific areas. The area is popular — expect other prospectors on weekends. Use the Hassayampa Resource Area for contact.",
+      "url": "https://www.blm.gov/office/hassayampa-field-office",
+      "urlLabel": "BLM Hassayampa Field Office"
+    },
+    {
+      "name": "Lynx Creek (Prescott National Forest)",
+      "county": "Yavapai",
+      "description": "Lynx Creek, located a few miles east of Prescott near Walker, AZ, is one of Arizona's most consistently productive recreational prospecting streams. It has been continuously mined since the 1860s and still yields placer gold for hand panners. The area falls within Prescott National Forest, making it accessible to the public. This is a great beginner-friendly location with a long history of producing fine to small nugget gold.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Open to recreational prospecting on National Forest land. A free recreation prospecting permit from Prescott NF may be required for regular use — contact the Bradshaw Ranger District to confirm current requirements.",
+      "url": "https://www.fs.usda.gov/prescott",
+      "urlLabel": "Prescott National Forest"
+    },
+    {
+      "name": "Hassayampa River Placers",
+      "county": "Yavapai",
+      "description": "The Hassayampa River and its tributaries have produced significant placer gold since Arizona's territorial days. BLM land covers sections of the upper Hassayampa drainage above Wickenburg, where recreational prospectors can work stream gravels and dry washes. The Vulture Mine (nearby) was one of Arizona's richest lode gold mines, and placer gold from its erosion can be found downstream.",
+      "goldType": "placer",
+      "landManagement": "BLM",
+      "permitRequired": false,
+      "permitNotes": "Verify open land status on MLRS before prospecting. Contact BLM Hassayampa Field Office for current open access areas.",
+      "url": "https://www.blm.gov/office/hassayampa-field-office",
+      "urlLabel": "BLM Hassayampa Field Office"
+    },
+    {
+      "name": "Goldfield Mountains / Superstition Wilderness Adjacent BLM",
+      "county": "Maricopa / Pinal",
+      "description": "The Superstition Mountains east of Phoenix are famous for the legend of the Lost Dutchman's Mine. While the Superstition Wilderness itself restricts mechanized tools, the adjacent BLM-managed Goldfield Mountains and the surrounding Tonto National Forest offer open access for recreational prospecting in dry washes. Real placer gold has been documented in several drainages flowing out of the Superstitions.",
+      "goldType": "placer",
+      "landManagement": "BLM",
+      "permitRequired": false,
+      "permitNotes": "Wilderness area itself prohibits motorized and mechanized equipment. BLM land adjacent to the wilderness is open to recreational dry-washing. Check MLRS for claim status.",
+      "url": "https://www.blm.gov/office/lower-sonoran-field-office",
+      "urlLabel": "BLM Lower Sonoran Field Office"
+    },
+    {
+      "name": "Gila County Tonto National Forest Drainages",
+      "county": "Gila",
+      "description": "Gila County in central Arizona sits astride some of the state's richest gold-bearing geology. The Tonto National Forest covers large portions of the county, and numerous streams including streams feeding the Verde River and Salt River have historically produced placer gold. The Globe-Miami area and surrounding forest lands are accessible for recreational prospectors.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Open on National Forest land outside wilderness areas. Contact the Tonto National Forest Globe Ranger District for current access information.",
+      "url": "https://www.fs.usda.gov/tonto",
+      "urlLabel": "Tonto National Forest"
+    }
+  ],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "BLM Arizona State Office",
+      "url": "https://www.blm.gov/arizona",
+      "description": "Primary BLM office for Arizona public land information and mineral program guidance."
+    },
+    {
+      "title": "BLM Mineral & Land Records System (MLRS)",
+      "url": "https://mlrs.blm.gov",
+      "description": "Search for active mining claims, withdrawals, and land status before prospecting on any BLM parcel in Arizona."
+    },
+    {
+      "title": "Arizona Geological Survey",
+      "url": "https://azgs.arizona.edu",
+      "description": "Geologic maps, mine information, and mineral resource data for Arizona — useful for researching gold-producing areas."
+    },
+    {
+      "title": "Arizona State Mine Inspector",
+      "url": "https://asmi.az.gov",
+      "description": "State office overseeing mining safety regulations in Arizona — a resource for understanding state-level requirements for mining activities."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
