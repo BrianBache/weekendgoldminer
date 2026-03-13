@@ -1,0 +1,33 @@
+{
+  "state": "north-dakota",
+  "displayName": "North Dakota",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "North Dakota has essentially no gold prospecting activity and no known productive placer gold deposits. The state's geology consists primarily of Cretaceous-age sedimentary rocks and glacial deposits — not gold-bearing terrain. Trace amounts of glacially transported gold have been reported in some areas near the Canadian border, but quantities are too small to be of practical interest to prospectors. North Dakota is better suited for fossil hunting and agates than gold prospecting.",
+    "keyRules": [
+      "North Dakota does not have a recreational gold prospecting permit system because there are no productive gold-prospecting destinations in the state.",
+      "Recreational fossil collecting and rock/mineral collecting on BLM and USFS (Dakota Prairie Grasslands) land is allowed for personal use in limited quantities.",
+      "In-stream work in North Dakota waterways requires coordination with the North Dakota State Water Commission and Army Corps of Engineers."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Not applicable — there are no significant gold-bearing streams in North Dakota requiring stream-work permitting for prospecting purposes.",
+    "suctionDredgeStatus": "Not applicable — there are no productive placer gold streams in North Dakota.",
+    "handPanning": "Hand panning in North Dakota streams for gold is not a viable recreational activity — the state has no known placer gold deposits. Prospectors interested in North Dakota's public lands would be better served looking for agates, petrified wood, and fossils on BLM and Dakota Prairie Grasslands land.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "North Dakota Geological Survey",
+      "url": "https://www.dmr.nd.gov/ndgs",
+      "description": "State geological survey — confirms North Dakota's mineral resources do not include productive gold deposits."
+    },
+    {
+      "title": "BLM North Dakota — Dakota Prairie Grasslands",
+      "url": "https://www.blm.gov/north-dakota",
+      "description": "BLM-managed land in North Dakota — allows recreational collecting but gold is not a viable target."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
