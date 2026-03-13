@@ -88,6 +88,6 @@ export function categoryDisplayName(slug: string): string {
 }
 
 /** Build an Amazon affiliate link */
-export function amazonLink(asin: string, tag = 'weekendgoldm-20'): string {
+export function amazonLink(asin: string, tag = 'weekendgoldminer-20'): string {
   return `https://www.amazon.com/dp/${asin}?tag=${tag}`;
 }
