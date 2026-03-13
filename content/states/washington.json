@@ -1,0 +1,17 @@
+{
+  "state": "washington",
+  "displayName": "Washington",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Washington state has specific recreational mining regulations managed by WDFW and BLM.",
+    "keyRules": [
+      "Hand panning generally allowed on most public streams",
+      "Suction dredging requires permits and has seasonal restrictions"
+    ],
+    "disclaimer": "Regulations change. Verify current rules before going out."
+  },
+  "publicLocations": [],
+  "privateLocations": [],
+  "blmResources": [],
+  "dnrResources": []
+}
