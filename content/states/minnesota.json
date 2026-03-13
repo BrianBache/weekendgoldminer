@@ -1,0 +1,68 @@
+{
+  "state": "minnesota",
+  "displayName": "Minnesota",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Minnesota is not a traditional gold prospecting state, but the northeastern Arrowhead region — particularly Cook, Lake, and St. Louis counties — sits on Precambrian greenstone belts that contain real gold mineralization. The Vermilion Gold District produced gold in the 1860s before iron became the dominant industry, and glacially transported placer gold has been found in some streams. The Superior National Forest and Minnesota state lands offer some public access.",
+    "keyRules": [
+      "Minnesota requires a prospecting permit from the Minnesota Department of Natural Resources (DNR) for any mineral prospecting on state-owned land, including state forest and trust land.",
+      "Recreational prospecting on Superior National Forest land is allowed under USFS rules for non-motorized casual use — contact the relevant ranger district for current area restrictions.",
+      "In-stream work in Minnesota waterways requires a Public Waters Work Permit from the Minnesota DNR Division of Waters for any equipment that disturbs the streambed beyond hand tools.",
+      "Suction dredging in Minnesota streams requires DNR approval and is subject to trout stream protections — many Arrowhead streams are designated trout streams with additional restrictions.",
+      "Minnesota state parks and wildlife management areas prohibit mineral collecting — focus prospecting on National Forest and open state forest land."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Minnesota does not have a state HPA system. In-stream work beyond hand panning requires a Public Waters Work Permit from the Minnesota DNR Division of Waters. For any motorized equipment, contact the DNR before going out. Hand panning with no streambed disturbance beyond a hand shovel and pan is generally not regulated under the Public Waters permit, but confirm current requirements with the DNR.",
+    "suctionDredgeStatus": "Restricted in Minnesota. Suction dredging in Minnesota streams requires a Public Waters Work Permit from the DNR and compliance with trout stream protections. Many Arrowhead streams are classified trout streams with significant habitat protections. This is not a practical activity for most recreational prospectors in Minnesota.",
+    "handPanning": "Hand panning is the practical recreational prospecting method in Minnesota. On Superior National Forest land, access is open under USFS rules. On state land, a Minnesota DNR prospecting permit is required. Confirm current requirements before going out.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [
+    {
+      "name": "Vermilion District (Tower-Soudan Area)",
+      "county": "St. Louis",
+      "description": "The Vermilion District in northern St. Louis County was Minnesota's first gold rush area in 1865, though iron ore proved far more economically significant. The Precambrian greenstone belt in this area contains real gold mineralization, and some streams carry trace placer gold. The Superior National Forest and Boundary Waters Canoe Area Wilderness (non-motorized only) adjoin the area, though the BWCA restricts all mechanized equipment.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Non-motorized prospecting allowed on Superior National Forest land outside the BWCA. The BWCA itself prohibits motorized equipment and any significant ground disturbance. Contact the LaCroix Ranger District for open areas.",
+      "url": "https://www.fs.usda.gov/superior",
+      "urlLabel": "Superior National Forest"
+    },
+    {
+      "name": "Cook County Streams (Arrowhead Region)",
+      "county": "Cook",
+      "description": "Cook County in the northeastern tip of Minnesota sits on some of the oldest and most gold-enriched greenstone belts in North America. The Gunflint Trail area and surrounding Superior National Forest land contain streams that have produced trace placer gold. While quantities are small, this is real gold-bearing terrain, and the area is strikingly beautiful for a prospecting trip.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Open for non-motorized prospecting on Superior National Forest land. Minnesota DNR prospecting permit required for any state-owned stream segments. Contact the Tofte or Gunflint Ranger District for guidance.",
+      "url": "https://www.fs.usda.gov/superior",
+      "urlLabel": "Superior National Forest"
+    }
+  ],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "Superior National Forest",
+      "url": "https://www.fs.usda.gov/superior",
+      "description": "Primary public land manager for the Minnesota Arrowhead region — contact for recreational prospecting access information."
+    },
+    {
+      "title": "Minnesota DNR — Mineral Resources",
+      "url": "https://www.dnr.state.mn.us/lands_minerals/index.html",
+      "description": "Minnesota Department of Natural Resources mineral resources division — prospecting permits for state land and regulatory information."
+    },
+    {
+      "title": "Minnesota DNR — Public Waters Work Permit",
+      "url": "https://www.dnr.state.mn.us/waters/watermgmt_section/pwpermits/index.html",
+      "description": "Permit required for any in-stream work beyond hand panning in Minnesota public waters."
+    },
+    {
+      "title": "Minnesota Geological Survey",
+      "url": "https://www.mngs.umn.edu",
+      "description": "University of Minnesota geological survey with geologic maps and mineral occurrence data for Minnesota."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
