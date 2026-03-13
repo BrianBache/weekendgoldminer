@@ -1,0 +1,33 @@
+{
+  "state": "mississippi",
+  "displayName": "Mississippi",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Mississippi has no gold deposits and is not a gold prospecting destination. The state is entirely underlain by Cretaceous and younger sedimentary rocks of the Gulf Coastal Plain — no gold-bearing basement geology is exposed anywhere in Mississippi. The state's mineral resources consist primarily of gravel, sand, clay, and oil/gas. This entry is included for completeness.",
+    "keyRules": [
+      "Mississippi does not have a recreational gold prospecting permit system — there are no gold deposits in the state.",
+      "In-stream work in Mississippi waterways is regulated by the Mississippi Department of Environmental Quality (MDEQ) and Army Corps of Engineers.",
+      "Bienville National Forest and DeSoto National Forest land allows minimal personal mineral collecting under USFS rules."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Not applicable — there are no gold-bearing streams in Mississippi.",
+    "suctionDredgeStatus": "Not applicable — Mississippi has no productive placer gold streams.",
+    "handPanning": "Gold panning in Mississippi streams is not a viable activity — the state has no gold-bearing geology. Mississippi offers good fossil collecting (especially marine invertebrates in Cretaceous chalk outcrops in the northeast part of the state) but no gold prospecting opportunities.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "Mississippi Office of Geology",
+      "url": "https://www.mdeq.ms.gov/mdeq.nsf/page/Geology_GIS_Home",
+      "description": "State geological survey — Mississippi has no gold-bearing geology; the survey covers oil, gas, clay, and gravel."
+    },
+    {
+      "title": "Mississippi Department of Environmental Quality",
+      "url": "https://www.mdeq.ms.gov",
+      "description": "State environmental agency managing Mississippi's environmental resources and waterway regulations."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
