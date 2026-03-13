@@ -16,26 +16,22 @@ interface PageProps {
 
 function ResourceCard({ resource }: { resource: StateResource }) {
   return (
-    <a
-      href={resource.url}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="block bg-earth-50 dark:bg-dark-bg border border-earth-200 dark:border-earth-700 rounded-lg p-4 hover:border-gold-400 dark:hover:border-gold-500 transition-colors"
-    >
-      <div className="flex items-start justify-between gap-2">
-        <div>
-          <p className="font-semibold text-earth-900 dark:text-dark-text text-sm">
-            {resource.name}
-          </p>
-          <p className="text-earth-600 dark:text-earth-300 text-sm mt-1 leading-relaxed">
-            {resource.description}
-          </p>
-        </div>
-        <span className="text-gold-500 text-sm font-semibold whitespace-nowrap flex-shrink-0">
-          Visit →
-        </span>
-      </div>
-    </a>
+    <div className="bg-earth-50 dark:bg-dark-bg border border-earth-200 dark:border-earth-700 rounded-lg p-4">
+      <p className="font-semibold text-earth-900 dark:text-dark-text text-sm mb-1">
+        {resource.name}
+      </p>
+      <p className="text-earth-600 dark:text-earth-300 text-sm mb-3 leading-relaxed">
+        {resource.description}
+      </p>
+      <a
+        href={resource.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-gold-600 hover:bg-gold-500 text-earth-900 font-semibold px-4 py-2 rounded-lg text-sm transition-colors inline-flex items-center gap-1"
+      >
+        Visit Site →
+      </a>
+    </div>
   );
 }
 
@@ -45,13 +41,7 @@ function LocationCard({ loc }: { loc: StateLocation }) {
       <div className="flex items-start justify-between gap-2 mb-2">
         <h4 className="font-bold text-earth-900 dark:text-dark-text">{loc.name}</h4>
         {loc.permitRequired !== undefined && (
-          <span
-            className={`text-xs font-semibold px-2 py-0.5 rounded-full flex-shrink-0 ${
-              loc.permitRequired
-                ? "bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-200"
-                : "bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200"
-            }`}
-          >
+          <span className="bg-earth-100 dark:bg-earth-800 text-earth-700 dark:text-earth-200 text-xs font-medium px-2 py-1 rounded-full flex-shrink-0">
             {loc.permitRequired ? "Permit Required" : "No Permit"}
           </span>
         )}
@@ -106,7 +96,7 @@ function LocationCard({ loc }: { loc: StateLocation }) {
         href={loc.url}
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-block bg-earth-800 dark:bg-dark-surface text-gold-400 hover:bg-earth-700 dark:hover:bg-earth-700 font-semibold text-xs py-1.5 px-4 rounded-lg transition-colors duration-200"
+        className="bg-gold-600 hover:bg-gold-500 text-earth-900 font-semibold px-4 py-2 rounded-lg text-sm transition-colors inline-flex items-center gap-1"
       >
         {loc.urlLabel ?? "More Info"} →
       </a>
@@ -155,11 +145,7 @@ function RegulationsSection({ data }: { data: StateData }) {
             <p className="text-sm font-semibold text-blue-800 dark:text-blue-300 mb-1">
               HPA (Hydraulic Project Approval)
               {regs.hpaRequired !== undefined && (
-                <span className={`ml-2 text-xs px-2 py-0.5 rounded-full ${
-                  regs.hpaRequired
-                    ? "bg-yellow-100 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-200"
-                    : "bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200"
-                }`}>
+                <span className="ml-2 bg-earth-100 dark:bg-earth-800 text-earth-700 dark:text-earth-200 text-xs font-medium px-2 py-1 rounded-full">
                   {regs.hpaRequired ? "Required" : "Not Required"}
                 </span>
               )}
@@ -423,9 +409,9 @@ export default async function StateDetailPage({ params }: PageProps) {
         <div className="flex justify-center">
           <Link
             href="/find-locations"
-            className="bg-earth-800 dark:bg-dark-bg text-gold-400 hover:bg-earth-700 font-semibold py-2 px-6 rounded-lg transition-colors duration-200"
+            className="text-gold-400 hover:text-gold-300 font-semibold transition-colors inline-flex items-center gap-1 text-sm"
           >
-            Back to All States
+            ← Back to All States
           </Link>
         </div>
       </div>
