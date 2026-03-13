@@ -1,0 +1,39 @@
+{
+  "state": "hawaii",
+  "displayName": "Hawaii",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Hawaii has no gold deposits and is not a gold prospecting destination. The Hawaiian Islands are entirely composed of young basaltic volcanic rock — geologically, Hawaii formed from a mantle hotspot and has none of the ancient metamorphic and igneous basement rocks that host gold deposits. The state's mineral resources are primarily basalt, coral, and volcanic glass (obsidian). This is the one US state where gold prospecting is geologically impossible — there is simply no gold to find.",
+    "keyRules": [
+      "Hawaii does not have a recreational gold prospecting permit system — there are no gold deposits anywhere in the state.",
+      "Collecting any natural materials (rocks, minerals, sand, coral) from Hawaii state parks, beaches, and public lands is prohibited or heavily restricted — Hawaiian cultural and environmental law takes this seriously.",
+      "Removing lava rocks from Hawaii Volcanoes National Park and most state lands is prohibited.",
+      "In-stream work in Hawaii streams is regulated by the Hawaii Division of Aquatic Resources and Army Corps of Engineers — freshwater stream ecosystems in Hawaii host endemic species with strong legal protections."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Not applicable — there are no gold-bearing streams in Hawaii. Hawaii freshwater streams are strictly regulated to protect endemic native fish (o'opu) and invertebrates. Any in-stream disturbance requires coordination with the Hawaii Division of Aquatic Resources.",
+    "suctionDredgeStatus": "Not applicable for gold prospecting. Hawaii's freshwater streams contain endemic native species and are strictly protected — suction dredging for any purpose in Hawaii streams would face significant regulatory and cultural barriers.",
+    "handPanning": "Gold panning in Hawaii streams is not possible — the state has no gold-bearing geology. Hawaii's volcanic geology produces basalt, olivine, and various volcanic minerals, not gold. Visitors interested in Hawaii's geological wonders should focus on Hawaii Volcanoes National Park and the state's unique volcanic landscapes.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "Hawaii Division of Aquatic Resources",
+      "url": "https://dlnr.hawaii.gov/dar",
+      "description": "Hawaii's freshwater stream management agency — all native stream ecosystems in Hawaii are protected; no collecting or disturbance without authorization."
+    },
+    {
+      "title": "Hawaii Volcanoes National Park",
+      "url": "https://www.nps.gov/havo",
+      "description": "World-class geological destination in Hawaii — visit to observe active volcanism and Hawaii's unique geology. No collecting permitted."
+    },
+    {
+      "title": "Hawaii Department of Land and Natural Resources",
+      "url": "https://dlnr.hawaii.gov",
+      "description": "State agency managing Hawaii's natural resources — governs public land access and restrictions on natural resource collection."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
