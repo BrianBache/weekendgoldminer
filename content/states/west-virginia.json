@@ -1,0 +1,51 @@
+{
+  "state": "west-virginia",
+  "displayName": "West Virginia",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "West Virginia has very limited gold prospecting potential. The state's geology is dominated by folded and faulted Paleozoic sedimentary rock — mostly sandstone, shale, and limestone bearing coal. The eastern mountain counties (Pendleton, Grant, Tucker) near the Virginia border have some Precambrian basement exposures, and there are scattered gold and mineral occurrences in the Potomac drainage headwaters. Gold panning is theoretically possible in a few eastern WV streams, but productivity is extremely low. The Monongahela National Forest is the primary public land area.",
+    "keyRules": [
+      "Recreational rock and mineral collecting on Monongahela National Forest land is allowed for personal use under USFS rules.",
+      "West Virginia does not have a specific recreational gold prospecting permit system for non-motorized hand panning.",
+      "In-stream work in West Virginia waterways requires coordination with the WV DEP Division of Water and Waste Management and Army Corps Section 404.",
+      "West Virginia state parks and wildlife management areas prohibit mineral collecting."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "West Virginia does not have a state HPA system. In-stream work beyond hand panning requires WV DEP permits. For recreational hand panning on National Forest land, no specific state permit is required, but be aware of trout stream protections in many WV mountain streams.",
+    "suctionDredgeStatus": "Not practical in West Virginia. Suction dredging in WV streams would require DEP permits and Army Corps Section 404 coordination. The state's cold-water mountain trout streams have significant habitat protections. Hand panning is the only viable recreational method, with very low gold expectations.",
+    "handPanning": "Hand panning is theoretically possible in some eastern West Virginia streams on Monongahela National Forest land, but gold quantities are extremely small. The upper Potomac River tributaries (Blackwater River, Greenbrier River headwaters) flow through the most mineralized terrain but are not considered productive prospecting destinations.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [
+    {
+      "name": "Seneca Creek Area (Monongahela National Forest)",
+      "county": "Pendleton",
+      "description": "Seneca Creek drains the Spruce Knob area of the Monongahela National Forest in Pendleton County. The eastern escarpment of the Appalachians here has some of the most complex geology in West Virginia, and trace gold mineralization has been reported in the area associated with Precambrian basement exposures. Gold quantities are very small but the area is beautiful and public access is excellent on National Forest land.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Open for recreational collecting on National Forest land. Manage gold expectations — this is a scenic hiking destination first, prospecting destination second. Contact Monongahela NF Potomac Ranger District for access.",
+      "url": "https://www.fs.usda.gov/mnf",
+      "urlLabel": "Monongahela National Forest"
+    }
+  ],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "Monongahela National Forest",
+      "url": "https://www.fs.usda.gov/mnf",
+      "description": "Primary public land manager in eastern West Virginia — allows recreational mineral collecting on National Forest land."
+    },
+    {
+      "title": "West Virginia Geological and Economic Survey",
+      "url": "https://www.wvgs.wvnet.edu",
+      "description": "State geological survey with geologic maps and mineral occurrence data for West Virginia."
+    },
+    {
+      "title": "WV DEP Division of Water and Waste Management",
+      "url": "https://dep.wv.gov/WWE",
+      "description": "West Virginia Department of Environmental Protection — oversees in-stream work permits and water quality regulations."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
