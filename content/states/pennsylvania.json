@@ -1,0 +1,63 @@
+{
+  "state": "pennsylvania",
+  "displayName": "Pennsylvania",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Pennsylvania has a minor gold prospecting tradition in the southeastern part of the state, particularly in Chester and York counties. The Pennsylvania Piedmont sits on the northern extension of the Carolina/Virginia gold belt, and small amounts of placer gold have been found in streams draining Precambrian metamorphic rocks. Gold was historically mined at the Cochranville area in Chester County. Productivity is very low by western standards, but Pennsylvania does have real gold in some streams.",
+    "keyRules": [
+      "Pennsylvania does not have a specific recreational gold prospecting permit for non-motorized hand panning — the activity is largely unregulated at the state level for casual use.",
+      "In-stream work in Pennsylvania waterways is regulated under Chapter 105 (Stream Encroachments) of PA DEP regulations — any work disturbing the streambed beyond hand panning may require a permit.",
+      "Prospecting on state game lands and state forest land is allowed for personal use — contact the Pennsylvania Game Commission or PA DCNR Bureau of Forestry for current rules.",
+      "Pennsylvania state parks prohibit rock, mineral, and fossil collecting.",
+      "Access to productive gold-bearing streams in Chester and York counties is primarily through stream corridor public access points — most surrounding land is private."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Pennsylvania does not have a state HPA system. Chapter 105 of PA DEP regulations governs in-stream work. For casual hand panning with no significant streambed disturbance, no specific permit is required under PA law. Any excavation or equipment that disturbs the streambed should be preceded by contact with PA DEP Regional Office for guidance.",
+    "suctionDredgeStatus": "Not commonly practiced in Pennsylvania. Suction dredging in PA streams would require review under Chapter 105 (Stream Encroachments) and potentially Chapter 102 (Erosion and Sediment Control). PA DEP has not established a recreational dredging permit program. Hand panning is the practical choice.",
+    "handPanning": "Hand panning is the practical method for gold prospecting in Pennsylvania. Southeastern PA streams (Chester and York counties) have documented placer gold. Access requires locating public stream corridors or obtaining private landowner permission. State forest and game land stream segments are the clearest public access option.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [
+    {
+      "name": "Valley Creek (Chester County)",
+      "county": "Chester",
+      "description": "Valley Creek near Valley Forge in Chester County flows through some of Pennsylvania's most gold-bearing terrain in the southeastern Piedmont. Small amounts of placer gold have been documented in Valley Creek gravels, and portions of the creek corridor fall within Valley Forge National Historical Park and adjacent public lands. The gold is fine flour gold — not a productive destination by western standards, but historically documented.",
+      "goldType": "placer",
+      "landManagement": "Mixed",
+      "permitRequired": false,
+      "permitNotes": "Collecting is prohibited within Valley Forge National Historical Park. Focus on public stream corridor access outside the park. Confirm current access with PA DCNR and Chester County for legal public stream segments.",
+      "url": "https://www.dcnr.pa.gov",
+      "urlLabel": "PA Department of Conservation and Natural Resources"
+    },
+    {
+      "name": "Brandywine Creek Tributaries (Chester County)",
+      "county": "Chester",
+      "description": "The Brandywine Creek drainage in Chester County flows through Precambrian metamorphic rocks of the Piedmont, the same geological unit that hosts the Carolina Gold Belt further south. Small amounts of placer gold have been reported in Brandywine tributaries by local prospectors. Public access is through stream corridor easements — most surrounding land is private.",
+      "goldType": "placer",
+      "landManagement": "Mixed",
+      "permitRequired": false,
+      "permitNotes": "Access primarily through public stream corridors. Most land adjacent to productive segments is private — confirm access before entering any stream corridor. Contact Brandywine Valley Association for stream access resources.",
+      "url": "https://www.dcnr.pa.gov",
+      "urlLabel": "PA Department of Conservation and Natural Resources"
+    }
+  ],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "Pennsylvania Bureau of Topographic and Geologic Survey",
+      "url": "https://www.dcnr.pa.gov/Conservation/ForestsAndWoods/Geology/Pages/default.aspx",
+      "description": "State geological survey — geologic maps and mineral occurrence data for Pennsylvania, including gold occurrences in the Piedmont."
+    },
+    {
+      "title": "PA DEP — Chapter 105 Stream Encroachments",
+      "url": "https://www.dep.pa.gov/Business/Water/CleanWater/WaterMgmt/StreamsandWaterways/Pages/default.aspx",
+      "description": "Pennsylvania DEP stream encroachment regulations — governs any in-stream work beyond basic hand panning."
+    },
+    {
+      "title": "PA DCNR Bureau of Forestry",
+      "url": "https://www.dcnr.pa.gov/Conservation/ForestsAndWoods/Pages/default.aspx",
+      "description": "State forest land management — mineral collecting rules on Pennsylvania state forest land."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
