@@ -1,0 +1,79 @@
+{
+  "state": "georgia",
+  "displayName": "Georgia",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Georgia was the site of America's first major gold rush — the Dahlonega Gold Rush of 1828-1839, which predated the California Gold Rush by over 20 years. The Georgia Gold Belt runs through the north Georgia mountains, and the Chattahoochee National Forest provides extensive public land access for recreational prospectors. Georgia requires a Prospecting Permit from the Georgia EPD for gold panning on state stream bottoms, and suction dredging is regulated.",
+    "keyRules": [
+      "A Prospecting License from the Georgia Environmental Protection Division (EPD) is required to prospect for gold in Georgia's navigable streams and state-owned riverbeds.",
+      "Hand panning and non-motorized sluicing are generally allowed with the Prospecting License; motorized suction dredges require a 404 Water Quality Certification from GA EPD in addition to federal Army Corps permits.",
+      "Prospecting on Chattahoochee National Forest land is allowed under USFS rules; obtain required state permits and check with the relevant ranger district for any area-specific restrictions.",
+      "All prospecting equipment must be removed from streams at the end of each day — no unattended equipment left in waterways.",
+      "The use of mercury or other chemicals for gold recovery is prohibited in Georgia waterways."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Georgia does not have a state HPA system. The GA EPD Prospecting License covers recreational non-motorized panning. For suction dredges or any motorized in-stream equipment, a 404 Water Quality Certification from GA EPD and likely an Army Corps Section 404 permit are required. Contact GA EPD Land Protection Branch for current requirements.",
+    "suctionDredgeStatus": "Regulated — suction dredging in Georgia requires a 404 Water Quality Certification from the Georgia EPD and compliance with state water quality standards. The application process requires detailed site information. Contact GA EPD before planning any motorized dredge operation in Georgia streams.",
+    "handPanning": "Hand panning is allowed in Georgia with a free or low-cost Prospecting License from the Georgia EPD. The license authorizes non-motorized prospecting in state navigable waterways. On National Forest land, USFS rules govern access — the state permit is still required for in-stream work.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [
+    {
+      "name": "Dahlonega Area (Chestatee River Drainage)",
+      "county": "Lumpkin",
+      "description": "Dahlonega is the heart of Georgia's gold country and the site of the 1828 gold rush that led to the establishment of a US Branch Mint. The Chestatee River and its tributaries drain a large gold-bearing region, and the Chattahoochee National Forest covers significant portions of the watershed. Multiple stream segments are accessible for recreational hand panning, and the town of Dahlonega has several commercial operations.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": true,
+      "permitNotes": "Georgia Prospecting License required. On Chattahoochee National Forest land, also check with the Blue Ridge Ranger District for current open areas and any restrictions.",
+      "url": "https://www.fs.usda.gov/conf",
+      "urlLabel": "Chattahoochee-Oconee National Forests"
+    },
+    {
+      "name": "Auraria Historic District Area (Etowah River)",
+      "county": "Dawson",
+      "description": "Auraria (meaning 'gold' in Latin) was a gold rush boomtown that predated Dahlonega and was briefly Georgia's largest city. The Etowah River and surrounding drainages have produced placer gold since the 1820s. Chattahoochee National Forest land in the Dawson County area offers public access to some of these drainages for recreational prospecting.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": true,
+      "permitNotes": "Georgia Prospecting License required. Contact Chattahoochee-Oconee National Forests Cohutta/Three Sisters Wilderness Complex or Blue Ridge Ranger District for current access.",
+      "url": "https://www.fs.usda.gov/conf",
+      "urlLabel": "Chattahoochee-Oconee National Forests"
+    },
+    {
+      "name": "Long Branch and Yahoola Creek (Lumpkin County)",
+      "county": "Lumpkin",
+      "description": "Long Branch and Yahoola Creek in Lumpkin County have been worked for placer gold since the 1830s and are among the most consistently productive streams in the Georgia Gold Belt for recreational prospectors. These streams drain gold-rich metamorphic rock formations and have produced both fine flour gold and occasional small nuggets. Access segments on National Forest land are open for hand panning.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": true,
+      "permitNotes": "Georgia Prospecting License required. Verify specific access points are on National Forest land (not private). Contact Blue Ridge Ranger District for guidance.",
+      "url": "https://www.fs.usda.gov/conf",
+      "urlLabel": "Chattahoochee-Oconee National Forests"
+    }
+  ],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "Georgia EPD — Prospecting in Georgia",
+      "url": "https://epd.georgia.gov/land-protection-branch",
+      "description": "Georgia Environmental Protection Division information on the Prospecting License required for gold panning on state navigable waterways."
+    },
+    {
+      "title": "Chattahoochee-Oconee National Forests",
+      "url": "https://www.fs.usda.gov/conf",
+      "description": "Federal land manager for north Georgia's gold country — primary source for public land access information for prospectors."
+    },
+    {
+      "title": "Georgia Geological Survey",
+      "url": "https://epd.georgia.gov/georgia-environmental-protection-division/land/georgia-geological-survey",
+      "description": "Geologic maps, mineral resource data, and historical gold district information for Georgia."
+    },
+    {
+      "title": "Dahlonega Gold Museum State Historic Site",
+      "url": "https://gastateparks.org/DahlonegaGoldMuseum",
+      "description": "Museum at the original Dahlonega Mint site — educational resource on Georgia's gold rush history and the Georgia Gold Belt."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
