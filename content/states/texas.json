@@ -1,0 +1,68 @@
+{
+  "state": "texas",
+  "displayName": "Texas",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Texas has limited but real gold prospecting opportunities, primarily in the Trans-Pecos region of far West Texas. The Presidio County area contains gold-bearing geology, and there are historical placer workings associated with the Chinati Mountains area. Most Texas public land is managed by the BLM or Texas Parks and Wildlife, and recreational prospecting is permitted on open BLM land. Prospecting access in Texas is significantly more limited than western states due to the high proportion of private land.",
+    "keyRules": [
+      "Recreational prospecting is allowed on open BLM land in Texas without a permit for casual hand-tool use — verify land status via BLM MLRS before going out.",
+      "Texas state-owned land (under General Land Office) is not generally open to recreational mineral collecting — focus on federal BLM land.",
+      "Suction dredging in Texas streams requires coordination with the Texas Commission on Environmental Quality (TCEQ) and Army Corps Section 404 — most Texas waterways are intermittent desert streams where dredging is not practical.",
+      "Prospecting is prohibited in Big Bend National Park and other National Park Service lands.",
+      "The vast majority of land in West Texas is private ranch land — always confirm you are on open public BLM land before prospecting."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Texas does not have a state HPA system. In-stream work with motorized equipment in Texas waterways may require TCEQ coordination and Army Corps Section 404 permits. For recreational hand panning in dry washes and arroyos (the primary method in West Texas), no state stream-work permit is required. Contact the BLM Marfa Field Office for specific guidance.",
+    "suctionDredgeStatus": "Not practically viable in most of Texas — the state's gold-bearing areas in West Texas are arid desert terrain with ephemeral waterways. Traditional suction dredging opportunities are minimal. Dry washing and metal detecting are the primary methods for recreational gold recovery in Texas.",
+    "handPanning": "Hand panning and dry washing are allowed on open BLM land in Texas without a permit. West Texas gold country is arid, so dry washing is the primary practical method. Confirm open land status via BLM MLRS before going out.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [
+    {
+      "name": "Presidio County BLM Land (Chinati Mountains Area)",
+      "county": "Presidio",
+      "description": "The Chinati Mountains and surrounding BLM-managed terrain in Presidio County contain gold-bearing geology associated with the Tertiary volcanic intrusions of the Trans-Pecos region. Historical placer workings exist in the area, and BLM land offers public access for recreational dry washing and metal detecting. This is remote desert terrain — plan accordingly with water and supplies.",
+      "goldType": "placer",
+      "landManagement": "BLM",
+      "permitRequired": false,
+      "permitNotes": "Open BLM land for casual use prospecting. Verify land status via BLM MLRS. Contact BLM Marfa Field Office for current access information and guidance on specific areas.",
+      "url": "https://www.blm.gov/office/marfa-field-office",
+      "urlLabel": "BLM Marfa Field Office"
+    },
+    {
+      "name": "Llano Uplift (Llano and Mason Counties)",
+      "county": "Llano / Mason",
+      "description": "The Llano Uplift region of the Texas Hill Country exposes ancient Precambrian basement rocks that contain minor gold mineralization. While not productive enough for commercial operations, the area has produced small amounts of placer gold in creek gravels. The Llano River and its tributaries (largely private land) have occasional public access points. This is more of a rockhound destination than a serious gold prospecting area.",
+      "goldType": "placer",
+      "landManagement": "Mixed",
+      "permitRequired": false,
+      "permitNotes": "Most land in the Llano Uplift is private. Focus on public river access points or consult with local landowners for permission. State parks in the area (Enchanted Rock) prohibit mineral collecting.",
+      "url": "https://www.blm.gov/texas",
+      "urlLabel": "BLM Texas"
+    }
+  ],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "BLM Texas State Office",
+      "url": "https://www.blm.gov/texas",
+      "description": "Primary BLM office for Texas public land information — BLM manages limited but important public land in West Texas."
+    },
+    {
+      "title": "BLM Marfa Field Office",
+      "url": "https://www.blm.gov/office/marfa-field-office",
+      "description": "Manages BLM land in the Trans-Pecos region including Presidio, Brewster, and surrounding counties — primary contact for West Texas gold country."
+    },
+    {
+      "title": "Bureau of Economic Geology (UT Austin)",
+      "url": "https://www.beg.utexas.edu",
+      "description": "Texas geological survey and mineral resource information, including geologic maps of the Trans-Pecos gold region."
+    },
+    {
+      "title": "BLM Mineral & Land Records System (MLRS)",
+      "url": "https://mlrs.blm.gov",
+      "description": "Check for active mining claims and land status in Texas before prospecting on BLM land."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
