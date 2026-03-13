@@ -1,0 +1,68 @@
+{
+  "state": "new-york",
+  "displayName": "New York",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "New York has documented placer gold in several Adirondack Mountain streams, particularly in the Au Sable (named for gold — 'au' is French for gold) and upper Hudson River drainages. Small gold rushes occurred in the North Creek area of Warren County and in Essex County in the 19th century. The Adirondack Park is the primary public land area offering prospecting access, though collecting regulations within the Blue Line (Adirondack Park boundary) are managed by the Adirondack Park Agency and NY DEC.",
+    "keyRules": [
+      "Gold panning on NY State Forest Preserve land (within Adirondack Park) is allowed for non-commercial personal use — New York does not require a specific prospecting permit for recreational hand panning.",
+      "Motorized equipment (suction dredges, pumps) in New York streams requires a Stream Disturbance Permit from the NY DEC — this process has meaningful requirements and is not streamlined for recreational use.",
+      "Within Adirondack Park, the Adirondack Park Agency (APA) has jurisdiction over land use — prospecting on Wild Forest land is allowed, but Wilderness and Primitive areas may have additional restrictions.",
+      "Collecting in designated Wild, Scenic, and Recreational River corridors in the Adirondacks may face additional APA restrictions.",
+      "New York state parks prohibit mineral and rock collecting — focus on Adirondack Forest Preserve (state forest) land."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "New York does not have a state HPA system. The NY DEC Stream Disturbance Permit program governs any significant in-stream work. For recreational hand panning with no significant streambed disturbance on State Forest Preserve land, no specific permit is required. Contact NY DEC Region 5 (Warrensburg) for Adirondack-specific guidance.",
+    "suctionDredgeStatus": "Regulated and not commonly practiced. Suction dredging in New York streams requires a NY DEC Stream Disturbance Permit. Many Adirondack streams are in protected wild river corridors with additional restrictions. Hand panning is the practical choice for recreational prospectors.",
+    "handPanning": "Hand panning is allowed on NY State Forest Preserve (Wild Forest) land in the Adirondacks without a specific prospecting permit. The Au Sable River and upper Hudson River tributaries are the best targets. Confirm land classification (Wild Forest vs. Wilderness) with NY DEC before going — Wilderness areas may restrict collecting activities.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [
+    {
+      "name": "Upper Hudson River / North Creek Area (Adirondack Wild Forest)",
+      "county": "Warren",
+      "description": "The upper Hudson River near North Creek in Warren County was the site of a small but genuine gold rush in the 1860s. The Indian River tributary and surrounding drainages of the Adirondack foothills produced placer gold that attracted significant local interest. NY DEC-managed Wild Forest land along these drainages offers public access for recreational hand panning. The gold is fine to flour-grade placer.",
+      "goldType": "placer",
+      "landManagement": "State",
+      "permitRequired": false,
+      "permitNotes": "Open for recreational prospecting on Wild Forest land. Verify land classification (Wild Forest, not Wilderness) via NY DEC or APA mapping. Contact NY DEC Region 5 Warrensburg office for current access guidance.",
+      "url": "https://www.dec.ny.gov/lands/5560.html",
+      "urlLabel": "NY DEC Adirondack Forest Preserve"
+    },
+    {
+      "name": "Au Sable River Drainage (Essex County)",
+      "county": "Essex",
+      "description": "The Au Sable River system drains much of the high Adirondacks in Essex County. The river's name — French for 'with sand/gold' — reflects early French explorer recognition of gold in the watershed. The West Branch Au Sable and its tributaries flow through Adirondack Wild Forest land and have historical placer gold occurrences. This is a beautiful prospecting destination in classic Adirondack scenery.",
+      "goldType": "placer",
+      "landManagement": "State",
+      "permitRequired": false,
+      "permitNotes": "Open on NY State Forest Preserve Wild Forest land. The Au Sable River has designated Wild and Scenic River segments — check APA and DEC for specific restrictions in protected corridor sections. Contact NY DEC Region 5 for guidance.",
+      "url": "https://www.dec.ny.gov/lands/5560.html",
+      "urlLabel": "NY DEC Adirondack Forest Preserve"
+    }
+  ],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "NY DEC Adirondack Forest Preserve",
+      "url": "https://www.dec.ny.gov/lands/5560.html",
+      "description": "New York Department of Environmental Conservation — manages Adirondack Wild Forest land open to recreational prospecting."
+    },
+    {
+      "title": "Adirondack Park Agency (APA)",
+      "url": "https://apa.ny.gov",
+      "description": "Oversees land use within the Adirondack Park Blue Line — provides land classification maps showing Wild Forest vs. Wilderness areas."
+    },
+    {
+      "title": "New York State Geological Survey",
+      "url": "https://www.nysm.nysed.gov/research-collections/geology/nysgs",
+      "description": "State geological survey with geologic maps and mineral occurrence data for New York, including Adirondack gold occurrences."
+    },
+    {
+      "title": "NY DEC Region 5 (Warrensburg)",
+      "url": "https://www.dec.ny.gov/about/558.html",
+      "description": "Regional DEC office for the southern Adirondacks and Warren County gold country — primary contact for Adirondack prospecting guidance."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
