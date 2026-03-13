@@ -32,6 +32,9 @@ export function getNews(): NewsData {
   }
 }
 
+// Re-export isRecent from the client-safe utils module
+export { isRecent } from './news-utils';
+
 /**
  * Filter articles by category.
  * - For 'national': returns all national articles (state param ignored).

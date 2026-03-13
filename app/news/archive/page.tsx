@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react';
 import PageHeader from '@/components/PageHeader';
 import type { NewsArticle, NewsData } from '@/lib/news';
-import { isRecent } from '@/lib/news-utils';
+// isRecent is available via @/lib/news-utils if needed for future filtering
 
 const STATES = [
   'Alaska',
@@ -88,7 +88,7 @@ function EmptySection({ category, state }: { category: string; state: string }) 
   const stateLabel = state ? ` ${state}` : '';
   return (
     <p className="text-earth-500 dark:text-earth-400 italic text-sm py-4">
-      No{stateLabel} {label.toLowerCase()} stories yet — check back soon.
+      No{stateLabel} {label.toLowerCase()} stories in the archive yet.
     </p>
   );
 }
@@ -132,30 +132,46 @@ function NewsSection({
   );
 }
 
-export default function NewsPage() {
+export default function NewsArchivePage() {
   const [selectedState, setSelectedState] = useState('');
   const [newsData, setNewsData] = useState<NewsData>({ lastUpdated: '', articles: [] });
 
   useEffect(() => {
     fetch('/api/news')
       .then((r) => r.json())
-      .then((data: NewsData) => setNewsData(data))
+      .then((data: NewsData) => {
+        // Sort all articles by date descending — no cutoff
+        const sorted = [...data.articles].sort(
+          (a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
+        );
+        setNewsData({ ...data, articles: sorted });
+      })
       .catch(() => {
         // silently fall back to empty state
       });
   }, []);
 
-  const { articles: allArticles, lastUpdated } = newsData;
-  const articles = allArticles.filter((a) => isRecent(a, 30));
+  const { articles, lastUpdated } = newsData;
 
   return (
     <main className="min-h-screen bg-earth-50 dark:bg-dark-bg">
       <PageHeader
-        title="News & Updates"
-        subtitle="Stay informed with the latest prospecting news and industry updates."
+        title="News Archive"
+        subtitle="Historical coverage of gold prospecting news"
       />
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+        {/* Back to News */}
+        <div className="mb-8">
+          <a
+            href="/news"
+            className="inline-block rounded-lg px-6 py-3 text-sm font-semibold text-gold-400 border-2 border-gold-400 hover:bg-gold-400 hover:text-[#1C2526] transition-colors"
+            style={{ backgroundColor: '#1C2526' }}
+          >
+            ← Back to News
+          </a>
+        </div>
 
         {/* Top bar — filter + last updated */}
         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-12">
@@ -191,6 +207,15 @@ export default function NewsPage() {
           )}
         </div>
 
+        {/* Archive note */}
+        <div className="mb-10 p-4 rounded-lg border border-gold-400 bg-gold-50 dark:bg-dark-surface">
+          <p className="text-sm text-earth-700 dark:text-earth-300">
+            📁 <strong>You&apos;re browsing the full archive.</strong> All articles are preserved here —
+            the main <a href="/news" className="text-gold-600 underline hover:text-gold-700">News page</a> shows
+            only the last 30 days.
+          </p>
+        </div>
+
         {/* News sections */}
         <div className="space-y-16">
           <NewsSection
@@ -213,32 +238,15 @@ export default function NewsPage() {
           />
         </div>
 
-        {/* Archive link */}
-        <div className="mt-12 text-center">
+        {/* Back link at bottom */}
+        <div className="mt-16 text-center">
           <a
-            href="/news/archive"
+            href="/news"
             className="inline-block rounded-lg px-8 py-4 text-base font-semibold text-gold-400 border-2 border-gold-400 hover:bg-gold-400 hover:text-[#1C2526] transition-colors"
             style={{ backgroundColor: '#1C2526' }}
           >
-            📁 Browse News Archive →
+            ← Back to News
           </a>
-          <p className="mt-2 text-sm text-earth-500 dark:text-earth-400">
-            Older articles (30+ days) are preserved in the archive
-          </p>
-        </div>
-
-        {/* Subscribe callout */}
-        <div className="mt-20 bg-white dark:bg-dark-surface rounded-lg shadow-md border border-earth-200 dark:border-earth-700 p-8 sm:p-12 text-center">
-          <h2 className="text-2xl font-bold text-earth-900 dark:text-dark-text mb-4">
-            Don&apos;t Miss Important Updates
-          </h2>
-          <p className="text-earth-700 dark:text-earth-300 mb-6 max-w-2xl mx-auto">
-            Subscribe to our newsletter to receive the latest news, guides, and prospecting tips
-            delivered to your inbox.
-          </p>
-          <button className="bg-gold-600 hover:bg-gold-700 text-white font-semibold py-3 px-8 rounded-lg transition-colors">
-            Subscribe to Newsletter
-          </button>
         </div>
       </div>
     </main>
