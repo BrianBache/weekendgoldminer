@@ -1,0 +1,122 @@
+{
+  "state": "oregon",
+  "displayName": "Oregon",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Oregon requires suction dredge operators to obtain a permit from the Oregon Department of Fish and Wildlife (ODFW) under Oregon Administrative Rules 635-412. The rules vary significantly by watershed — some rivers are permanently closed to dredging, others have seasonal windows, and some are more open. Southwestern Oregon (Josephine and Jackson counties) historically has more permissive dredging rules than coastal watersheds. The Oregon Dept. of State Lands (DSL) may also require a Removal-Fill Permit for significant in-water work. Non-motorized hand panning is generally allowed on open public lands without a permit.",
+    "keyRules": [
+      "Suction dredging requires an ODFW Suction Dredge Permit. Applications are available through ODFW. Rules vary by waterway under OAR 635-412 — obtain the current schedule of open/closed waters before any trip.",
+      "Many rivers with salmon and steelhead runs are either permanently closed or have strict seasonal windows for dredging. Consult the ODFW suction dredge schedule for your specific waterway before planning a trip.",
+      "The Illinois River within the Kalmiopsis Wilderness is designated Wilderness — all motorized equipment including suction dredges is prohibited year-round in the Wilderness boundary.",
+      "Oregon Dept. of State Lands (DSL) may require a Removal-Fill Permit (ORS 196.795) for in-stream activities involving significant material removal. Check with DSL for your specific location and planned activity.",
+      "On federal land (BLM or USFS), verify with the land management agency before any ground-disturbing activity beyond hand panning — additional notification or a Plan of Operations may be required.",
+      "Check BLM MLRS for existing mining claims before prospecting on any public parcel — claimed ground is off-limits without the claimant's permission."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Oregon does not use an HPA system. Instead, ODFW issues suction dredge permits under OAR 635-412. Oregon DSL may also require a Removal-Fill Permit (ORS 196.795) for significant in-water work. Contact ODFW and Oregon DSL for your specific waterway and planned activity before beginning.",
+    "suctionDredgeStatus": "Permitted in many Oregon watersheds but requires an annual ODFW Suction Dredge Permit. Significant variation by watershed — southwestern Oregon rivers (Applegate, upper Rogue tributaries) are generally more accessible than coastal streams. Some waters permanently closed. Seasonal windows typically mirror salmon and steelhead spawning protection periods. Contact ODFW for current permit requirements and a list of open waters.",
+    "handPanning": "Hand panning with non-motorized equipment is generally allowed on open public lands in Oregon without a state permit. You must obtain landowner permission on private land. Non-motorized sluicing is also generally allowed without an ODFW permit, though DSL Removal-Fill requirements may apply if material disturbance is significant.",
+    "disclaimer": "Oregon's in-water rules vary significantly by watershed and change periodically. Always verify current rules with ODFW and Oregon DSL before any in-water activity. Federal land managers (BLM, USFS) may impose additional restrictions. Do not assume rules in one watershed apply to another."
+  },
+  "publicLocations": [
+    {
+      "name": "Applegate River Watershed",
+      "county": "Jackson / Josephine",
+      "description": "The Applegate River and its tributaries in Jackson and Josephine counties form one of Oregon's most historically productive placer gold districts. The watershed includes significant Rogue River-Siskiyou National Forest land, and the area around Buncom and the upper Applegate has been continuously prospected since the 1850s. Multiple creek drainages — including Palmer Creek, Beaver Creek, and the Little Applegate — are popular with recreational panners.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Hand panning allowed without permit on Rogue River-Siskiyou NF lands. Suction dredging requires ODFW permit and compliance with OAR 635-412 seasonal rules for the Applegate watershed. Contact the Siskiyou Mountains Ranger District for access specifics.",
+      "url": "https://www.fs.usda.gov/rogue-siskiyou",
+      "urlLabel": "Rogue River-Siskiyou National Forest"
+    },
+    {
+      "name": "Illinois River Corridor (Josephine / Curry Counties)",
+      "county": "Josephine / Curry",
+      "description": "The Illinois River flows through some of Oregon's most rugged terrain, including the Kalmiopsis Wilderness. The river and its tributaries have produced placer gold since the 1800s, particularly in canyon sections below the Wilderness boundary. Within the Kalmiopsis Wilderness, all motorized equipment is prohibited — hand panning only. Sections outside the Wilderness on Rogue River-Siskiyou NF lands may allow permitted dredging.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Within the Kalmiopsis Wilderness: hand panning only, no motorized equipment permitted. Outside the Wilderness on NF lands: suction dredging requires ODFW permit. The Illinois River is designated Wild and Scenic — additional restrictions may apply. Contact the Wild Rivers Ranger District before visiting.",
+      "url": "https://www.fs.usda.gov/rogue-siskiyou",
+      "urlLabel": "Rogue River-Siskiyou National Forest"
+    },
+    {
+      "name": "Cracker Creek / Sumpter Area (Baker County)",
+      "county": "Baker",
+      "description": "Cracker Creek near Sumpter in Baker County was one of Oregon's major gold districts, heavily worked by bucket-line dredges in the early 1900s. The tailings piles left by those dredges are preserved at the Sumpter Valley Dredge State Heritage Area. Public lands administered by the Wallowa-Whitman National Forest and BLM Baker Field Office offer prospecting opportunities in surrounding drainages including Granite Creek and nearby tributary creeks.",
+      "goldType": "placer",
+      "landManagement": "Mixed",
+      "permitRequired": false,
+      "permitNotes": "Hand panning allowed on open USFS and BLM lands. Check MLRS for existing mining claims. Suction dredging requires ODFW permit and compliance with eastern Oregon dredge rules. Contact BLM Baker Field Office or Wallowa-Whitman NF for current access.",
+      "url": "https://www.fs.usda.gov/wallowa-whitman",
+      "urlLabel": "Wallowa-Whitman National Forest"
+    },
+    {
+      "name": "John Day River Basin",
+      "county": "Grant / Wheeler / Gilliam",
+      "description": "The John Day River and its tributaries (North Fork, Middle Fork, South Fork) flow through central Oregon's high desert and have yielded placer gold in various drainages. The watershed includes BLM lands administered by the Prineville District. The John Day is designated Wild and Scenic in portions — check land status carefully before prospecting any specific section.",
+      "goldType": "placer",
+      "landManagement": "BLM",
+      "permitRequired": false,
+      "permitNotes": "Hand panning on open BLM lands generally permitted. Verify land status and mining claim status via MLRS. Suction dredging requires ODFW permit. Wild and Scenic designation in portions may add additional restrictions — contact BLM Prineville District for current rules.",
+      "url": "https://www.blm.gov/office/prineville-district-office",
+      "urlLabel": "BLM Prineville District Office"
+    }
+  ],
+  "privateLocations": [
+    {
+      "name": "Gold Prospectors Association of America (GPAA)",
+      "location": "Oregon statewide (national organization with OR claims)",
+      "description": "The GPAA maintains mining claims accessible to members in southwestern Oregon and other productive districts. GPAA/LDMA claims can be especially valuable in the Josephine and Jackson county areas where specific creek drainages are already claimed.",
+      "accessModel": "Membership",
+      "estimatedCost": "Varies — see current pricing at gpaastore.com",
+      "url": "https://gpaastore.com/pages/membership-in-the-gold-prospectors-association-of-america",
+      "notes": "Confirm that any Oregon GPAA claims you plan to visit are in waters and seasons where your intended method is legal under current ODFW rules for that specific watershed."
+    }
+  ],
+  "blmResources": [
+    {
+      "name": "BLM Oregon/Washington State Office",
+      "description": "The BLM Oregon/Washington State Office oversees BLM lands across Oregon, including major gold-producing districts in Josephine, Jackson, and Baker counties.",
+      "url": "https://www.blm.gov/oregon-washington"
+    },
+    {
+      "name": "BLM Medford District Office",
+      "description": "Administers BLM lands in southwestern Oregon — Jackson and Josephine counties — covering much of Oregon's Applegate and Illinois River gold country.",
+      "url": "https://www.blm.gov/office/medford-district-office"
+    },
+    {
+      "name": "BLM Baker Field Office",
+      "description": "Administers BLM lands in Baker County and surrounding eastern Oregon, including the Cracker Creek and upper Powder River drainage gold areas.",
+      "url": "https://www.blm.gov/office/baker-field-office"
+    },
+    {
+      "name": "BLM Prineville District Office",
+      "description": "Administers BLM lands in central Oregon, including the John Day River basin and surrounding drainages.",
+      "url": "https://www.blm.gov/office/prineville-district-office"
+    },
+    {
+      "name": "Mineral & Land Records System (MLRS)",
+      "description": "BLM's online system for checking mining claim status across Oregon — confirm a parcel is open before prospecting any BLM land.",
+      "url": "https://mlrs.blm.gov"
+    },
+    {
+      "name": "BLM Locatable Minerals Program",
+      "description": "Federal program governing hardrock mining claims on BLM lands under the Mining Law of 1872.",
+      "url": "https://www.blm.gov/programs/energy-and-minerals/mining-and-minerals/locatable-minerals"
+    }
+  ],
+  "dnrResources": [
+    {
+      "name": "Oregon Dept. of Fish and Wildlife (ODFW)",
+      "description": "ODFW administers suction dredge permits in Oregon under OAR 635-412. The ODFW website has current permit information, the schedule of open and closed waters, and seasonal windows by watershed. Start here before planning any motorized in-water prospecting in Oregon.",
+      "url": "https://myodfw.com"
+    },
+    {
+      "name": "Oregon Dept. of State Lands (DSL)",
+      "description": "DSL administers Removal-Fill Permits (ORS 196.795) for in-stream work that disturbs significant quantities of material. May be required for suction dredge operations or large sluicing setups in Oregon waters.",
+      "url": "https://www.oregon.gov/dsl"
+    }
+  ]
+}

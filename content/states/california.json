@@ -1,0 +1,153 @@
+{
+  "state": "california",
+  "displayName": "California",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "California has the most restrictive suction dredge regulations in the western United States. Suction dredging has been effectively banned since 2009, when the California Department of Fish and Wildlife (CDFW) stopped issuing permits while conducting a Programmatic Environmental Impact Report (PEIR) required under CEQA and the federal Endangered Species Act. California Fish and Game Code Section 5653.1 imposed a statutory moratorium. As of 2026, no new suction dredge permits are being issued statewide. Hand panning and non-motorized sluicing remain legal in many areas, and California's Gold Rush belt offers outstanding recreational panning opportunities even without motorized equipment.",
+    "keyRules": [
+      "Suction dredging is prohibited statewide. CDFW has not issued suction dredge permits since 2009 due to a moratorium under California Fish and Game Code Section 5653.1. The moratorium remains in effect as of 2026.",
+      "Hand panning and non-motorized sluicing are legal in California and do not require a CDFW permit. Land access rules (USFS, BLM, State Parks) still apply — confirm with the land manager before visiting.",
+      "On federal land (USFS or BLM), non-motorized recreational prospecting is generally allowed without a Plan of Operations for minimal-impact hand tool activities. Verify with the specific forest or field office.",
+      "Some California State Parks and recreation areas specifically allow gold panning — check individual park rules. Auburn State Recreation Area and Columbia State Historic Park are notable examples that welcome panners.",
+      "Water diversion, even for a highbanker or motorized sluice, may require a water right permit from the State Water Resources Control Board.",
+      "Mining claim status: Much of the Motherlode is heavily claimed. Always verify via BLM MLRS before prospecting any public parcel."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "California does not use an HPA system. CDFW regulates suction dredging under Fish and Game Code Section 5653, but has not issued permits since 2009. For non-motorized activities, no CDFW permit is required. Army Corps Section 404 permits and State Water Board review may still apply for any significant in-water work.",
+    "suctionDredgeStatus": "Effectively banned statewide. California has not issued suction dredge permits since 2009 when a moratorium was imposed pending completion of a CDFW Programmatic Environmental Impact Report. California Fish and Game Code Section 5653.1 formalized the moratorium. As of 2026, this moratorium remains in effect and no suction dredge permits are being issued anywhere in California.",
+    "handPanning": "Hand panning is legal throughout California on open public lands and at State Parks that specifically allow it. No CDFW permit is required for hand panning. Auburn State Recreation Area (American River) and Marshall Gold Discovery State Historic Park (Coloma) are well-known panning destinations. Always confirm with the specific land manager before visiting.",
+    "disclaimer": "California's suction dredge moratorium has been subject to ongoing legal challenges since 2009. Always verify current status with CDFW before any in-water activity. Rules on state vs. federal land can differ — check with both the state agency and the federal land manager before your trip."
+  },
+  "publicLocations": [
+    {
+      "name": "Auburn State Recreation Area (American River)",
+      "county": "Placer / El Dorado",
+      "description": "The Auburn State Recreation Area (ASRA) along the North and Middle Forks of the American River is one of the most accessible and well-established gold panning destinations in California. California State Parks manages this area and allows recreational gold panning with non-motorized hand tools. The American River has been a productive gold source since James Marshall's 1848 discovery at Coloma just upstream. ASRA offers significant public river access, multiple trailheads, and a mix of canyon terrain ideal for recreational prospecting.",
+      "goldType": "placer",
+      "landManagement": "State Parks",
+      "permitRequired": false,
+      "permitNotes": "Gold panning with hand tools allowed at Auburn SRA — no state permit required. No suction dredge permits available anywhere in California. Day-use parking fees may apply. Contact California State Parks for current rules and closures.",
+      "url": "https://www.parks.ca.gov/?page_id=502",
+      "urlLabel": "Auburn State Recreation Area — California State Parks"
+    },
+    {
+      "name": "Motherlode Country (El Dorado / Amador / Calaveras / Tuolumne Counties)",
+      "county": "El Dorado / Amador / Calaveras / Tuolumne",
+      "description": "The Sierra Nevada foothills from Mariposa County north to Nevada County form California's historic Gold Rush belt — the Motherlode. This region produced the vast majority of California's historic gold output and remains the most popular destination for recreational gold panners. Public land portions fall within the Eldorado and Stanislaus National Forests and BLM Mother Lode Field Office lands. Countless creek drainages yield fine placer gold, but much of the best ground is private or claimed.",
+      "goldType": "placer",
+      "landManagement": "Mixed",
+      "permitRequired": false,
+      "permitNotes": "Hand panning allowed on open USFS and BLM lands. No suction dredge permits available statewide. Verify mining claim status on MLRS. Much of the Motherlode is heavily claimed — contact BLM Mother Lode Field Office or relevant USFS ranger district to identify open areas before visiting.",
+      "url": "https://www.blm.gov/office/mother-lode-field-office",
+      "urlLabel": "BLM Mother Lode Field Office"
+    },
+    {
+      "name": "Yuba River (North, South, and Middle Forks)",
+      "county": "Sierra / Nevada / Yuba",
+      "description": "The Yuba River and its three forks flowing from the northern Sierra Nevada have been prospected continuously since the 1850s. The North Yuba corridor in particular, running through the Tahoe National Forest, offers significant public land access and productive gravel bars for hand panning. Several locations along the North Yuba on Tahoe NF land are established panning spots accessible by road.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Hand panning allowed on Tahoe NF lands. No suction dredge permits available statewide. South Yuba River State Park has specific rules — check with California State Parks. Verify mining claim status on MLRS for any NF parcel you plan to work.",
+      "url": "https://www.fs.usda.gov/tahoe",
+      "urlLabel": "Tahoe National Forest"
+    },
+    {
+      "name": "Feather River (Middle Fork, Plumas County)",
+      "county": "Plumas",
+      "description": "The Middle Fork of the Feather River in Plumas County cuts through rugged gold country, with a Wild and Scenic River designation over much of its length. The Plumas National Forest administers the surrounding public lands. Gold occurs in river gravels throughout the drainage and the canyon offers rewarding panning access. The town of Quincy serves as the primary base for the area.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Hand panning allowed on Plumas NF lands. Wild and Scenic designation may limit some activities — confirm with the Feather River Ranger District before visiting. No suction dredge permits available statewide.",
+      "url": "https://www.fs.usda.gov/plumas",
+      "urlLabel": "Plumas National Forest"
+    },
+    {
+      "name": "Trinity River Corridor (Trinity County)",
+      "county": "Trinity / Humboldt",
+      "description": "The Trinity River and its tributaries in Trinity County are part of California's northern gold belt. Six Rivers National Forest and significant BLM lands provide public access along the river corridor. The Trinity is also critical salmon and steelhead habitat, so it would face additional restrictions for any in-water work even if the statewide dredge moratorium were lifted. Current hand panning on public land remains viable.",
+      "goldType": "placer",
+      "landManagement": "Mixed",
+      "permitRequired": false,
+      "permitNotes": "Hand panning on Six Rivers NF and BLM lands allowed. No suction dredge permits available statewide. Contact the Six Rivers NF Lower Trinity Ranger District for current access and local restrictions.",
+      "url": "https://www.fs.usda.gov/srnf",
+      "urlLabel": "Six Rivers National Forest"
+    },
+    {
+      "name": "Marshall Gold Discovery State Historic Park (Coloma)",
+      "county": "El Dorado",
+      "description": "The site of James Marshall's January 24, 1848 gold discovery at Sutter's Mill in Coloma is preserved as a California State Historic Park. The park offers hands-on gold panning programs, a museum, and access to the South Fork American River where it all started. An excellent introduction to California gold history and a legitimate panning location.",
+      "goldType": "placer",
+      "landManagement": "State Parks",
+      "permitRequired": false,
+      "permitNotes": "Guided gold panning available through the park. No CDFW permit required for hand panning. Day-use fee applies. Contact California State Parks for current hours and panning program availability.",
+      "url": "https://www.parks.ca.gov/?page_id=484",
+      "urlLabel": "Marshall Gold Discovery State Historic Park — California State Parks"
+    }
+  ],
+  "privateLocations": [
+    {
+      "name": "Gold Bug Park and Mine — City of Placerville",
+      "location": "Placerville, El Dorado County, CA",
+      "description": "Gold Bug Park is a City of Placerville-owned historic mine site offering guided hard rock mine tours and gold panning demonstrations. It is one of the few publicly accessible historic hard rock mines in the Motherlode and an excellent introduction to California gold mining history. Day-use facility with a gift shop and interpretive exhibits.",
+      "accessModel": "Day use / Admission fee",
+      "estimatedCost": "Admission fee applies — see the City of Placerville website for current pricing",
+      "url": "https://www.placerville.net",
+      "notes": "Gold Bug Park is primarily an educational and recreational facility. The panning is demonstration-style rather than serious prospecting. Excellent for beginners and families visiting the Motherlode."
+    },
+    {
+      "name": "Gold Prospectors Association of America (GPAA)",
+      "location": "California statewide (national organization with CA claims)",
+      "description": "GPAA maintains mining claims in California's Motherlode country and other regions. Membership provides access to the GPAA/LDMA claim network. Given the statewide suction dredge ban, all California GPAA operations are hand tool only.",
+      "accessModel": "Membership",
+      "estimatedCost": "Varies — see current pricing at gpaastore.com",
+      "url": "https://gpaastore.com/pages/membership-in-the-gold-prospectors-association-of-america",
+      "notes": "All California operations are hand tool only given the suction dredge moratorium. Verify claim access and any applicable local restrictions before visiting any California GPAA claim."
+    }
+  ],
+  "blmResources": [
+    {
+      "name": "BLM California State Office",
+      "description": "Administers BLM lands across California including portions of the Sierra Nevada foothills, northern California gold country, and desert placer areas.",
+      "url": "https://www.blm.gov/california"
+    },
+    {
+      "name": "BLM Mother Lode Field Office",
+      "description": "Administers BLM lands in the heart of the Sierra Nevada foothills gold country — El Dorado, Amador, Tuolumne, Mariposa, and surrounding Motherlode counties. The primary BLM contact for recreational prospectors in the classic California Gold Rush region.",
+      "url": "https://www.blm.gov/office/mother-lode-field-office"
+    },
+    {
+      "name": "BLM Redding Field Office",
+      "description": "Administers BLM lands in northern California including Trinity County and portions of the northern gold belt.",
+      "url": "https://www.blm.gov/office/redding-field-office"
+    },
+    {
+      "name": "Mineral & Land Records System (MLRS)",
+      "description": "BLM's online claim status lookup — essential in California where much of the Motherlode is heavily claimed. Confirm ground is open before prospecting any BLM parcel.",
+      "url": "https://mlrs.blm.gov"
+    },
+    {
+      "name": "BLM Locatable Minerals Program",
+      "description": "Federal program governing hardrock mining claims on BLM lands under the Mining Law of 1872.",
+      "url": "https://www.blm.gov/programs/energy-and-minerals/mining-and-minerals/locatable-minerals"
+    }
+  ],
+  "dnrResources": [
+    {
+      "name": "California Dept. of Fish and Wildlife (CDFW)",
+      "description": "CDFW is the state agency that regulates suction dredge mining under California Fish and Game Code Section 5653. The moratorium on new permits has been in effect since 2009. Check the CDFW website for current moratorium status and any updates to the suction dredge PEIR process.",
+      "url": "https://wildlife.ca.gov"
+    },
+    {
+      "name": "California Dept. of Conservation",
+      "description": "The Dept. of Conservation regulates surface mining operations under the Surface Mining and Reclamation Act (SMARA). Relevant for understanding California's broader mining regulatory framework, though most recreational prospectors operate below SMARA thresholds.",
+      "url": "https://www.conservation.ca.gov"
+    },
+    {
+      "name": "California State Parks — Gold Panning",
+      "description": "California State Parks manages several historic mining sites that allow recreational gold panning, including Auburn State Recreation Area and Marshall Gold Discovery State Historic Park.",
+      "url": "https://www.parks.ca.gov"
+    }
+  ]
+}

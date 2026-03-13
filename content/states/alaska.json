@@ -1,0 +1,137 @@
+{
+  "state": "alaska",
+  "displayName": "Alaska",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Alaska is the most permissive state in the nation for gold prospecting and recreational mining. Suction dredging is legal with appropriate permits from the Alaska Dept. of Fish and Game (ADF&G) for operations in anadromous fish waters. Hand panning on open state and federal land requires no permit in most areas. Alaska's enormous land base — 67% of the state under federal management, with significant state land also open to mining — offers unmatched opportunity. The Fairbanks area is the most productive recreational gold mining region in the United States, and Nome's beaches offer a unique open-access prospecting experience unlike anywhere else.",
+    "keyRules": [
+      "Hand panning is allowed without a permit on most open state and federal public lands in Alaska. This is a significant difference from the lower 48 states.",
+      "Suction dredging in waters classified as anadromous fish habitat requires a Fish Habitat Permit from ADF&G under Alaska Statute 16.05.871. Permits specify operational conditions, seasonal windows, and equipment restrictions.",
+      "On BLM land, recreational hand panning is generally allowed without a Plan of Operations for minimal-impact activities. Suction dredge operations may trigger notice requirements depending on acreage disturbed.",
+      "The Nome beach foreshore (Bering Sea beachface between high and low tide) is open to recreational hand mining without a permit. The beach is state public land managed by Alaska DNR.",
+      "Alaska Dept. of Environmental Conservation (ADEC) may require water quality permits for turbidity discharge from dredge operations depending on scale and location.",
+      "State mining claims can be staked on available Alaska state land through Alaska DNR Division of Mining, Land and Water — an option for serious prospectors who find productive ground."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Alaska does not use an HPA system. Instead, ADF&G issues Fish Habitat Permits (Alaska Statute 16.05.871) for in-water work in anadromous fish streams — the equivalent of Washington's HPA. For non-anadromous streams, no ADF&G permit may be required. Contact your local ADF&G region office to confirm the classification of any specific waterway before beginning in-water work.",
+    "suctionDredgeStatus": "Legal in Alaska with appropriate permits. Suction dredging in anadromous fish waters requires an ADF&G Fish Habitat Permit. Applications are submitted to the local ADF&G region office. Permits typically specify nozzle size, seasonal windows, operational methods, and other conditions. Alaska is one of the few states where recreational suction dredging remains actively permitted and widely practiced.",
+    "handPanning": "Hand panning is allowed on open state and federal public land in Alaska without a permit. The Nome beach foreshore is one of the world's most famous open-access hand panning areas. On BLM and USFS land, minimal-impact hand prospecting is generally allowed without notice. Always confirm land status before prospecting — some areas are under active mining claims or subject to special closures.",
+    "disclaimer": "Alaska's mining regulations vary significantly by land type (state, BLM, USFS, National Park, etc.) and by watershed classification. Some areas — particularly National Parks, Wildlife Refuges, and Wilderness areas — have strict restrictions or prohibit mining entirely. Always confirm land status and waterway classification with the relevant agency before beginning any mining activity."
+  },
+  "publicLocations": [
+    {
+      "name": "Fairbanks Mining District (Goldstream, Pedro Creek, Ester Creek Area)",
+      "county": "Fairbanks North Star Borough",
+      "description": "The Fairbanks mining district in interior Alaska is the most productive recreational gold mining area in the United States. Streams including Goldstream Creek, Pedro Creek, Ester Creek, Engineer Creek, and Cleary Creek have produced gold since Felix Pedro's discovery in 1902. The area is a mix of private mining claims, state land, and BLM land. Numerous recreational mining opportunities exist on BLM and state land between and around active commercial operations. The active mining community in the Fairbanks area often welcomes recreational miners.",
+      "goldType": "placer",
+      "landManagement": "Mixed",
+      "permitRequired": false,
+      "permitNotes": "Hand panning and suction dredging (with ADF&G Fish Habitat Permit where required) available in the Fairbanks district on open public land. Many of the best producing creeks are under active claims — verify status via MLRS (BLM land) or Alaska DNR mining records before working any specific site. Contact BLM Fairbanks District Office for current open areas.",
+      "url": "https://www.blm.gov/office/fairbanks-district-office",
+      "urlLabel": "BLM Fairbanks District Office"
+    },
+    {
+      "name": "Nome Beaches (Bering Sea Foreshore)",
+      "county": "Nome Census Area",
+      "description": "Nome's beaches along the Bering Sea are one of the world's most unique recreational gold mining areas. Gold washes up continuously from offshore submarine deposits, making the Nome beach a perpetually replenishing source of placer gold. The beach foreshore (between high and low tide marks) is state public land open to recreational hand mining and small mechanized equipment. Nome draws recreational miners from across the world each summer. It is genuinely possible to recover measurable gold on the Nome beach as a casual visitor.",
+      "goldType": "placer",
+      "landManagement": "State",
+      "permitRequired": false,
+      "permitNotes": "The Nome beach foreshore is open to recreational prospecting. Contact Alaska DNR for current regulations on equipment size and operational rules on the beach. Some portions of the Nome coast are under mining claims, particularly offshore dredge operations. Stay on the foreshore unless you have claim access.",
+      "url": "https://dnr.alaska.gov/mlw/mining/",
+      "urlLabel": "Alaska DNR Division of Mining, Land and Water"
+    },
+    {
+      "name": "Resurrection Creek (Hope, Kenai Peninsula)",
+      "county": "Kenai Peninsula Borough",
+      "description": "Resurrection Creek near the town of Hope on the Kenai Peninsula has been one of Alaska's most popular recreational suction dredging areas for decades. The creek and surrounding drainages on the Chugach National Forest have produced gold since the 1890s Hope gold rush. Multiple recreational dredging sites are accessible from the Hope Highway. Hope is just over 80 miles from Anchorage, making it the most accessible high-quality dredging area for Alaska's largest population center.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Hand panning allowed without permit on Chugach NF lands. Suction dredging requires an ADF&G Fish Habitat Permit (Resurrection Creek is anadromous fish habitat). Contact the Chugach NF Seward Ranger District for current access details. The creek is very popular in summer — plan ahead.",
+      "url": "https://www.fs.usda.gov/chugach",
+      "urlLabel": "Chugach National Forest"
+    },
+    {
+      "name": "Hatcher Pass Area (Matanuska-Susitna Valley)",
+      "county": "Matanuska-Susitna Borough",
+      "description": "Hatcher Pass in the Talkeetna Mountains north of Palmer has been a productive gold area since the early 1900s. The Independence Mine (now a state historical park) was one of Alaska's largest hardrock gold producers. Surrounding state land in the Hatcher Pass Management Area is administered by Alaska State Parks and includes recreational prospecting opportunities in several drainages. Gold Creek and nearby tributaries are historically productive areas.",
+      "goldType": "placer",
+      "landManagement": "State",
+      "permitRequired": false,
+      "permitNotes": "Hatcher Pass Management Area is state land managed by Alaska State Parks. Contact Alaska State Parks for current recreational mining rules. Some drainages may require an ADF&G Fish Habitat Permit for suction dredging. Independence Mine State Historical Park is a museum/visitor site — no mining activity inside the park boundary.",
+      "url": "https://dnr.alaska.gov/parks/",
+      "urlLabel": "Alaska State Parks — Division of Parks and Outdoor Recreation"
+    },
+    {
+      "name": "Fortymile River — BLM Wild and Scenic River Corridor",
+      "county": "Southeast Fairbanks Census Area",
+      "description": "The Fortymile River and its tributaries in eastern interior Alaska form one of the longest continuously worked placer mining districts in North America, active since the 1886 gold discovery. BLM manages the Fortymile Wild and Scenic River corridor, and recreational mining is allowed in designated open areas. This remote river system near the Canadian border is accessible via the Taylor Highway. Both recreational prospectors and commercial operations have worked the Fortymile for more than 130 years.",
+      "goldType": "placer",
+      "landManagement": "BLM",
+      "permitRequired": false,
+      "permitNotes": "Recreational mining allowed in open areas of the BLM Fortymile corridor. Contact BLM Fairbanks District Office for current open sites and any permit requirements for motorized equipment. ADF&G Fish Habitat Permit required for suction dredging in anadromous waters. Remote area — plan for self-sufficiency and carry communications.",
+      "url": "https://www.blm.gov/office/fairbanks-district-office",
+      "urlLabel": "BLM Fairbanks District Office"
+    }
+  ],
+  "privateLocations": [
+    {
+      "name": "El Dorado Gold Mine — Fairbanks Area",
+      "location": "Fox, AK (near Fairbanks)",
+      "description": "El Dorado Gold Mine near Fairbanks has operated gold panning tours for decades on an active permitted mining operation. Visitors can pan for real placer gold in concentrates from the mine's production. This is an excellent introduction to Alaska gold mining, especially for families or first-time visitors to the Fairbanks area.",
+      "accessModel": "Day tour / Paid admission",
+      "estimatedCost": "Typically $30–$75 per person for guided tours — see current pricing at website",
+      "url": "https://www.eldoradogoldmine.com",
+      "notes": "El Dorado Gold Mine is a legitimate working gold mine with a long history. Tours are educational and well-run. Gold kept from panning is typically included in the tour price."
+    },
+    {
+      "name": "Gold Prospectors Association of America (GPAA)",
+      "location": "Alaska statewide (national organization with AK claims)",
+      "description": "GPAA maintains mining claims in Alaska accessible to members, including interior and Kenai Peninsula sites. Given Alaska's relatively permissive mining environment, GPAA Alaska claims can offer access to productive ground where suction dredging (with ADF&G permit) and other motorized methods may be used.",
+      "accessModel": "Membership",
+      "estimatedCost": "Varies — see current pricing at gpaastore.com",
+      "url": "https://gpaastore.com/pages/membership-in-the-gold-prospectors-association-of-america",
+      "notes": "Confirm Alaska-specific GPAA claim locations and ADF&G Fish Habitat Permit requirements before visiting any Alaska GPAA claim involving in-water work."
+    }
+  ],
+  "blmResources": [
+    {
+      "name": "BLM Alaska State Office",
+      "description": "Administers over 72 million acres of public land in Alaska — the largest BLM state office in the nation. Manages major gold-producing areas including the Fortymile corridor and interior Alaska mining districts.",
+      "url": "https://www.blm.gov/alaska"
+    },
+    {
+      "name": "BLM Fairbanks District Office",
+      "description": "Manages BLM lands in interior Alaska including the Fairbanks mining district and Fortymile River corridor — the primary BLM office for recreational miners in Alaska's most productive gold region.",
+      "url": "https://www.blm.gov/office/fairbanks-district-office"
+    },
+    {
+      "name": "Mineral & Land Records System (MLRS)",
+      "description": "BLM's online tool for checking mining claim status on Alaska BLM lands. Essential for confirming open ground before prospecting in the Fairbanks and Fortymile districts.",
+      "url": "https://mlrs.blm.gov"
+    },
+    {
+      "name": "BLM Locatable Minerals Program",
+      "description": "Federal program governing hardrock mining claims on BLM lands, including Alaska.",
+      "url": "https://www.blm.gov/programs/energy-and-minerals/mining-and-minerals/locatable-minerals"
+    }
+  ],
+  "dnrResources": [
+    {
+      "name": "Alaska DNR Division of Mining, Land and Water",
+      "description": "The primary state agency for mining permits and claim staking in Alaska. Administers state mining claims, issues mining permits, and manages the public land mineral estate. An essential first stop for anyone planning to mine on Alaska state land or stake a new state mining claim.",
+      "url": "https://dnr.alaska.gov/mlw/mining/"
+    },
+    {
+      "name": "Alaska Dept. of Fish and Game (ADF&G)",
+      "description": "ADF&G issues Fish Habitat Permits (Alaska Statute 16.05.871) required for in-water work in anadromous fish streams, including suction dredge operations throughout most of coastal and south-central Alaska. Contact your regional ADF&G office for the permit application and current waterway classifications.",
+      "url": "https://www.adfg.alaska.gov"
+    },
+    {
+      "name": "Alaska State Parks — Division of Parks and Outdoor Recreation",
+      "description": "Alaska State Parks manages the Hatcher Pass Management Area and other state lands with recreational mining opportunities. Contact for rules and access information in state park units.",
+      "url": "https://dnr.alaska.gov/parks/"
+    }
+  ]
+}

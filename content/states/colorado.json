@@ -1,0 +1,128 @@
+{
+  "state": "colorado",
+  "displayName": "Colorado",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Colorado is primarily hardrock and lode mining territory, but significant placer gold also exists in several high-country watersheds. Recreational hand panning on open public land generally requires no permit for minimal-impact activities. Suction dredging is not regulated by a dedicated statewide permit system — instead, in-water work falls under a patchwork of federal and state water quality rules. Any significant streambed disturbance may require permits from Colorado Parks and Wildlife (CPW), CDPHE Water Quality Control Division, and/or the U.S. Army Corps of Engineers.",
+    "keyRules": [
+      "Hand panning and minimal-impact non-motorized sluicing on open public land (USFS or BLM) is generally allowed without a permit for recreational prospectors — always confirm with the specific land manager and district before visiting.",
+      "Suction dredging in Colorado waterways may require a Section 404 permit from the U.S. Army Corps of Engineers (dredge/fill in waters of the U.S.) and a Section 401 water quality certification from CDPHE.",
+      "Colorado Parks and Wildlife (CPW) has jurisdiction over stream and lake alterations under the Colorado Wildlife Act — significant streambed work may require CPW coordination.",
+      "Most productive Colorado gold country is on National Forest land — prospecting plans involving significant disturbance require coordination with the relevant USFS Ranger District and may trigger a Plan of Operations.",
+      "On BLM land in Colorado, a Notice or Plan of Operations may be required depending on the scale of your operation. Hand panning typically does not trigger these requirements, but dredge-scale operations do.",
+      "Mining claims are common on productive Colorado ground — always check MLRS before prospecting on any BLM parcel."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Colorado does not have an HPA system. In-water work is regulated through a combination of CPW review, CDPHE water quality permits, and Army Corps Section 404 — the specific requirements depend on the scale of the activity and the waterway type. For recreational hand panning, no permits are typically required. Contact relevant agencies for any motorized or significant in-water activity.",
+    "suctionDredgeStatus": "No dedicated statewide suction dredge permit system exists in Colorado. Suction dredge operations that affect the streambed or involve dredge/fill in navigable waters may require a Section 404 permit from the Army Corps of Engineers and a Section 401 water quality certification from CDPHE. CPW review may also apply. The regulatory path in Colorado is less codified than Pacific Coast states and requires direct contact with the relevant agencies before starting any motorized in-water work.",
+    "handPanning": "Hand panning is generally allowed on open public lands in Colorado without a permit for recreational purposes. On USFS lands, minimal-impact hand prospecting (pan, small shovel) is typically allowed without a Plan of Operations. On BLM lands, the same general rule applies. Always verify with the specific land manager and confirm the parcel is not already claimed.",
+    "disclaimer": "Colorado's prospecting rules are spread across multiple state and federal agencies rather than consolidated in a single permit system. Always contact the relevant USFS Ranger District or BLM Field Office before any in-water or ground-disturbing activity. Regulations can vary significantly between drainages and land management units."
+  },
+  "publicLocations": [
+    {
+      "name": "Clear Creek (Clear Creek County)",
+      "county": "Clear Creek",
+      "description": "Clear Creek flows east from the Continental Divide through Georgetown and Idaho Springs before reaching Golden. The upper Clear Creek corridor is historically rich — the area was one of Colorado's first major mining districts (the 1859 Gregory rush). The Arapaho-Roosevelt National Forest surrounds much of the upper drainage, and public land access for hand panning is available along multiple sections. The upper forks (North Fork, South Fork) offer the best recreational access away from heavily mined private ground.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Hand panning on Arapaho-Roosevelt NF lands allowed without permit for recreational prospectors. Contact the Clear Creek Ranger District for specific open areas and current conditions. Verify mining claim status on MLRS before working any specific bar or creek section.",
+      "url": "https://www.fs.usda.gov/arp",
+      "urlLabel": "Arapaho-Roosevelt National Forest"
+    },
+    {
+      "name": "Blue River / Breckenridge Area (Summit County)",
+      "county": "Summit",
+      "description": "The Blue River and its tributary the Swan River near Breckenridge were major placer gold producers in the late 1800s and early 1900s. Large bucket-line dredges worked the valley bottom extensively, leaving tailings piles still visible today near downtown Breckenridge. The surrounding White River National Forest (Dillon Ranger District) provides public land access in the upper watershed. Placer gold still exists in gravel deposits throughout the drainage.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Hand panning on White River NF lands allowed without permit. Contact the Dillon Ranger District for access specifics. Much of the Blue River corridor near town is private or incorporated — focus on upper watershed USFS land. Check MLRS for mining claim status.",
+      "url": "https://www.fs.usda.gov/whiteriver",
+      "urlLabel": "White River National Forest"
+    },
+    {
+      "name": "Arkansas River Headwaters / Leadville Area (Lake County)",
+      "county": "Lake",
+      "description": "The upper Arkansas River valley near Leadville in Lake County is one of the highest elevation mining districts in the United States. California Gulch, Iowa Gulch, and other tributaries produced enormous quantities of gold and silver in the 1860s. Today the area mixes private and public land. The Pike-San Isabel National Forest (Leadville Ranger District) manages significant acreage surrounding Leadville. Note that some historic mine drainage has impacted water quality in portions of the upper Arkansas watershed.",
+      "goldType": "placer",
+      "landManagement": "Mixed",
+      "permitRequired": false,
+      "permitNotes": "Hand panning on Pike-San Isabel NF lands allowed. Verify land status carefully — the valley bottom near Leadville is heavily private, with NF land on surrounding slopes. Historical mine drainage can affect water quality in some specific drainages. Contact the Leadville Ranger District for open areas.",
+      "url": "https://www.fs.usda.gov/psicc",
+      "urlLabel": "Pike-San Isabel National Forest"
+    },
+    {
+      "name": "San Juan Mountains (San Juan / Ouray / Hinsdale Counties)",
+      "county": "San Juan / Ouray / Hinsdale",
+      "description": "The San Juan Mountains of southwestern Colorado are among the most mineralized ranges in North America, with gold and silver deposits throughout the range. The area is primarily lode/vein gold country, but placer deposits exist in drainages below the major lode districts. The San Juan and Uncompahgre National Forests manage large tracts of public land. Ouray, Silverton, and Creede are traditional mining centers. High-altitude remote terrain — plan accordingly.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Hand panning on San Juan and Uncompahgre NF lands generally allowed. Contact the Columbine Ranger District (San Juan NF) for specifics. Much productive ground is on patented mining claims — verify ownership before prospecting any specific site.",
+      "url": "https://www.fs.usda.gov/sanjuan",
+      "urlLabel": "San Juan National Forest"
+    },
+    {
+      "name": "South Platte River Headwaters (Park County — South Park Basin)",
+      "county": "Park",
+      "description": "The headwaters of the South Platte River in Park County (Colorado's South Park basin) contain historic placer gold deposits. The Tarryall and Fairplay areas were active during the 1860s rush. Public land access is available on the Pike-San Isabel National Forest and BLM Royal Gorge Field Office lands. The high-altitude South Park basin is accessible in summer months.",
+      "goldType": "placer",
+      "landManagement": "Mixed",
+      "permitRequired": false,
+      "permitNotes": "Hand panning on USFS and BLM lands allowed without permit. Contact the South Park Ranger District or BLM Royal Gorge Field Office for current access information. Verify claim status via MLRS.",
+      "url": "https://www.blm.gov/office/royal-gorge-field-office",
+      "urlLabel": "BLM Royal Gorge Field Office"
+    }
+  ],
+  "privateLocations": [
+    {
+      "name": "Gold Prospectors Association of America (GPAA)",
+      "location": "Colorado statewide (national organization with CO claims)",
+      "description": "GPAA maintains mining claims in Colorado accessible to members. Given that Colorado's most productive areas often have extensive pre-existing claim coverage, GPAA membership can provide legitimate claim access in Clear Creek, Park, and other productive counties.",
+      "accessModel": "Membership",
+      "estimatedCost": "Varies — see current pricing at gpaastore.com",
+      "url": "https://gpaastore.com/pages/membership-in-the-gold-prospectors-association-of-america",
+      "notes": "Confirm Colorado-specific GPAA claim locations and any applicable federal or state permit requirements before visiting."
+    }
+  ],
+  "blmResources": [
+    {
+      "name": "BLM Colorado State Office",
+      "description": "Administers over 8 million acres of public land in Colorado, including portions of gold-producing mountain counties and the South Park basin.",
+      "url": "https://www.blm.gov/colorado"
+    },
+    {
+      "name": "BLM Royal Gorge Field Office",
+      "description": "Administers BLM lands in the Arkansas River valley corridor, including portions of Chaffee, Fremont, Park, and Teller counties near major historical gold districts.",
+      "url": "https://www.blm.gov/office/royal-gorge-field-office"
+    },
+    {
+      "name": "Mineral & Land Records System (MLRS)",
+      "description": "BLM's online system for checking mining claim status on Colorado BLM lands — essential before prospecting any public parcel.",
+      "url": "https://mlrs.blm.gov"
+    },
+    {
+      "name": "BLM Locatable Minerals Program",
+      "description": "Federal program governing hardrock mining claims on BLM lands under the Mining Law of 1872.",
+      "url": "https://www.blm.gov/programs/energy-and-minerals/mining-and-minerals/locatable-minerals"
+    }
+  ],
+  "dnrResources": [
+    {
+      "name": "Colorado Parks and Wildlife (CPW)",
+      "description": "CPW regulates activities affecting fish and wildlife habitat, including stream and lake alterations. Contact CPW for stream-specific rules in Colorado's gold country rivers before beginning any in-water activity.",
+      "url": "https://cpw.state.co.us"
+    },
+    {
+      "name": "Colorado Dept. of Public Health and Environment (CDPHE) — Water Quality",
+      "description": "CDPHE administers water quality permits in Colorado, including Clean Water Act Section 401 water quality certifications that may be required for in-water gold mining activities involving dredge or fill.",
+      "url": "https://cdphe.colorado.gov"
+    },
+    {
+      "name": "Colorado Division of Reclamation Mining and Safety (DRMS)",
+      "description": "Regulates surface mining operations in Colorado under the Colorado Mined Land Reclamation Act. Primarily relevant for commercial-scale mining operations, but provides useful context on Colorado's mining regulatory framework.",
+      "url": "https://drms.colorado.gov"
+    }
+  ]
+}

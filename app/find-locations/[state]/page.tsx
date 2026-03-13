@@ -27,7 +27,8 @@ function ResourceCard({ resource }: { resource: StateResource }) {
         href={resource.url}
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-gold-600 hover:bg-gold-500 text-earth-900 font-semibold px-4 py-2 rounded-lg text-sm transition-colors inline-flex items-center gap-1"
+        style={{ backgroundColor: "#1C2526" }}
+        className="inline-flex items-center gap-1 text-gold-400 hover:text-gold-300 font-semibold px-4 py-2 rounded-lg text-sm transition-colors border border-gold-800"
       >
         Visit Site →
       </a>
@@ -96,7 +97,8 @@ function LocationCard({ loc }: { loc: StateLocation }) {
         href={loc.url}
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-gold-600 hover:bg-gold-500 text-earth-900 font-semibold px-4 py-2 rounded-lg text-sm transition-colors inline-flex items-center gap-1"
+        style={{ backgroundColor: "#1C2526" }}
+        className="inline-flex items-center gap-1 text-gold-400 hover:text-gold-300 font-semibold px-4 py-2 rounded-lg text-sm transition-colors border border-gold-800"
       >
         {loc.urlLabel ?? "More Info"} →
       </a>

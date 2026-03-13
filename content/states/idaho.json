@@ -1,0 +1,138 @@
+{
+  "state": "idaho",
+  "displayName": "Idaho",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Idaho is one of the more accessible western states for recreational gold prospecting. Hand panning and non-motorized sluicing require no state permit on open public land. Suction dredges require an annual permit from Idaho Fish and Game (IDFG). Rules vary significantly by waterway — much of Idaho's classic gold country runs through salmon and steelhead habitat, where seasonal closures are strictly enforced. Idaho's in-water mining regulations are governed primarily by IDAPA 13.02.06.",
+    "keyRules": [
+      "Hand panning and non-motorized sluicing are allowed on open public land without a state permit, as long as you follow seasonal restrictions applicable to the specific waterway.",
+      "Suction dredging requires an annual IDFG Suction Dredge Permit. The permit must be in your possession while dredging. Apply through IDFG before the season opens.",
+      "Most salmon, steelhead, and bull trout waters are closed to suction dredging from approximately October 1 through June 14 — the exact window varies by waterway. Consult the current IDFG permit rules for your specific creek or river.",
+      "Some Idaho streams are permanently closed to suction dredging, including those designated as bull trout critical habitat. Check with IDFG before visiting any specific drainage.",
+      "On BLM or USFS land, coordinate with the land management agency before any ground-disturbing activity beyond hand panning — a Notice or Plan of Operations may be required at larger scales.",
+      "Always check BLM MLRS before prospecting any public parcel — you may not prospect on a valid existing mining claim without the claimant's permission."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Idaho does not use an HPA system. IDFG issues annual suction dredge permits directly under IDAPA 13.02.06. For significant in-water work, a Clean Water Act Section 404 permit from the Army Corps of Engineers may also be required. Contact IDFG for the current permit application, fee, and the list of open and closed waterways.",
+    "suctionDredgeStatus": "Legal with a valid IDFG Suction Dredge Permit. Maximum nozzle size and operational conditions vary by waterway. Seasonal restrictions are extensive in salmon and steelhead habitat — most productive drainages are closed from approximately October 1 through June 14. Some streams are permanently closed. Idaho remains one of the more accessible states for suction dredging compared to California, Washington, and Oregon.",
+    "handPanning": "Hand panning is allowed on open public lands in Idaho without a state permit. No IDFG permit is required for non-motorized tools including gold pans, shovels, and non-motorized sluice boxes. Follow seasonal access restrictions in sensitive areas and obtain landowner permission on private land. On federal land, hand panning is generally allowed without notification for minimal-impact activity.",
+    "disclaimer": "Regulations change. Always verify current rules with IDFG and the relevant land management agency before prospecting. Waterway-specific rules differ significantly — what is allowed on one creek may be prohibited on the next."
+  },
+  "publicLocations": [
+    {
+      "name": "Boise Basin / Idaho City Area",
+      "county": "Boise",
+      "description": "The Boise Basin is one of Idaho's most storied gold districts, centered on the historic mining town of Idaho City. Placer gold was discovered here in 1862 and the district produced millions of dollars in gold at its peak. The surrounding Boise National Forest offers extensive public land access. Grimes Creek, Mores Creek, and their tributaries are historically productive and popular with recreational panners.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Hand panning allowed on Boise NF lands without permit. Suction dredging requires an IDFG Suction Dredge Permit and compliance with seasonal closures for each specific waterway. Contact the Boise NF Idaho City Ranger District for current access information.",
+      "url": "https://www.fs.usda.gov/boise",
+      "urlLabel": "Boise National Forest"
+    },
+    {
+      "name": "Salmon River Corridor",
+      "county": "Lemhi / Custer",
+      "description": "The main Salmon River and its tributaries — the Middle Fork, South Fork, and numerous side drainages — have produced significant placer gold throughout central Idaho. The river corridor runs through the Salmon-Challis National Forest and BLM Salmon District lands. This is prime salmon and steelhead habitat, so seasonal dredging closures are strict. Many sections are accessible only by trail or river, making this a destination for serious prospectors.",
+      "goldType": "placer",
+      "landManagement": "Mixed",
+      "permitRequired": false,
+      "permitNotes": "Hand panning allowed on open public land. Suction dredge seasonal closures are extensive throughout the Salmon drainage — most of the river corridor is closed October through mid-June. Consult IDFG for specific waterway rules before planning any dredging. Contact the Salmon-Challis NF for land access details.",
+      "url": "https://www.fs.usda.gov/scnf",
+      "urlLabel": "Salmon-Challis National Forest"
+    },
+    {
+      "name": "Clearwater River Drainage",
+      "county": "Clearwater / Idaho",
+      "description": "The Clearwater River and its North Fork, South Fork, and Middle Fork drainages run through north-central Idaho, managed largely by the Nez Perce-Clearwater National Forest. Gold occurs throughout the drainage, particularly in the upper forks and side creeks near the Orofino area. Like the Salmon, this is critical anadromous fish habitat — dredging regulations are strict and seasonal closures are extensive.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Hand panning allowed on Nez Perce-Clearwater NF lands. Suction dredging heavily restricted in salmon and steelhead habitat — verify waterway-specific rules with IDFG before any in-water work.",
+      "url": "https://www.fs.usda.gov/nezperceclearwater",
+      "urlLabel": "Nez Perce-Clearwater National Forest"
+    },
+    {
+      "name": "Pioneer Mountains (Custer County)",
+      "county": "Custer",
+      "description": "The Pioneer Mountains and surrounding Lost River Range in Custer County have been prospected for placer and lode gold since the 1870s. The Mackay and Challis areas offer public land access via the Salmon-Challis National Forest and BLM Salmon District lands. Gold occurs in several small drainages flowing off the Pioneer Mountains, and the area is less visited than the Boise Basin.",
+      "goldType": "placer",
+      "landManagement": "Mixed",
+      "permitRequired": false,
+      "permitNotes": "Hand panning and non-motorized prospecting allowed on open public lands. Check MLRS for existing mining claims. Contact BLM Salmon District Office or Salmon-Challis NF for current access details.",
+      "url": "https://www.blm.gov/office/salmon-district-office",
+      "urlLabel": "BLM Salmon District Office"
+    },
+    {
+      "name": "Coeur d'Alene District / Idaho Panhandle",
+      "county": "Shoshone",
+      "description": "The Silver Valley in Shoshone County is world-famous for silver and lead, but surrounding drainages also contain placer gold. The Idaho Panhandle National Forests provide public land access in areas away from the Bunker Hill Superfund site. Exercise caution near the Superfund zone — creek sediments can have elevated heavy metal contamination from legacy mining.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Avoid the Silver Valley Superfund boundary. Use Idaho Panhandle NF lands well outside the contamination zone. Suction dredge permit required for any motorized in-water work. Check MLRS for mining claim status.",
+      "url": "https://www.fs.usda.gov/ipnf",
+      "urlLabel": "Idaho Panhandle National Forests"
+    }
+  ],
+  "privateLocations": [
+    {
+      "name": "Gold Prospectors Association of America (GPAA)",
+      "location": "Idaho statewide (national organization with ID claims)",
+      "description": "The GPAA maintains mining claims accessible to members in Idaho, primarily in the Boise Basin and other productive districts. Membership provides access through the Lost Dutchman's Mining Association (LDMA) claim network, which can be especially valuable in areas where public land prospecting is limited by existing claims.",
+      "accessModel": "Membership",
+      "estimatedCost": "Varies — see current pricing at gpaastore.com",
+      "url": "https://gpaastore.com/pages/membership-in-the-gold-prospectors-association-of-america",
+      "notes": "Verify that any Idaho GPAA claims you plan to visit are in waterways and seasons where your intended method is legal under current IDFG suction dredge rules."
+    }
+  ],
+  "blmResources": [
+    {
+      "name": "BLM Idaho State Office",
+      "description": "The BLM Idaho State Office administers over 12 million acres of public land across Idaho, including significant portions of gold-producing districts in Boise, Custer, and Lemhi counties.",
+      "url": "https://www.blm.gov/idaho"
+    },
+    {
+      "name": "BLM Boise District Office",
+      "description": "Administers BLM lands in southwestern Idaho, including portions of the Boise Basin gold country.",
+      "url": "https://www.blm.gov/office/boise-district-office"
+    },
+    {
+      "name": "BLM Salmon District Office",
+      "description": "Manages BLM lands in the Salmon River corridor and central Idaho — the primary BLM contact for prospectors targeting the Salmon River and Pioneer Mountains gold areas.",
+      "url": "https://www.blm.gov/office/salmon-district-office"
+    },
+    {
+      "name": "BLM Coeur d'Alene Field Office",
+      "description": "Manages BLM lands in northern Idaho near the Coeur d'Alene and Clearwater drainages.",
+      "url": "https://www.blm.gov/office/coeur-dalene-field-office"
+    },
+    {
+      "name": "Mineral & Land Records System (MLRS)",
+      "description": "BLM's online records system for looking up existing mining claims and land status — essential for confirming a parcel is open before prospecting.",
+      "url": "https://mlrs.blm.gov"
+    },
+    {
+      "name": "BLM Locatable Minerals Program",
+      "description": "Federal program governing hardrock mining claims on BLM lands under the Mining Law of 1872 — explains the claim location process and what activities are allowed on open public land.",
+      "url": "https://www.blm.gov/programs/energy-and-minerals/mining-and-minerals/locatable-minerals"
+    }
+  ],
+  "dnrResources": [
+    {
+      "name": "Idaho Fish and Game (IDFG)",
+      "description": "IDFG is the primary state agency for suction dredge permits and in-water prospecting regulations in Idaho. The annual suction dredge permit is required for any suction dredge operation in Idaho waters. IDFG also publishes the list of waters open and closed to dredging, with seasonal restrictions by waterway.",
+      "url": "https://idfg.idaho.gov"
+    },
+    {
+      "name": "Idaho Department of Lands (IDL) — Minerals",
+      "description": "The Idaho Dept. of Lands administers state land mining leases and coordinates with other state agencies on mining operations. Relevant for prospectors interested in state endowment lands.",
+      "url": "https://www.idl.idaho.gov/minerals/"
+    },
+    {
+      "name": "Idaho IDAPA Administrative Rules — Title 13 (Fish and Game)",
+      "description": "Idaho's Administrative Procedures Act rules governing fish and game, including the suction dredge regulations by waterway. IDAPA 13.02.06 is the primary regulatory chapter covering in-water mining restrictions.",
+      "url": "https://adminrules.idaho.gov/rules/current/13/"
+    }
+  ]
+}
