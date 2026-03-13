@@ -90,7 +90,7 @@ function ProductCard({ product }: { product: ProductReview }) {
         <div className="flex flex-col sm:flex-row gap-2 mt-auto">
           <Link
             href={`/equipment/${product.category}/${product.slug}`}
-            className="flex-1 text-center bg-earth-800 hover:bg-earth-900 dark:bg-earth-700 dark:hover:bg-earth-600 text-white text-sm font-semibold py-2 px-4 rounded transition-colors"
+            className="flex-1 flex items-center justify-center text-center bg-earth-800 hover:bg-earth-900 dark:bg-earth-700 dark:hover:bg-earth-600 text-white text-sm font-semibold py-2 px-4 rounded transition-colors"
           >
             Read Review →
           </Link>
