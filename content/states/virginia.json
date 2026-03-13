@@ -1,0 +1,68 @@
+{
+  "state": "virginia",
+  "displayName": "Virginia",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Virginia has a genuine but often overlooked gold mining history. The Virginia Gold Belt runs through the Piedmont region from Fairfax County south to the North Carolina border, and the state produced meaningful amounts of gold in the mid-1800s before the California Gold Rush drew miners west. The Sumerduck and Rapidan mining districts were particularly active. Today, recreational prospecting is possible on some public lands, but access is limited by the predominance of private land in the Virginia Piedmont.",
+    "keyRules": [
+      "Virginia state law requires a permit from the Virginia Department of Energy (formerly DMME) for any mineral prospecting that involves excavation on state-controlled land — hand panning in streams may or may not require prior authorization depending on the waterway.",
+      "Recreational prospecting on George Washington National Forest and Jefferson National Forest land is allowed under USFS rules — contact the relevant ranger district for current area restrictions.",
+      "Virginia claims ownership of certain riverbeds under the public trust doctrine — confirm that any in-stream work is legally authorized before prospecting in navigable Virginia waterways.",
+      "Suction dredging in Virginia streams would require permits from the Virginia DEQ and Army Corps Section 404 — this is not a commonly practiced activity in Virginia due to regulatory complexity.",
+      "Most Virginia gold country is private farm and rural land — never prospect on private land without explicit written permission from the landowner."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Virginia does not have a state HPA system. In-stream work with any mechanized equipment requires coordination with Virginia DEQ and Army Corps Section 404. For casual hand panning in streams, the requirement varies by waterway type — contact the Virginia Department of Energy for specific guidance before any in-stream activity.",
+    "suctionDredgeStatus": "Effectively not practiced in Virginia due to regulatory complexity. Virginia does not have a streamlined recreational dredging permit system. Any motorized in-stream equipment would require Virginia DEQ water quality permits and Army Corps Section 404 coordination. Hand panning is the practical choice.",
+    "handPanning": "Hand panning is the primary recreational method in Virginia. On National Forest lands, access is open under USFS rules. For in-stream work in Virginia's navigable waterways, confirm current permit requirements with the Virginia Department of Energy. Private land access requires landowner permission.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [
+    {
+      "name": "Rappahannock County (George Washington National Forest)",
+      "county": "Rappahannock",
+      "description": "The headwaters area of the Rappahannock River in the Blue Ridge foothills passes through portions of the George Washington National Forest and adjacent areas. The region sits near the Virginia Gold Belt and has historical placer workings. National Forest stream segments are the clearest public access option for hand panning in this part of Virginia.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Open on George Washington National Forest land under USFS rules. Contact the Lee Ranger District for current access information and any area-specific restrictions.",
+      "url": "https://www.fs.usda.gov/gwj",
+      "urlLabel": "George Washington & Jefferson National Forests"
+    },
+    {
+      "name": "Mine Bank Creek / Rockfish River Area (Nelson County)",
+      "county": "Nelson",
+      "description": "The Blue Ridge Mountains of Nelson County contain streams draining gold-bearing metavolcanic rocks of the Virginia Gold Belt. Mine Bank Creek and nearby streams on George Washington National Forest land have historical mineral workings associated with the Pedlar District. Small amounts of placer gold can be found by patient prospectors in stream gravels.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Open on National Forest land. Contact the Pedlar Ranger District (Glenwood-Pedlar) for current access information.",
+      "url": "https://www.fs.usda.gov/gwj",
+      "urlLabel": "George Washington & Jefferson National Forests"
+    }
+  ],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "Virginia Department of Energy",
+      "url": "https://energy.virginia.gov",
+      "description": "State agency (formerly DMME) overseeing mineral resources and mining permits in Virginia — contact for permit requirements for prospecting on state land."
+    },
+    {
+      "title": "George Washington & Jefferson National Forests",
+      "url": "https://www.fs.usda.gov/gwj",
+      "description": "Federal land manager for national forest land in Virginia — primary source for public land prospecting access information."
+    },
+    {
+      "title": "Virginia Division of Geology and Mineral Resources",
+      "url": "https://www.dmme.virginia.gov/geology/geology.shtml",
+      "description": "State geological survey with geologic maps and mineral occurrence data — includes information on Virginia's gold belt geology."
+    },
+    {
+      "title": "BLM Mineral & Land Records System (MLRS)",
+      "url": "https://mlrs.blm.gov",
+      "description": "Check for active federal mining claims on BLM land in Virginia before prospecting."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
