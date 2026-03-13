@@ -1,0 +1,39 @@
+{
+  "state": "massachusetts",
+  "displayName": "Massachusetts",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Massachusetts has minimal gold prospecting activity. The state has some Precambrian basement rocks in the eastern Piedmont (especially in Essex and Middlesex counties) and trace gold has been reported in a few areas, but no productive placer gold deposits are known. Massachusetts is much better known for mineral collecting at Mineral Hills in Westfield, pegmatite minerals at various localities, and fossils — not gold. This entry is included for completeness with realistic expectations.",
+    "keyRules": [
+      "Massachusetts does not have a specific recreational gold prospecting permit system.",
+      "In-stream work in Massachusetts waterways requires a Chapter 91 license or Order of Conditions from a local Conservation Commission under the Massachusetts Wetlands Protection Act — any in-stream disturbance beyond hand tools is regulated.",
+      "Massachusetts state forests and parks allow minimal personal rock and mineral collecting in some locations — check with the specific reservation for current rules.",
+      "Most productive-seeming stream corridors in MA are in heavily developed or suburban areas with complex private land and water access issues."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Massachusetts does not have a state HPA system. The Wetlands Protection Act and Chapter 91 (Waterways) govern in-stream work. Local Conservation Commissions issue Orders of Conditions for wetland and waterway work. For casual hand panning with no streambed disturbance, no specific permit is required, but the Wetlands Protection Act applies broadly — contact your local ConCom for clarity.",
+    "suctionDredgeStatus": "Not practical in Massachusetts. Suction dredging would require Orders of Conditions from local Conservation Commissions and likely Chapter 91 Waterways program review. No recreational dredging permit program exists in MA. Hand panning only, with very low gold expectations.",
+    "handPanning": "Hand panning in Massachusetts streams is theoretically possible but not practically rewarding — the state has no known productive placer gold deposits. This is a curiosity activity at best. Focus on Massachusetts' excellent mineral collecting opportunities (Westfield area, Stoneham quarry, Cape Ann pegmatites) for more productive outings.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "Massachusetts Office of Geographic and Environmental Information (MassGIS)",
+      "url": "https://www.mass.gov/orgs/massgis-bureau-of-geographic-information",
+      "description": "Massachusetts geological and environmental data — includes geologic maps showing state bedrock and surficial geology."
+    },
+    {
+      "title": "Massachusetts DEP — Wetlands Protection",
+      "url": "https://www.mass.gov/info-details/wetlands-in-massachusetts",
+      "description": "Massachusetts Department of Environmental Protection — Wetlands Protection Act governs any in-stream work in MA waterways."
+    },
+    {
+      "title": "Massachusetts Division of Fisheries and Wildlife",
+      "url": "https://www.mass.gov/orgs/division-of-fisheries-wildlife",
+      "description": "Manages state wildlife management areas — contact for current rules on mineral collecting and water access."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
