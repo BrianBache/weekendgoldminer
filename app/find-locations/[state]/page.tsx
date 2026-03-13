@@ -361,19 +361,37 @@ export default async function StateDetailPage({ params }: PageProps) {
 
   return (
     <div className="min-h-screen bg-earth-50 dark:bg-dark-bg">
-      {/* Header */}
-      <div className="bg-earth-800 dark:bg-dark-bg text-gold-400 py-8 px-4">
-        <div className="max-w-4xl mx-auto">
+      {/* Hero Header */}
+      <div className="relative bg-gradient-to-br from-earth-900 via-earth-800 to-earth-700 overflow-hidden py-14 px-4">
+        {/* Topographic SVG background pattern */}
+        <div className="absolute inset-0 opacity-[0.07] pointer-events-none" aria-hidden="true">
+          <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <pattern id="topo" x="0" y="0" width="140" height="140" patternUnits="userSpaceOnUse">
+                <circle cx="70" cy="70" r="60" fill="none" stroke="#c89c2a" strokeWidth="1"/>
+                <circle cx="70" cy="70" r="44" fill="none" stroke="#c89c2a" strokeWidth="1"/>
+                <circle cx="70" cy="70" r="28" fill="none" stroke="#c89c2a" strokeWidth="1"/>
+                <circle cx="70" cy="70" r="12" fill="none" stroke="#c89c2a" strokeWidth="1"/>
+              </pattern>
+            </defs>
+            <rect width="100%" height="100%" fill="url(#topo)" />
+          </svg>
+        </div>
+
+        <div className="relative max-w-4xl mx-auto">
           <Link
             href="/find-locations"
-            className="text-gold-300 hover:text-gold-200 mb-4 inline-block text-sm font-semibold"
+            className="text-gold-400 hover:text-gold-300 mb-8 inline-flex items-center gap-1 text-sm font-semibold transition-colors"
           >
             ← Back to All States
           </Link>
-          <h1 className="text-4xl md:text-5xl font-bold">
-            {stateData ? stateData.displayName : stateName}
-          </h1>
-          <p className="text-earth-200 mt-2">Gold Prospecting Guide</p>
+          <div className="text-center mt-2">
+            <div className="text-6xl mb-4">⛏️</div>
+            <h1 className="text-4xl md:text-5xl font-bold text-gold-400">
+              {stateData ? stateData.displayName : stateName}
+            </h1>
+            <p className="text-earth-200 mt-3 text-lg">Gold Prospecting Guide</p>
+          </div>
         </div>
       </div>
 
