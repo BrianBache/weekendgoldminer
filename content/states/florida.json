@@ -1,0 +1,39 @@
+{
+  "state": "florida",
+  "displayName": "Florida",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Florida has no gold deposits and is not a gold prospecting destination. The entire state is underlain by Cenozoic limestone and coastal plain sedimentary deposits — geologically, there is no gold-bearing basement rock exposed anywhere in Florida. The state is famous for shark tooth collecting (Venice Beach), fossil megalodon and other marine vertebrates, and the occasional shipwreck gold/silver in Atlantic coastal areas — but gold panning in streams is not a viable activity in Florida.",
+    "keyRules": [
+      "Florida does not have a recreational gold prospecting permit system — there are no gold deposits or viable gold prospecting streams in the state.",
+      "Fossil collecting on Florida state lands is regulated by the Florida Department of State, Division of Historical Resources — vertebrate fossils require a permit, invertebrates may be collected for personal use.",
+      "In-stream work in Florida waterways is regulated by the Florida DEP and regional water management districts.",
+      "Collecting gold or silver from offshore shipwrecks requires a Treasure Salvage License from the Florida Division of Historical Resources — this is distinct from land-based prospecting."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Not applicable — there are no gold-bearing streams in Florida.",
+    "suctionDredgeStatus": "Not applicable for gold prospecting. Offshore treasure salvage (shipwreck recovery) is a separate legal category requiring a Treasure Salvage License from the Florida Division of Historical Resources — not a recreational activity.",
+    "handPanning": "Gold panning in Florida streams is not possible — the state has no gold-bearing geology. Prospectors interested in Florida should look at the state's excellent shark tooth and fossil collecting opportunities at public beaches (Venice Beach, Manasota Key) and rivers (Peace River), or contact the Florida Division of Historical Resources for treasure salvage licensing information.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "Florida Geological Survey",
+      "url": "https://www.floridageologicalsurvey.org",
+      "description": "State geological survey — Florida has no gold-bearing geology; the survey covers carbonate geology, aquifer systems, and coastal processes."
+    },
+    {
+      "title": "Florida Division of Historical Resources — Treasure Salvage",
+      "url": "https://dos.fl.gov/historical/preservation/maritime-archaeology/treasure-salvage",
+      "description": "For those interested in Florida's offshore shipwreck gold — the Treasure Salvage License program governs underwater recovery of historical artifacts."
+    },
+    {
+      "title": "Florida DEP — Land and Recreation",
+      "url": "https://floridadep.gov/lands",
+      "description": "Manages Florida state lands and parks — rules on fossil collecting on state lands."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
