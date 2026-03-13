@@ -1,0 +1,34 @@
+{
+  "state": "connecticut",
+  "displayName": "Connecticut",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Connecticut has essentially no gold prospecting activity and no known productive placer gold deposits. The state is underlain by a mix of Precambrian metamorphic rocks, Triassic sedimentary basins (Connecticut River Valley), and glacial deposits. Connecticut is excellent for mineral collecting — the state has some of the finest mineral collecting sites in the northeastern US, including titanite (sphene), garnet, and tourmaline localities — but gold prospecting is not a viable recreational activity.",
+    "keyRules": [
+      "Connecticut does not have a specific recreational gold prospecting permit system — there are no productive gold deposits in the state.",
+      "In-stream work in Connecticut waterways is regulated by the Connecticut Department of Energy and Environmental Protection (DEEP) under stream channel encroachment and wetland statutes.",
+      "Connecticut state forests allow mineral collecting for personal use — contact the relevant state forest office for current rules.",
+      "No collecting is permitted in Connecticut state parks."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Not applicable — there are no gold-bearing streams in Connecticut suitable for prospecting.",
+    "suctionDredgeStatus": "Not applicable — Connecticut has no productive placer gold streams.",
+    "handPanning": "Gold panning in Connecticut streams is not a viable activity — the state has no known placer gold deposits. Connecticut mineral collectors should focus on the state's excellent garnet, tourmaline, and titanite localities in state forest areas.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "Connecticut Geological Survey",
+      "url": "https://portal.ct.gov/DEEP/Geology/Connecticut-Geological-Survey",
+      "description": "State geological survey — Connecticut has no gold-bearing geology but excellent mineral collecting opportunities in metamorphic terranes."
+    },
+    {
+      "title": "CT DEEP — State Forests and Parks",
+      "url": "https://portal.ct.gov/DEEP/Forestry/State-Forests",
+      "description": "Connecticut DEEP manages state forests where personal mineral collecting is generally allowed — contact the specific forest for current rules."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
