@@ -1,0 +1,34 @@
+{
+  "state": "ohio",
+  "displayName": "Ohio",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Ohio has no meaningful gold deposits, though glacially transported gold has occasionally been reported in Ohio stream gravels — carried from gold-bearing Canadian shield rocks during the Pleistocene ice ages. Quantities are far too small for productive prospecting. Ohio is well-known for flint (Flint Ridge State Memorial), fossils, and glacial minerals, but gold panning is not a viable recreational activity in the state. This entry is included for completeness.",
+    "keyRules": [
+      "Ohio does not have a recreational gold prospecting permit system — there are no productive gold deposits in the state.",
+      "Rock and mineral collecting on Wayne National Forest land in southeastern Ohio is allowed for personal use in reasonable quantities.",
+      "In-stream work in Ohio waterways requires coordination with the Ohio EPA and Army Corps of Engineers.",
+      "Flint Ridge State Memorial prohibits removing Ohio flint from the site — collecting elsewhere on public land is generally allowed."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Not applicable — there are no gold-bearing streams in Ohio suitable for prospecting.",
+    "suctionDredgeStatus": "Not applicable — Ohio has no productive placer gold streams.",
+    "handPanning": "Gold panning in Ohio streams is not a viable activity — no productive placer gold deposits exist in the state. Glacially transported trace gold is theoretically possible in glacial outwash gravels, but quantities are too small to be detectable by recreational prospectors.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "Ohio Geological Survey",
+      "url": "https://ohiodnr.gov/wps/portal/gov/odnr/discover-and-learn/safety-conservation/about-odnr/geological-survey",
+      "description": "State geological survey — Ohio has no gold-bearing geology; the survey covers limestone, coal, shale, and glacial deposits."
+    },
+    {
+      "title": "Wayne National Forest",
+      "url": "https://www.fs.usda.gov/wayne",
+      "description": "USFS-managed land in southeastern Ohio — allows recreational collecting for personal use. Good for coal, fossils, and flint but not gold."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
