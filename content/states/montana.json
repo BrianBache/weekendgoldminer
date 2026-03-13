@@ -1,0 +1,133 @@
+{
+  "state": "montana",
+  "displayName": "Montana",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Montana has a rich gold prospecting tradition and remains a viable recreational mining destination. Key permits include the 310 Permit (Natural Streambed and Land Preservation Act, 76-5-301 MCA) for in-stream work — issued by local Conservation Districts — and a DEQ Open Cut Mining Permit or Small Miner Exclusion for surface mining above certain thresholds. Suction dredging is legal with appropriate permits. Hand panning is generally allowed on open public land without a permit. Southwest Montana's Madison, Jefferson, and Beaverhead counties are among the most historically productive placer districts in the Rocky Mountain region.",
+    "keyRules": [
+      "A 310 Permit (Natural Streambed and Land Preservation Act, 76-5-301 MCA) is required from the local Conservation District for any work that disturbs the bed or banks of a perennial stream in Montana. This includes suction dredging and significant sluicing operations.",
+      "DEQ may require an Open Cut Mining Permit for surface mining operations above certain disturbance thresholds. Recreational-scale prospecting typically qualifies for the Small Miner Exclusion, which simplifies the process.",
+      "Hand panning and minimal-impact non-motorized prospecting on open public land generally does not require state permits, but the 310 Permit requirement applies when significant streambed disturbance occurs.",
+      "On BLM land, a Plan of Operations may be required for suction dredge-scale operations. Contact the relevant BLM Field Office before beginning any motorized in-water work.",
+      "Many of Montana's historic placer districts contain patented mining claims (private property). Do not prospect on private ground without explicit landowner permission.",
+      "Check BLM MLRS for federal land claim status. Montana DEQ's Mine Tracker system provides information on state-permitted operations."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Montana does not use an HPA system. The equivalent is the 310 Permit, issued by local Conservation Districts under the Natural Streambed and Land Preservation Act (76-5-301 MCA). Any work that disturbs the streambed or banks of a perennial stream requires a 310 Permit before work begins. Contact your local county Conservation District for the permit application and requirements specific to your target waterway.",
+    "suctionDredgeStatus": "Legal in Montana with appropriate permits. A 310 Permit from the local Conservation District is required for suction dredging in perennial streams. DEQ Small Miner Exclusion typically covers recreational-scale dredge operations without requiring a full Open Cut Permit. Seasonal windows may apply in fish habitat streams — the 310 Permit will specify operational conditions. Montana remains more accessible for suction dredging than Pacific Coast states.",
+    "handPanning": "Hand panning with a gold pan and hand tools is generally allowed on open public land in Montana without a state permit. Activities that do not significantly disturb the streambed or bank typically do not trigger 310 Permit requirements. Confirm with the local Conservation District if you are unsure whether your planned activity crosses the threshold for a permit.",
+    "disclaimer": "Montana regulations are administered through multiple overlapping agencies — DEQ, FWP, local Conservation Districts, and federal land managers. Always contact the relevant Conservation District for 310 Permit requirements and the land manager (BLM or USFS) for site-specific rules before planning any in-water prospecting activity."
+  },
+  "publicLocations": [
+    {
+      "name": "Alder Gulch / Virginia City Area",
+      "county": "Madison",
+      "description": "Alder Gulch in Madison County was the site of one of the richest placer gold strikes in American history — the 1863 rush that created Virginia City and Nevada City. The district produced an estimated $100 million in gold at historic prices. Today, Virginia City and Nevada City are National Historic Landmarks. Surrounding drainages on BLM and Beaverhead-Deerlodge National Forest land remain productive for recreational miners. Alder Creek itself and several tributary gulches on public land offer legitimate panning opportunities.",
+      "goldType": "placer",
+      "landManagement": "Mixed",
+      "permitRequired": false,
+      "permitNotes": "Hand panning allowed on open BLM and Beaverhead-Deerlodge NF lands. Suction dredging requires a 310 Permit from the Madison County Conservation District. Many specific gulches are on private or patented claim land — do not prospect without landowner permission. Check MLRS for BLM parcel claim status.",
+      "url": "https://www.fs.usda.gov/bdnf",
+      "urlLabel": "Beaverhead-Deerlodge National Forest"
+    },
+    {
+      "name": "Grasshopper Creek / Bannack State Park Area",
+      "county": "Beaverhead",
+      "description": "Grasshopper Creek near the ghost town of Bannack (Montana's first territorial capital) was the site of the original 1862 Montana gold rush. Bannack State Park preserves the historic townsite. BLM Dillon Field Office lands adjacent to the park include Grasshopper Creek and nearby drainages accessible to public prospectors. This is an evocative area with deep mining history and a well-preserved ghost town to explore.",
+      "goldType": "placer",
+      "landManagement": "Mixed",
+      "permitRequired": false,
+      "permitNotes": "Bannack State Park itself is a historic preservation site — no prospecting within park boundaries. BLM Dillon Field Office lands adjacent to the park are open to recreational mining. Hand panning allowed; 310 Permit required for in-stream motorized work. Confirm open areas with the BLM Dillon Field Office before visiting.",
+      "url": "https://www.blm.gov/office/dillon-field-office",
+      "urlLabel": "BLM Dillon Field Office"
+    },
+    {
+      "name": "Pioneer Mountains (Beaverhead County)",
+      "county": "Beaverhead",
+      "description": "The Pioneer Mountains in Beaverhead County contain numerous gold-bearing drainages, many accessible via the Beaverhead-Deerlodge National Forest and BLM Dillon Field Office lands. The area encompasses the Italian Peak mining district and several historically productive creek drainages. The Pioneer Mountains Scenic Byway (Forest Road 484) provides vehicle access in summer months and is one of the most scenic drives in Montana.",
+      "goldType": "placer",
+      "landManagement": "Mixed",
+      "permitRequired": false,
+      "permitNotes": "Hand panning allowed on Beaverhead-Deerlodge NF and BLM Dillon Field Office lands. 310 Permit required for suction dredging in perennial streams — contact the Beaverhead Conservation District. Verify claim status on MLRS before working any specific drainage.",
+      "url": "https://www.blm.gov/office/dillon-field-office",
+      "urlLabel": "BLM Dillon Field Office"
+    },
+    {
+      "name": "Confederate Gulch (Meagher County)",
+      "county": "Meagher",
+      "description": "Confederate Gulch in Meagher County was the site of one of the richest short-lived placer strikes in Montana history — the 1864 Diamond City rush that reportedly yielded $180,000 in a single pan at its peak. Today the area is remote, accessed from the Smith River drainage near White Sulphur Springs. Public land access exists on Helena-Lewis and Clark National Forest lands in the broader drainage, though the most productive historic ground is largely on private or patented claims.",
+      "goldType": "placer",
+      "landManagement": "Mixed",
+      "permitRequired": false,
+      "permitNotes": "Verify current land status carefully before visiting Confederate Gulch — much of the historically productive ground is private or on patented claims. Public land access available on adjacent Helena-Lewis and Clark NF lands. 310 Permit required for any in-stream work. Contact Helena-Lewis and Clark NF for public land access details.",
+      "url": "https://www.fs.usda.gov/hlcnf",
+      "urlLabel": "Helena-Lewis and Clark National Forest"
+    },
+    {
+      "name": "Lincoln Area / Blackfoot River Drainage (Lewis and Clark County)",
+      "county": "Lewis and Clark",
+      "description": "The area around Lincoln in Lewis and Clark County along the upper Blackfoot River and its tributaries has been prospected for gold since the 1860s. The surrounding Helena-Lewis and Clark National Forest provides significant public land access. The Blackfoot River is the iconic Montana fishing river made famous by 'A River Runs Through It' — fish habitat protections are significant and seasonal restrictions on in-stream work are likely.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Hand panning on Helena-Lewis and Clark NF lands allowed. The Blackfoot is significant salmonid habitat — 310 Permit required for any in-stream disturbance, and seasonal restrictions will apply. Contact the Lincoln Ranger District and the Powell County Conservation District for specific rules before any in-stream work.",
+      "url": "https://www.fs.usda.gov/hlcnf",
+      "urlLabel": "Helena-Lewis and Clark National Forest"
+    }
+  ],
+  "privateLocations": [
+    {
+      "name": "Gold Prospectors Association of America (GPAA)",
+      "location": "Montana statewide (national organization with MT claims)",
+      "description": "GPAA maintains mining claims in Montana accessible to members. Given the prevalence of patented mining claims on productive Montana ground, GPAA membership can provide legitimate access to productive drainages in Madison, Jefferson, and Beaverhead counties.",
+      "accessModel": "Membership",
+      "estimatedCost": "Varies — see current pricing at gpaastore.com",
+      "url": "https://gpaastore.com/pages/membership-in-the-gold-prospectors-association-of-america",
+      "notes": "Confirm Montana GPAA claim locations and 310 Permit requirements before planning any in-stream work on Montana GPAA claims."
+    }
+  ],
+  "blmResources": [
+    {
+      "name": "BLM Montana/Dakotas State Office",
+      "description": "Administers BLM lands in Montana, including significant portions of southwest Montana gold country in Madison, Jefferson, and Beaverhead counties.",
+      "url": "https://www.blm.gov/montana-dakotas"
+    },
+    {
+      "name": "BLM Butte Field Office",
+      "description": "Administers BLM lands in southwest Montana including portions of the Madison, Jefferson, and Deer Lodge valleys — key gold country for Montana prospectors.",
+      "url": "https://www.blm.gov/office/butte-field-office"
+    },
+    {
+      "name": "BLM Dillon Field Office",
+      "description": "Administers BLM lands in Beaverhead County, including the Pioneer Mountains and Grasshopper Creek (Bannack area) gold districts.",
+      "url": "https://www.blm.gov/office/dillon-field-office"
+    },
+    {
+      "name": "Mineral & Land Records System (MLRS)",
+      "description": "BLM's online tool for checking mining claim status on Montana BLM lands. Essential in Montana where much productive ground is on active or patented claims.",
+      "url": "https://mlrs.blm.gov"
+    },
+    {
+      "name": "BLM Locatable Minerals Program",
+      "description": "Federal program governing hardrock mining claims on BLM lands under the Mining Law of 1872.",
+      "url": "https://www.blm.gov/programs/energy-and-minerals/mining-and-minerals/locatable-minerals"
+    }
+  ],
+  "dnrResources": [
+    {
+      "name": "Montana Dept. of Environmental Quality (DEQ) — Hard Rock Mining",
+      "description": "MT DEQ administers Open Cut Mining Permits and the Small Miner Exclusion program in Montana. Also handles water quality permits for mining operations. The primary state agency for mining permitting in Montana — start here to understand the DEQ side of the permit process.",
+      "url": "https://deq.mt.gov/mining"
+    },
+    {
+      "name": "Montana Fish, Wildlife and Parks (FWP)",
+      "description": "FWP coordinates the Natural Streambed and Land Preservation Act (310 Permit) program statewide. The actual 310 Permit is issued by local Conservation Districts, but FWP provides guidance and statewide oversight. Contact FWP or your local Conservation District for stream-specific permit requirements.",
+      "url": "https://fwp.mt.gov"
+    },
+    {
+      "name": "Montana Association of Conservation Districts",
+      "description": "Montana's Conservation Districts issue the 310 Permits required for in-stream work. Find your county's local Conservation District — the issuing body for 310 Permits — through the statewide association.",
+      "url": "https://macdnet.org"
+    }
+  ]
+}
