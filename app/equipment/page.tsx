@@ -1,16 +1,17 @@
 import Link from "next/link";
 import PageHeader from "@/components/PageHeader";
+import CategoryImageCard from "@/components/CategoryImageCard";
 import { getAllProducts, amazonLink } from "@/lib/equipment";
 import type { ProductReview } from "@/lib/equipment";
 
 const CATEGORIES = [
-  { name: "Panning",      slug: "panning",      icon: "🥣" },
-  { name: "Sluices",      slug: "sluices",       icon: "💧" },
-  { name: "Detectors",    slug: "detectors",     icon: "📡" },
-  { name: "Accessories",  slug: "accessories",   icon: "🎒" },
-  { name: "Highbankers",  slug: "highbankers",   icon: "⛏️" },
-  { name: "Classifiers",  slug: "classifiers",   icon: "🔲" },
-  { name: "Pumps",        slug: "pumps",         icon: "💦" },
+  { name: "Hand Panning",                slug: "panning",        image: "/images/equipment/categories/hand-panning.png" },
+  { name: "Sluicing",                    slug: "sluicing",       image: "/images/equipment/categories/sluicing.png" },
+  { name: "Highbankers & Power Sluices", slug: "highbankers",    image: "/images/equipment/categories/highbankers.png" },
+  { name: "Metal Detecting",             slug: "detectors",      image: "/images/equipment/categories/metal-detecting.png" },
+  { name: "Concentrators & Cleanup",     slug: "concentrators",  image: "/images/equipment/categories/concentrators.png" },
+  { name: "Digging & Recovery",          slug: "digging",        image: "/images/equipment/categories/digging-recovery.png" },
+  { name: "Field Gear",                  slug: "field-gear",     image: "/images/equipment/categories/field-gear.png" },
 ];
 
 function StarRating({ rating }: { rating: number }) {
@@ -95,17 +96,12 @@ export default function EquipmentPage() {
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-6">
             {CATEGORIES.map((cat) => (
-              <Link key={cat.slug} href={`/equipment/${cat.slug}`}>
-                <div className="bg-white dark:bg-dark-surface rounded-lg shadow-md p-6 border-t-4 border-gold-600 hover:shadow-lg transition-shadow cursor-pointer h-full">
-                  <div className="text-3xl mb-2">{cat.icon}</div>
-                  <h3 className="text-xl font-bold text-earth-800 dark:text-dark-text">
-                    {cat.name}
-                  </h3>
-                  <p className="text-earth-600 dark:text-earth-300 text-sm mt-1">
-                    Explore {cat.name.toLowerCase()} equipment
-                  </p>
-                </div>
-              </Link>
+              <CategoryImageCard
+                key={cat.slug}
+                name={cat.name}
+                slug={cat.slug}
+                image={cat.image}
+              />
             ))}
           </div>
         </section>

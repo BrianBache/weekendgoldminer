@@ -3,20 +3,22 @@ import { notFound } from "next/navigation";
 import {
   getProductsByCategory,
   getAllCategorySlugs,
-  categoryDisplayName,
   amazonLink,
 } from "@/lib/equipment";
 import type { ProductReview } from "@/lib/equipment";
 
-const VALID_CATEGORIES = [
-  "panning",
-  "sluices",
-  "detectors",
-  "accessories",
-  "highbankers",
-  "classifiers",
-  "pumps",
-];
+/** Slug → display name for all equipment categories */
+const CATEGORY_NAMES: Record<string, string> = {
+  panning:        "Hand Panning",
+  sluicing:       "Sluicing",
+  highbankers:    "Highbankers & Power Sluices",
+  detectors:      "Metal Detecting",
+  concentrators:  "Concentrators & Cleanup",
+  digging:        "Digging & Recovery",
+  "field-gear":   "Field Gear",
+};
+
+const VALID_CATEGORIES = Object.keys(CATEGORY_NAMES);
 
 interface PageProps {
   params: Promise<{ category: string }>;
@@ -116,7 +118,7 @@ export default async function EquipmentCategoryPage({ params }: PageProps) {
     notFound();
   }
 
-  const displayName = categoryDisplayName(category);
+  const displayName = CATEGORY_NAMES[category] ?? category;
   const products    = getProductsByCategory(category);
 
   return (
