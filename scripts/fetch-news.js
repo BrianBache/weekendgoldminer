@@ -18,22 +18,42 @@ const ARTICLES_FILE = path.join(__dirname, '..', 'content', 'news', 'articles.js
 const MAX_ARTICLES = 200;
 
 const RSS_FEEDS = [
+  // Google News - specific regulatory/legal queries (less likely to pull content farms)
   {
-    url: 'https://www.blm.gov/news/rss',
-    source: 'Bureau of Land Management',
-    defaultCategory: 'national',
-  },
-  {
-    url: 'https://www.usgs.gov/news/national-news-release.xml',
-    source: 'USGS',
-    defaultCategory: 'national',
-  },
-  {
-    url: 'https://news.google.com/rss/search?q=gold+prospecting+recreational+mining&hl=en-US&gl=US&ceid=US:en',
+    url: 'https://news.google.com/rss/search?q=BLM+mining+claim+recreational+prospecting+permit&hl=en-US&gl=US&ceid=US:en',
     source: 'Google News',
     defaultCategory: 'national',
   },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+permit+regulation+2025+OR+2026&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'national',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=suction+dredge+mining+regulation+ban+Oregon+California+Washington&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=recreational+mining+public+land+BLM+access+2025&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'national',
+  },
+  // State-specific
+  {
+    url: 'https://news.google.com/rss/search?q=gold+mining+Alaska+prospecting+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+mining+Idaho+Montana+Colorado+prospecting&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
 ];
+
+// Domains known to produce SEO spam / content-farm articles — skip any article from these
+const BLOCKED_DOMAINS = ['farmonaut.com', 'goldrushnuggets.com', 'panning-for-gold.net'];
 
 const STATE_NAMES = [
   'alaska',
@@ -220,6 +240,18 @@ async function processFeed(feed) {
       const summary = description.slice(0, 300) + (description.length > 300 ? '…' : '');
 
       if (!title || !link) return null;
+
+      // Skip articles from blocked content-farm domains.
+      // Google News wraps links in redirect URLs, so also check title text
+      // (blocked sites typically appear as "- SiteName" in Google News titles).
+      const blockedDomainNames = BLOCKED_DOMAINS.map((d) => d.split('.')[0].toLowerCase());
+      const titleLower = title.toLowerCase();
+      const linkLower = link.toLowerCase();
+      if (
+        blockedDomainNames.some((name) => titleLower.includes(name)) ||
+        BLOCKED_DOMAINS.some((domain) => linkLower.includes(domain))
+      )
+        return null;
 
       const detectedState = detectState(title, description);
       const category = detectedState ? 'state' : feed.defaultCategory;
