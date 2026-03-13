@@ -1,0 +1,63 @@
+{
+  "state": "new-hampshire",
+  "displayName": "New Hampshire",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "New Hampshire has documented gold occurrences in the White Mountains region and along several river drainages in the northern part of the state. The Swift River, Ammonoosuc River, and Wild River systems have produced placer gold, and gold was historically mined at several lode deposits in the White Mountain area. The White Mountain National Forest covers a large portion of the state's most gold-productive terrain and offers extensive public access. New Hampshire is a legitimate recreational gold panning destination with genuine, if modest, productivity.",
+    "keyRules": [
+      "Recreational hand panning on White Mountain National Forest land is allowed under USFS rules for casual, non-commercial use — no federal permit is required.",
+      "New Hampshire does not require a specific state permit for non-motorized hand panning in stream beds — the activity is generally unregulated at the state level for casual personal use.",
+      "Suction dredging in New Hampshire streams requires a permit from the NH Department of Environmental Services (DES) Wetlands Bureau — the process is not streamlined for recreational use.",
+      "Some New Hampshire streams are designated Class B (cold water) trout streams with seasonal restrictions — check with NH Fish and Game for seasonal closures before planning in-stream activities.",
+      "White Mountain National Forest has some designated wilderness areas where motorized and mechanized equipment is prohibited."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "New Hampshire does not have a state HPA system. The NH DES Wetlands Bureau regulates significant in-stream work through permit programs. For recreational hand panning with no significant streambed disturbance, no specific state permit is required on National Forest land. Contact NH DES for guidance on specific waterways.",
+    "suctionDredgeStatus": "Regulated — suction dredging in New Hampshire requires NH DES Wetlands Bureau permits. The process has real requirements, and the state's cold-water trout stream protections make dredging difficult to permit for recreational purposes. Hand panning is the practical method.",
+    "handPanning": "Hand panning is freely allowed on White Mountain National Forest land without a permit. The Swift River (Albany), Ammonoosuc River, and their tributaries are the best starting points. Gold is fine placer, but this is a genuine prospecting destination with a strong local prospecting community.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [
+    {
+      "name": "Swift River (Albany / Kancamagus Highway Area)",
+      "county": "Carroll",
+      "description": "The Swift River in the White Mountain National Forest between Conway and Lincoln is one of New Hampshire's most popular and scenic recreation corridors. The river has a documented history of placer gold, and recreational panners regularly find fine gold in river bars and gravel deposits accessible from the Kancamagus Highway. The WMNF manages this area and public access is excellent. Rocky Gorge Scenic Area and Covered Bridge Campground are popular starting points.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Open for recreational hand panning on White Mountain National Forest land. No permit required for non-motorized, casual personal use. Contact Saco Ranger District for any specific area restrictions.",
+      "url": "https://www.fs.usda.gov/whitemountain",
+      "urlLabel": "White Mountain National Forest"
+    },
+    {
+      "name": "Ammonoosuc River (Carroll / Coos County)",
+      "county": "Carroll / Coos",
+      "description": "The Ammonoosuc River drains the western slopes of the White Mountains and has produced placer gold in its gravels since the early 1800s. White Mountain National Forest land along the river corridor provides public access for hand panning. The area near Twin Mountain and Bethlehem has historical gold occurrences, and local prospectors regularly find gold in the river bars.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Open on White Mountain National Forest land. Contact Ammonoosuc Ranger District for current access information and any specific restrictions on particular river segments.",
+      "url": "https://www.fs.usda.gov/whitemountain",
+      "urlLabel": "White Mountain National Forest"
+    }
+  ],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "White Mountain National Forest",
+      "url": "https://www.fs.usda.gov/whitemountain",
+      "description": "Primary public land manager in New Hampshire — contact ranger districts for recreational prospecting access information."
+    },
+    {
+      "title": "NH Department of Environmental Services — Wetlands Bureau",
+      "url": "https://www.des.nh.gov/land/wetlands",
+      "description": "NH DES wetlands and in-stream work permit program — required for any significant in-stream disturbance beyond hand panning."
+    },
+    {
+      "title": "New Hampshire Geological Survey",
+      "url": "https://www.des.nh.gov/land/geology",
+      "description": "State geological survey with geologic maps and mineral occurrence data — includes NH gold district information."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
