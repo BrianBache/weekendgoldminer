@@ -9,6 +9,7 @@ export interface GuideFrontmatter {
   description: string;
   category: 'Beginner' | 'Intermediate' | 'Advanced';
   date: string;
+  order: number;
   affiliateDisclaimer: boolean;
 }
 
@@ -33,7 +34,7 @@ export async function getAllGuideSlugs(): Promise<string[]> {
 /** Return all guides with frontmatter — used by the listing page */
 export async function getAllGuides(): Promise<GuideEntry[]> {
   const slugs = await getAllGuideSlugs();
-  return slugs.map((slug) => {
+  const guides = slugs.map((slug) => {
     const filePath = path.join(GUIDES_DIR, `${slug}.mdx`);
     const raw = fs.readFileSync(filePath, 'utf8');
     const { data } = matter(raw);
@@ -42,6 +43,7 @@ export async function getAllGuides(): Promise<GuideEntry[]> {
       frontmatter: data as GuideFrontmatter,
     };
   });
+  return guides.sort((a, b) => (a.frontmatter.order ?? 999) - (b.frontmatter.order ?? 999));
 }
 
 /** Return a single guide with frontmatter + MDX content — used by [slug] page */
