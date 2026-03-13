@@ -1,0 +1,90 @@
+{
+  "state": "utah",
+  "displayName": "Utah",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Utah has significant gold mining history, particularly in the Bingham Canyon area (now a major copper mine), the Tintic District, and other regions. BLM manages large portions of Utah's public land, and recreational prospecting is allowed on open BLM and USFS lands under the 1872 Mining Law. The state's arid climate means dry washing is the primary method in most areas, with stream panning limited to mountain drainages.",
+    "keyRules": [
+      "Recreational hand panning and dry washing are allowed on open BLM and USFS lands without a permit — verify land status using BLM MLRS to avoid active claims.",
+      "Casual use (non-motorized, minimal disturbance) does not require a Notice of Intent to the BLM; operations disturbing more than 5 cubic yards require filing a Notice with the relevant field office.",
+      "Motorized equipment in or near Utah streams may require coordination with the Utah Division of Water Resources and Army Corps of Engineers Section 404 — contact the BLM field office before operating motorized in-stream equipment.",
+      "Prospecting is prohibited in National Parks (Bryce Canyon, Zion, Arches, etc.) and designated wilderness areas — check that your destination is open public land, not a restricted area.",
+      "Utah has active commercial mining operations in some gold-bearing areas — always check BLM MLRS for active mining claims before prospecting."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Utah does not have a state HPA system. In-stream work with motorized equipment may require coordination with the Utah Division of Water Resources and Army Corps Albuquerque District for Section 404. For recreational hand panning, no state stream-work permit is required. Contact the relevant BLM field office for specific drainage guidance.",
+    "suctionDredgeStatus": "Not subject to a statewide ban. Suction dredging may be possible on BLM land in Utah streams with BLM field office approval. Utah's mountain streams are relatively accessible during summer months. Coordinate with the relevant BLM field office before using motorized equipment in any watercourse.",
+    "handPanning": "Hand panning and dry washing are freely allowed on open BLM and USFS lands in Utah without a permit. Many of Utah's best prospecting areas are desert terrain where dry washing or metal detecting are more productive than wet panning. Confirm open land status via BLM MLRS.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [
+    {
+      "name": "Bingham Creek Area (Oquirrh Mountains)",
+      "county": "Salt Lake / Tooele",
+      "description": "While the Bingham Canyon open-pit mine (one of the world's largest copper-gold mines) dominates this area, BLM and other public lands in the surrounding Oquirrh Mountains have historical gold mineralization. Small placer deposits associated with erosion from the Oquirrh range occur in drainages flowing westward into the Tooele Valley. Access to open BLM land in this area should be verified carefully given the extensive private and mining claim ownership.",
+      "goldType": "placer",
+      "landManagement": "BLM",
+      "permitRequired": false,
+      "permitNotes": "Carefully verify land status — the Bingham area has extensive private, mining claim, and Kennecott Copper ownership. Only prospect on verified open BLM land. Contact BLM Salt Lake Field Office.",
+      "url": "https://www.blm.gov/office/salt-lake-field-office",
+      "urlLabel": "BLM Salt Lake Field Office"
+    },
+    {
+      "name": "Tintic Mining District (Juab County BLM)",
+      "county": "Juab",
+      "description": "The Tintic District in western Juab County was a major silver and gold producer in the late 1800s and early 1900s, producing over $400 million in precious metals. Surrounding BLM land contains eroded placer gold from the weathering of lode deposits. The desert terrain is suited to dry washing and metal detecting. The town of Eureka (Tintic's main center) is nearby.",
+      "goldType": "placer",
+      "landManagement": "BLM",
+      "permitRequired": false,
+      "permitNotes": "Open BLM land surrounding the historic district. Verify claim status via MLRS. Contact BLM Fillmore Field Office for current guidance.",
+      "url": "https://www.blm.gov/office/fillmore-field-office",
+      "urlLabel": "BLM Fillmore Field Office"
+    },
+    {
+      "name": "Piute County / Marysvale Gold Area",
+      "county": "Piute",
+      "description": "The Marysvale area in Piute County is one of Utah's most significant gold occurrences, with both lode deposits and associated placer gold in Bullion Creek and other drainages. The Fishlake National Forest and surrounding BLM land provide public access. This area produced significant gold during the late 19th and early 20th centuries and remains productive for recreational prospectors.",
+      "goldType": "placer",
+      "landManagement": "Mixed",
+      "permitRequired": false,
+      "permitNotes": "A mix of USFS (Fishlake NF) and BLM land in the area. Verify specific parcels via MLRS and contact Fishlake NF Richfield Ranger District for current access.",
+      "url": "https://www.fs.usda.gov/fishlake",
+      "urlLabel": "Fishlake National Forest"
+    },
+    {
+      "name": "Uinta Mountains (Ashley National Forest)",
+      "county": "Summit / Duchesne / Uintah",
+      "description": "The Uinta Mountains in northeastern Utah are an underappreciated gold prospecting area. Various creeks draining the Uintas have produced placer gold, and the Ashley National Forest manages large areas of public land open to recreational prospecting. The Uintas are also known for oil shale and other minerals, but the mountain streams carry real placer gold.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Open on Ashley National Forest land outside wilderness areas. The High Uintas Wilderness prohibits motorized equipment. Contact Ashley NF Vernal or Duchesne Ranger Districts for open access areas.",
+      "url": "https://www.fs.usda.gov/ashley",
+      "urlLabel": "Ashley National Forest"
+    }
+  ],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "BLM Utah State Office",
+      "url": "https://www.blm.gov/utah",
+      "description": "Primary BLM office for Utah public land information and mineral program guidance."
+    },
+    {
+      "title": "BLM Mineral & Land Records System (MLRS)",
+      "url": "https://mlrs.blm.gov",
+      "description": "Search for active mining claims and land status before prospecting in Utah."
+    },
+    {
+      "title": "Utah Geological Survey",
+      "url": "https://geology.utah.gov",
+      "description": "Geologic maps, historical mine data, and mineral resource information for Utah."
+    },
+    {
+      "title": "Utah Division of Oil, Gas and Mining",
+      "url": "https://ogm.utah.gov",
+      "description": "State agency overseeing mining operations and permits in Utah."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
