@@ -45,6 +45,55 @@ export interface StateData {
 }
 
 /**
+ * Normalize raw JSON (written by Scott) to match the StateData interface.
+ * Handles field name mismatches:
+ *   - privateOptions → privateLocations
+ *   - officialResources[{ title, url, description }] → blmResources / dnrResources
+ */
+function normalizeStateData(raw: any): StateData {
+  // Handle privateOptions → privateLocations
+  const privateLocations: StateLocation[] = raw.privateLocations ?? raw.privateOptions ?? [];
+
+  // Seed from existing typed fields (already correct shape)
+  const blmResources: StateResource[] = [];
+  const dnrResources: StateResource[] = [];
+
+  (raw.blmResources ?? []).forEach((r: any) =>
+    blmResources.push({ name: r.name ?? r.title ?? 'Resource', description: r.description ?? '', url: r.url ?? '' })
+  );
+  (raw.dnrResources ?? []).forEach((r: any) =>
+    dnrResources.push({ name: r.name ?? r.title ?? 'Resource', description: r.description ?? '', url: r.url ?? '' })
+  );
+
+  // Split officialResources into blmResources (federal) vs dnrResources (state) by keyword
+  const officialResources: any[] = raw.officialResources ?? [];
+  officialResources.forEach((r: any) => {
+    const name = r.name ?? r.title ?? 'Resource';
+    const entry: StateResource = { name, description: r.description ?? '', url: r.url ?? '' };
+    const nameLower = name.toLowerCase();
+    if (
+      nameLower.includes('blm') ||
+      nameLower.includes('bureau of land') ||
+      nameLower.includes('usgs') ||
+      nameLower.includes('federal') ||
+      nameLower.includes('national forest') ||
+      nameLower.includes('usfs')
+    ) {
+      blmResources.push(entry);
+    } else {
+      dnrResources.push(entry);
+    }
+  });
+
+  return {
+    ...raw,
+    privateLocations,
+    blmResources,
+    dnrResources,
+  };
+}
+
+/**
  * Return state data for a given slug (e.g. "washington"), or null if no JSON
  * file exists yet for that state.
  */
@@ -53,7 +102,8 @@ export async function getStateData(slug: string): Promise<StateData | null> {
   if (!fs.existsSync(filePath)) return null;
   try {
     const raw = fs.readFileSync(filePath, 'utf8');
-    return JSON.parse(raw) as StateData;
+    const parsed = JSON.parse(raw);
+    return normalizeStateData(parsed);
   } catch {
     return null;
   }
