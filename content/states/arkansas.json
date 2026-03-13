@@ -1,0 +1,51 @@
+{
+  "state": "arkansas",
+  "displayName": "Arkansas",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Arkansas has minor gold occurrences in the Ouachita Mountains region, though the state is far better known for diamonds (Crater of Diamonds State Park — the world's only diamond-producing site open to the public), quartz crystals, and bauxite. Trace placer gold has been reported in some Ouachita Mountain streams, but productive gold prospecting is minimal. The Ouachita National Forest offers public land access for prospecting and mineral collecting.",
+    "keyRules": [
+      "Recreational mineral collecting on Ouachita National Forest land is allowed for personal use without a permit — commercial collection requires a special use authorization.",
+      "In-stream work in Arkansas waterways beyond hand tools requires coordination with the Arkansas Department of Energy and Environment and Army Corps Section 404.",
+      "Arkansas state parks generally prohibit mineral collecting — Crater of Diamonds State Park is a notable exception where you can pay to dig and keep what you find (including diamonds, but also some minor gold).",
+      "No specific recreational gold prospecting permit is required on National Forest land for non-motorized hand tool use."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Arkansas does not have a state HPA system. Any significant in-stream disturbance requires coordination with Arkansas Department of Energy and Environment (ADEE) and Army Corps of Engineers Little Rock District. For casual hand panning with no significant streambed disturbance, no specific state permit is required on National Forest land.",
+    "suctionDredgeStatus": "Not practical in Arkansas. Suction dredging in Arkansas streams would require ADEE permits. The state's gold-bearing terrain has no established recreational dredging program. Hand panning only for recreational prospectors.",
+    "handPanning": "Hand panning is allowed on Ouachita National Forest land without a permit for personal use. Gold expectations should be very low — Arkansas is better suited for quartz crystal and diamond prospecting than gold panning.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [
+    {
+      "name": "Ouachita National Forest (Ouachita Mountains streams)",
+      "county": "Polk / Montgomery / Scott",
+      "description": "The Ouachita Mountains in western Arkansas host a variety of mineral occurrences including quartz crystals, novaculite, and trace gold associated with metamorphic rocks. Streams draining the Ouachita NF occasionally yield very small amounts of placer gold. The Caddo and Fourche Mountain areas are the most mineralized. This is a real gold occurrence area but with very low productivity compared to western states.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Open for recreational mineral collecting and prospecting on National Forest land. Contact the Jessieville, Womble, or Mena/Oden Ranger Districts for current access. Quartz crystals are the more reliably found treasure here.",
+      "url": "https://www.fs.usda.gov/ouachita",
+      "urlLabel": "Ouachita National Forest"
+    }
+  ],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "Ouachita National Forest",
+      "url": "https://www.fs.usda.gov/ouachita",
+      "description": "Primary public land manager in western Arkansas — allows recreational mineral collecting on forest land."
+    },
+    {
+      "title": "Crater of Diamonds State Park",
+      "url": "https://www.craterofdiamondsstatepark.com",
+      "description": "The world's only diamond site open to the public — dig and keep what you find. Gold is not the focus here but minor gold has been reported."
+    },
+    {
+      "title": "Arkansas Geological Survey",
+      "url": "https://www.geology.ar.gov",
+      "description": "State geological survey with geologic maps and mineral occurrence data for Arkansas."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
