@@ -1,0 +1,57 @@
+{
+  "state": "michigan",
+  "displayName": "Michigan",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Michigan is not traditionally known as gold country — the state is far more famous for copper (Keweenaw Peninsula) and iron. However, trace amounts of placer gold have been found in several Upper Peninsula streams, delivered by glacial action from Canadian gold deposits to the north. Gold prospecting in Michigan is a niche activity with limited public land access compared to western states. The Ottawa National Forest in the Upper Peninsula is the primary public land area for prospecting.",
+    "keyRules": [
+      "Michigan requires a Prospector's License from the Michigan DNR for any collection of minerals from state-owned streambeds — this applies to gold panning on any state-controlled waterway.",
+      "On Ottawa National Forest land (Upper Peninsula), recreational prospecting is allowed under USFS rules with minimal restrictions for non-motorized use.",
+      "Suction dredging in Michigan streams requires coordination with the Michigan DEQ and Army Corps Section 404 — not a commonly permitted activity in Michigan.",
+      "Michigan's Natural Resources and Environmental Protection Act (Part 301 — Inland Lakes and Streams) regulates any work in or near Michigan waterways — contact EGLE (Department of Environment, Great Lakes, and Energy) for current requirements.",
+      "Many of Michigan's productive gold-bearing streams are on private land — always confirm land access before prospecting."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Michigan does not have a state HPA system. The Michigan DNR Prospector's License covers mineral collecting from state stream bottoms. For any significant in-stream work or motorized equipment, a permit under Part 301 (Inland Lakes and Streams) from Michigan EGLE is required. Contact EGLE for current requirements before any in-stream work beyond basic hand panning.",
+    "suctionDredgeStatus": "Not commonly practiced in Michigan. Suction dredging would require Part 301 permits from Michigan EGLE and Army Corps Section 404. Michigan's gold-bearing streams in the UP are cold-water fishery streams with significant trout habitat protections. Hand panning is the practical choice for recreational prospectors.",
+    "handPanning": "Hand panning is allowed on Ottawa National Forest land in the Upper Peninsula without a federal permit. A Michigan DNR Prospector's License is required for collecting from state-owned streambeds. The license is available from the Michigan DNR.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [
+    {
+      "name": "Ives Lake / Ontonagon River Area (Ottawa National Forest)",
+      "county": "Ontonagon",
+      "description": "The Ontonagon River drainage in western Ontonagon County has produced trace amounts of placer gold associated with glacially transported material from gold deposits in Ontario, Canada. The Ottawa National Forest manages extensive public land in this area. Gold is present but in very small quantities — this is a nature adventure destination more than a productive gold prospecting site.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Open for recreational prospecting on Ottawa National Forest land. Michigan DNR Prospector's License may be required for state-owned stream segments. Contact the Bessemer or Ontonagon Ranger District for current guidance.",
+      "url": "https://www.fs.usda.gov/ottawa",
+      "urlLabel": "Ottawa National Forest"
+    }
+  ],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "Ottawa National Forest",
+      "url": "https://www.fs.usda.gov/ottawa",
+      "description": "Primary public land manager in the Upper Peninsula — contact for prospecting access information on National Forest land."
+    },
+    {
+      "title": "Michigan DNR — Minerals Management",
+      "url": "https://www.michigan.gov/dnr/managing-resources/minerals",
+      "description": "Michigan Department of Natural Resources minerals management — information on the Prospector's License and state land rules."
+    },
+    {
+      "title": "Michigan EGLE — Inland Lakes and Streams Permits",
+      "url": "https://www.michigan.gov/egle/regulatory-assistance/permits-environmental-assessments/inland-lakes-and-streams",
+      "description": "Department of Environment, Great Lakes, and Energy — permit requirements for any in-stream work in Michigan waterways."
+    },
+    {
+      "title": "Michigan Geological Survey",
+      "url": "https://www.michigan.gov/egle/about/organization/geological-survey",
+      "description": "Michigan geological maps and mineral resource data — includes information on Upper Peninsula mineral deposits."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
