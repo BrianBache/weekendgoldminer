@@ -1,0 +1,101 @@
+{
+  "state": "nevada",
+  "displayName": "Nevada",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Nevada is the top gold-producing state in the US and one of the most prospector-friendly. The vast majority of the state is BLM-managed public land open to recreational prospecting under the 1872 Mining Law, and state regulations are minimal compared to western neighbors. Suction dredging and motorized equipment are generally allowed on BLM land with proper plans, though specific districts may have seasonal or localized restrictions.",
+    "keyRules": [
+      "Recreational hand panning and non-motorized prospecting are allowed on open BLM and USFS lands without a permit — verify land status using BLM's MLRS system to avoid active mining claims.",
+      "Casual use (non-motorized hand tools, small pans and shovels) on BLM land does not require a notice or plan of operations, but disturbing more than 5 cubic yards of material may require filing a Notice of Intent with the BLM field office.",
+      "Suction dredges and motorized equipment on BLM land generally require a Plan of Operations approved by the BLM field office; some areas near streams may have additional review.",
+      "State water rights and Nevada Division of Environmental Protection (NDEP) may require permits for in-stream work; contact the relevant BLM field office for current requirements.",
+      "Do not prospect on active mining claims without written permission from the claim holder — Nevada has extensive claim coverage, especially in productive areas; check MLRS before going out."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Nevada does not have an HPA system like Washington. In-stream work with motorized equipment may require coordination with NDEP and Army Corps of Engineers (Section 404 permit) for significant ground disturbance. For casual use hand panning, no stream-work permit is required. Contact the relevant BLM field office for specific drainage guidance.",
+    "suctionDredgeStatus": "Generally allowed on BLM land in Nevada, subject to BLM field office approval and any localized restrictions. Nevada does not have a statewide suction dredge moratorium. A Plan of Operations filed with the BLM field office is typically required for motorized equipment. Check with specific BLM districts as individual field offices may have seasonal restrictions in sensitive watersheds.",
+    "handPanning": "Hand panning and non-motorized prospecting are freely allowed on open BLM and USFS public lands in Nevada. No permit is required for casual use. Carry a current map or use the BLM MLRS to confirm the land is open (not under an active mining claim or withdrawal).",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [
+    {
+      "name": "Humboldt River Gold (Winnemucca BLM District)",
+      "county": "Humboldt",
+      "description": "The Humboldt River drainage in northern Nevada has a long history of gold production, with BLM land covering vast stretches of the river corridor. Placer gold has been found in river bars and dry washes throughout the region. The Winnemucca BLM District covers millions of acres of open public land accessible to recreational prospectors.",
+      "goldType": "placer",
+      "landManagement": "BLM",
+      "permitRequired": false,
+      "permitNotes": "Verify land is open (not under active mining claim) via BLM MLRS before prospecting. Casual use hand panning requires no permit.",
+      "url": "https://www.blm.gov/office/winnemucca-district-office",
+      "urlLabel": "BLM Winnemucca District Office"
+    },
+    {
+      "name": "Battle Mountain District (Lander County)",
+      "county": "Lander",
+      "description": "Lander County sits at the heart of one of Nevada's richest gold belts. The Battle Mountain Gold Belt has produced millions of ounces of gold, and while the major deposits are commercially mined, BLM land in the surrounding area offers recreational prospecting in dry washes and creek drainages that carry placer flour gold.",
+      "goldType": "placer",
+      "landManagement": "BLM",
+      "permitRequired": false,
+      "permitNotes": "Check BLM MLRS for active claims. Much of the most productive ground is under active mining operations — prospecting on or near active mines is prohibited without permission.",
+      "url": "https://www.blm.gov/office/battle-mountain-district-office",
+      "urlLabel": "BLM Battle Mountain District Office"
+    },
+    {
+      "name": "Elko County BLM Lands",
+      "county": "Elko",
+      "description": "Elko County in northeastern Nevada encompasses part of the Carlin Trend, one of the world's greatest gold deposits, and surrounding BLM lands where recreational prospectors can find placer gold in numerous dry washes and intermittent streams. The Ruby Mountains and surrounding drainages have a history of small-scale placer gold production.",
+      "goldType": "placer",
+      "landManagement": "BLM",
+      "permitRequired": false,
+      "permitNotes": "Heavy industrial mining presence in this county — always check MLRS for claim status. BLM Elko Field Office can provide current open areas.",
+      "url": "https://www.blm.gov/office/elko-district-office",
+      "urlLabel": "BLM Elko District Office"
+    },
+    {
+      "name": "Nye County (Goldfield/Tonopah Area)",
+      "county": "Nye",
+      "description": "Nye County is Nevada's largest county and contains extensive BLM public land surrounding the historic Goldfield and Tonopah mining districts. These turn-of-the-century boom towns produced enormous amounts of gold and silver, and the surrounding desert washes and gulches still yield placer gold and lode float. This is an accessible area for dry-washing and metal detecting on open BLM land.",
+      "goldType": "placer",
+      "landManagement": "BLM",
+      "permitRequired": false,
+      "permitNotes": "Verify open land status on MLRS. Much of the Goldfield townsite area is private — concentrate on BLM land in the surrounding hills and drainages.",
+      "url": "https://www.blm.gov/office/tonopah-field-office",
+      "urlLabel": "BLM Tonopah Field Office"
+    },
+    {
+      "name": "Walker Lane (Mineral and Esmeralda Counties)",
+      "county": "Mineral / Esmeralda",
+      "description": "The Walker Lane Trend is a northwest-trending belt of gold and silver mineralization extending through western Nevada. Counties like Mineral (Hawthorne area) and Esmeralda (home to the historic boomtown of Candelaria and the active Goldstrike district) have extensive BLM lands where dry washes occasionally yield placer gold. The Walker Lane is geologically similar to the Basin and Range province and has been prospected since the 1860s.",
+      "goldType": "placer",
+      "landManagement": "BLM",
+      "permitRequired": false,
+      "permitNotes": "No permit for casual non-motorized use. Check MLRS for claims. Contact BLM Carson City District Office for guidance on specific drainages.",
+      "url": "https://www.blm.gov/office/carson-city-district-office",
+      "urlLabel": "BLM Carson City District Office"
+    }
+  ],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "BLM Nevada State Office",
+      "url": "https://www.blm.gov/nevada",
+      "description": "Primary BLM office for Nevada public land information, land status, and mineral program guidance."
+    },
+    {
+      "title": "BLM Mineral & Land Records System (MLRS)",
+      "url": "https://mlrs.blm.gov",
+      "description": "Search for active mining claims, withdrawals, and land status before prospecting on any BLM parcel in Nevada."
+    },
+    {
+      "title": "Nevada Division of Minerals",
+      "url": "https://minerals.nv.gov",
+      "description": "State agency overseeing mineral resource information, historical mine data, and prospecting resources in Nevada."
+    },
+    {
+      "title": "Nevada Bureau of Mines and Geology",
+      "url": "https://www.unr.edu/nbmg",
+      "description": "Geologic maps, historical mine records, and mineral deposit databases for Nevada — valuable for research before prospecting trips."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
