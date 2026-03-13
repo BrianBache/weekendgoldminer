@@ -1,0 +1,52 @@
+{
+  "state": "wisconsin",
+  "displayName": "Wisconsin",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Wisconsin has minimal gold prospecting activity and is not a gold-producing state in any meaningful commercial sense. Like Michigan and Minnesota, glacial movement has deposited trace amounts of gold in some Wisconsin streams, transported from Precambrian source rocks in Canada. The Penokee-Gogebic Range and Baraboo Hills regions have some gold occurrences, but quantities are extremely small. Recreational gold panning in Wisconsin is primarily a novelty activity rather than a productive pastime.",
+    "keyRules": [
+      "Wisconsin DNR requires a Prospecting License for any mineral prospecting on state-owned lands, including state forests and state-managed waterways.",
+      "In-stream work in Wisconsin waterways is regulated under state statutes — any work that disturbs the streambed beyond hand tools requires a permit from the Wisconsin DNR under the Waterway and Wetland permit program.",
+      "Chequamegon-Nicolet National Forest in northern Wisconsin allows recreational prospecting under USFS rules for non-motorized casual use.",
+      "Suction dredging in Wisconsin streams requires Wisconsin DNR approval and is generally not permitted in trout streams — most gold-bearing streams in northern Wisconsin are designated trout waters.",
+      "Wisconsin state parks prohibit mineral collecting of any kind."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Wisconsin does not have a state HPA system. The Wisconsin DNR Waterway and Wetland permit program governs in-stream work. For hand panning with no significant streambed disturbance, the practical requirement is to have a valid prospecting license (for state land) and stay within legal access areas. Contact Wisconsin DNR for current guidance before any in-stream activity.",
+    "suctionDredgeStatus": "Not practical in Wisconsin. Suction dredging in Wisconsin streams requires DNR permits and faces significant restrictions due to cold-water fishery and trout stream protections throughout northern Wisconsin. Hand panning is the only viable recreational method.",
+    "handPanning": "Hand panning is the only viable recreational gold prospecting method in Wisconsin, and gold quantities are extremely small. On Chequamegon-Nicolet National Forest land, access is open for casual non-motorized prospecting. A Wisconsin DNR Prospecting License is required for state land access.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [
+    {
+      "name": "Chequamegon National Forest (Penokee Hills Area)",
+      "county": "Ashland / Iron",
+      "description": "The Penokee Hills in Ashland and Iron counties sit on Precambrian metavolcanic and metasedimentary rocks that host trace gold mineralization. The Chequamegon-Nicolet National Forest manages land throughout this area, and streams draining the Penokees occasionally yield trace placer gold transported by glacial action. This is a scenic area more notable for its geology than its gold productivity.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Open for non-motorized prospecting on National Forest land. Quantities of gold are extremely small — manage expectations. Contact the Park Falls or Hayward Ranger Districts for current access information.",
+      "url": "https://www.fs.usda.gov/cnnf",
+      "urlLabel": "Chequamegon-Nicolet National Forest"
+    }
+  ],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "Chequamegon-Nicolet National Forest",
+      "url": "https://www.fs.usda.gov/cnnf",
+      "description": "Primary public land manager in northern Wisconsin — contact for recreational prospecting access information."
+    },
+    {
+      "title": "Wisconsin DNR — Minerals and Mining",
+      "url": "https://dnr.wisconsin.gov/topic/Mines",
+      "description": "Wisconsin Department of Natural Resources mining and minerals information — prospecting licenses for state land."
+    },
+    {
+      "title": "Wisconsin Geological and Natural History Survey",
+      "url": "https://wgnhs.wisc.edu",
+      "description": "State geological survey with geologic maps and mineral occurrence data for Wisconsin."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
