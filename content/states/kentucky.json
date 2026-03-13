@@ -1,0 +1,39 @@
+{
+  "state": "kentucky",
+  "displayName": "Kentucky",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Kentucky has no significant gold deposits and is not a gold prospecting destination. The state's geology is dominated by Ordovician and Devonian limestone in the central Bluegrass region and Pennsylvanian coal-bearing formations in the east and west. The Daniel Boone National Forest covers portions of the Eastern Kentucky coal field and adjacent terrain, but no gold-bearing formations are present. Kentucky is a world-class destination for fossil collecting (marine invertebrates in Ordovician limestone) but not for gold prospectors.",
+    "keyRules": [
+      "Kentucky does not have a recreational gold prospecting permit system — there are no productive gold deposits in the state.",
+      "Rock and mineral collecting on Daniel Boone National Forest land is allowed for personal use in reasonable quantities under USFS rules.",
+      "In-stream work in Kentucky waterways requires coordination with the Kentucky Division of Water (DOW) and Army Corps of Engineers.",
+      "Kentucky state parks prohibit mineral and fossil collecting — focus on National Forest land."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Not applicable — there are no gold-bearing streams in Kentucky suitable for prospecting.",
+    "suctionDredgeStatus": "Not applicable — Kentucky has no productive placer gold streams.",
+    "handPanning": "Gold panning in Kentucky streams is not a viable activity. The state has no gold-bearing geology. The Daniel Boone National Forest is an excellent destination for fossil collecting in Mississippian limestone and sandstone, but not gold prospecting.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "Kentucky Geological Survey",
+      "url": "https://www.uky.edu/KGS",
+      "description": "State geological survey — Kentucky has no gold-bearing geology; the survey covers coal, oil, gas, and limestone."
+    },
+    {
+      "title": "Daniel Boone National Forest",
+      "url": "https://www.fs.usda.gov/dbnf",
+      "description": "USFS-managed land in eastern Kentucky — allows recreational collecting for personal use. Good for fossils, not gold."
+    },
+    {
+      "title": "Kentucky Division of Water",
+      "url": "https://eec.ky.gov/Environmental-Protection/Water",
+      "description": "Oversees Kentucky waterway permits and regulations for in-stream work."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
