@@ -1,0 +1,79 @@
+{
+  "state": "south-dakota",
+  "displayName": "South Dakota",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "South Dakota's Black Hills is one of the most historically significant gold mining regions in North America, home to the legendary Homestake Mine that produced over 40 million ounces of gold before closing in 2002. The Black Hills National Forest and surrounding BLM land offer recreational prospecting opportunities on public land. State regulations require a mineral prospecting license for certain activities, and stream work has additional considerations.",
+    "keyRules": [
+      "A South Dakota Mineral Prospecting License is required for anyone collecting minerals (including gold) on state-owned lands — not required on federal lands but check current rules with the SDGFP.",
+      "Recreational prospecting on Black Hills National Forest land is generally allowed under federal rules, but check with the Mystic or Hell Canyon Ranger Districts for any specific area closures.",
+      "BLM land in South Dakota is limited but open for recreational prospecting under the standard 1872 Mining Law casual use provisions.",
+      "Suction dredging in Black Hills streams may require coordination with South Dakota DENR (Department of Agriculture and Natural Resources) and Army Corps Section 404 — contact the relevant agency before using motorized equipment in streams.",
+      "Always check for active mining claims on BLM MLRS — the Black Hills has extensive claim coverage from both historical and current mining operations."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "South Dakota does not have a state HPA system. In-stream work with motorized equipment may require a permit from the South Dakota Department of Agriculture and Natural Resources (DANR) and Army Corps Section 404 coordination. For recreational hand panning, no state stream-work permit is required. Contact DANR Water Rights and the Black Hills National Forest for specific guidance.",
+    "suctionDredgeStatus": "Not subject to a statewide ban but regulated. In-stream motorized work in South Dakota streams requires coordination with DANR and potentially Army Corps. Many Black Hills streams are cold-water trout fisheries with additional protections — contact the Rapid City DENR office before planning any motorized dredging operations.",
+    "handPanning": "Hand panning is allowed on open National Forest and BLM land in South Dakota's Black Hills without a federal permit. State mineral prospecting license may be required for state land. Bring a claim map or use MLRS to avoid prospecting on active mining claims.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [
+    {
+      "name": "Rapid Creek / Castle Creek Drainages (Black Hills NF)",
+      "county": "Pennington",
+      "description": "Rapid Creek and Castle Creek drain the central Black Hills and historically produced placer gold associated with the Homestake lode system. National Forest land along these drainages offers public access for hand panning. The creeks have produced fine placer gold and occasional small nuggets in gravel bars. This is the most accessible Black Hills gold prospecting area for visitors to the Rapid City area.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Open on Black Hills National Forest land. Verify no active mining claims via BLM MLRS. Contact the Hell Canyon Ranger District or Mystic Ranger District for current access information.",
+      "url": "https://www.fs.usda.gov/blackhills",
+      "urlLabel": "Black Hills National Forest"
+    },
+    {
+      "name": "Whitewood Creek (Lawrence County)",
+      "county": "Lawrence",
+      "description": "Whitewood Creek flows through the northern Black Hills near Deadwood and Lead, areas associated with the great Black Hills gold rush of 1876. The creek was historically contaminated by tailings from the Homestake Mine, but cleanup efforts have improved water quality. Public land segments along Whitewood Creek offer prospecting access; verify specific sections with the Forest Service.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Check with Black Hills NF Mystic Ranger District for open access areas. Some stream sections near Lead/Deadwood may have restrictions due to historical mining contamination.",
+      "url": "https://www.fs.usda.gov/blackhills",
+      "urlLabel": "Black Hills National Forest"
+    },
+    {
+      "name": "French Creek (Custer State Park Adjacent NF Land)",
+      "county": "Custer",
+      "description": "French Creek in the southern Black Hills is the site of the 1874 Custer Expedition gold discovery that triggered the Black Hills gold rush. Custer State Park (entry fee required) and adjacent Black Hills National Forest land border the creek. Portions of the creek on National Forest land are open to recreational prospecting. Fine placer gold can still be found by patient prospectors.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Prospecting is prohibited within Custer State Park boundaries. Focus on adjacent Black Hills NF land. Verify boundaries and check for active claims via MLRS. Contact Custer Ranger District for open areas.",
+      "url": "https://www.fs.usda.gov/blackhills",
+      "urlLabel": "Black Hills National Forest"
+    }
+  ],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "Black Hills National Forest",
+      "url": "https://www.fs.usda.gov/blackhills",
+      "description": "Federal land manager for the primary gold-bearing terrain in the Black Hills — contact ranger districts for prospecting access information."
+    },
+    {
+      "title": "BLM Mineral & Land Records System (MLRS)",
+      "url": "https://mlrs.blm.gov",
+      "description": "Search for active mining claims and land status in South Dakota before prospecting."
+    },
+    {
+      "title": "South Dakota Department of Agriculture and Natural Resources",
+      "url": "https://danr.sd.gov",
+      "description": "State agency overseeing water rights, mining permits, and environmental regulations for mining activities in South Dakota."
+    },
+    {
+      "title": "South Dakota Geological Survey",
+      "url": "https://sdgs.usd.edu",
+      "description": "Geologic maps, mineral resource data, and historical mining records for South Dakota."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
