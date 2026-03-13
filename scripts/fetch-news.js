@@ -18,7 +18,7 @@ const ARTICLES_FILE = path.join(__dirname, '..', 'content', 'news', 'articles.js
 const MAX_ARTICLES = 200;
 
 const RSS_FEEDS = [
-  // Google News - specific regulatory/legal queries (less likely to pull content farms)
+  // ── National feeds ───────────────────────────────────────────────────────────
   {
     url: 'https://news.google.com/rss/search?q=BLM+mining+claim+recreational+prospecting+permit&hl=en-US&gl=US&ceid=US:en',
     source: 'Google News',
@@ -30,23 +30,263 @@ const RSS_FEEDS = [
     defaultCategory: 'national',
   },
   {
-    url: 'https://news.google.com/rss/search?q=suction+dredge+mining+regulation+ban+Oregon+California+Washington&hl=en-US&gl=US&ceid=US:en',
-    source: 'Google News',
-    defaultCategory: 'state',
-  },
-  {
-    url: 'https://news.google.com/rss/search?q=recreational+mining+public+land+BLM+access+2025&hl=en-US&gl=US&ceid=US:en',
+    url: 'https://news.google.com/rss/search?q=suction+dredge+mining+regulation+ban&hl=en-US&gl=US&ceid=US:en',
     source: 'Google News',
     defaultCategory: 'national',
   },
-  // State-specific
   {
-    url: 'https://news.google.com/rss/search?q=gold+mining+Alaska+prospecting+regulation&hl=en-US&gl=US&ceid=US:en',
+    url: 'https://news.google.com/rss/search?q=recreational+mining+public+land+BLM+access&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'national',
+  },
+  // ── All 50 states ────────────────────────────────────────────────────────────
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Alabama+permit+regulation&hl=en-US&gl=US&ceid=US:en',
     source: 'Google News',
     defaultCategory: 'state',
   },
   {
-    url: 'https://news.google.com/rss/search?q=gold+mining+Idaho+Montana+Colorado+prospecting&hl=en-US&gl=US&ceid=US:en',
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Alaska+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Arizona+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Arkansas+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+California+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Colorado+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Connecticut+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Delaware+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Florida+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Georgia+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Hawaii+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Idaho+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Illinois+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Indiana+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Iowa+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Kansas+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Kentucky+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Louisiana+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Maine+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Maryland+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Massachusetts+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Michigan+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Minnesota+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Mississippi+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Missouri+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Montana+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Nebraska+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Nevada+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+New+Hampshire+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+New+Jersey+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+New+Mexico+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+New+York+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+North+Carolina+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+North+Dakota+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Ohio+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Oklahoma+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Oregon+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Pennsylvania+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Rhode+Island+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+South+Carolina+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+South+Dakota+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Tennessee+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Texas+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Utah+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Vermont+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Virginia+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Washington+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+West+Virginia+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Wisconsin+permit+regulation&hl=en-US&gl=US&ceid=US:en',
+    source: 'Google News',
+    defaultCategory: 'state',
+  },
+  {
+    url: 'https://news.google.com/rss/search?q=gold+prospecting+mining+Wyoming+permit+regulation&hl=en-US&gl=US&ceid=US:en',
     source: 'Google News',
     defaultCategory: 'state',
   },
@@ -56,23 +296,56 @@ const RSS_FEEDS = [
 const BLOCKED_DOMAINS = ['farmonaut.com', 'goldrushnuggets.com', 'panning-for-gold.net'];
 
 const STATE_NAMES = [
+  'alabama',
   'alaska',
+  'arizona',
+  'arkansas',
   'california',
   'colorado',
-  'idaho',
-  'montana',
-  'oregon',
-  'washington',
-  // Extended list for broader categorisation
-  'arizona',
-  'nevada',
-  'utah',
-  'wyoming',
-  'new mexico',
-  'south dakota',
-  'north carolina',
+  'connecticut',
+  'delaware',
+  'florida',
   'georgia',
+  'hawaii',
+  'idaho',
+  'illinois',
+  'indiana',
+  'iowa',
+  'kansas',
+  'kentucky',
+  'louisiana',
+  'maine',
+  'maryland',
+  'massachusetts',
+  'michigan',
+  'minnesota',
+  'mississippi',
+  'missouri',
+  'montana',
+  'nebraska',
+  'nevada',
+  'new hampshire',
+  'new jersey',
+  'new mexico',
+  'new york',
+  'north carolina',
+  'north dakota',
+  'ohio',
+  'oklahoma',
+  'oregon',
+  'pennsylvania',
+  'rhode island',
+  'south carolina',
+  'south dakota',
+  'tennessee',
+  'texas',
+  'utah',
+  'vermont',
   'virginia',
+  'washington',
+  'west virginia',
+  'wisconsin',
+  'wyoming',
 ];
 
 // ── Helpers ───────────────────────────────────────────────────────────────────
