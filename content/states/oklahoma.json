@@ -1,0 +1,51 @@
+{
+  "state": "oklahoma",
+  "displayName": "Oklahoma",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Oklahoma has very limited gold prospecting potential. The Wichita Mountains in southwestern Oklahoma contain Precambrian igneous and metamorphic rocks that have some gold and silver mineralization, but not in quantities productive enough for recreational gold panning. The Ouachita Mountains in southeastern Oklahoma share geology with the gold-bearing Arkansas Ouachitas and have had trace gold reported. Overall, Oklahoma is not a destination for gold prospectors.",
+    "keyRules": [
+      "Oklahoma does not have a specific recreational gold prospecting permit system.",
+      "Recreational rock and mineral collecting on Ouachita National Forest land (which extends into eastern Oklahoma) is allowed for personal use without a permit.",
+      "Wichita Mountains Wildlife Refuge (administered by US Fish and Wildlife) prohibits all mineral collecting and geological sampling.",
+      "In-stream work in Oklahoma waterways requires coordination with the Oklahoma DEQ and Army Corps of Engineers."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Oklahoma does not have a state HPA system. In-stream work beyond hand activities requires coordination with Oklahoma DEQ. For casual hand panning on National Forest land, no specific state permit is required.",
+    "suctionDredgeStatus": "Not applicable in any practical sense — Oklahoma has no productive placer gold streams suitable for suction dredge operations.",
+    "handPanning": "Hand panning in Oklahoma streams is possible on Ouachita National Forest land in the eastern part of the state, but gold quantities are extremely small. The Wichita Mountains are a wildlife refuge where all collecting is prohibited.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [
+    {
+      "name": "Ouachita National Forest (McCurtain and LeFlore Counties)",
+      "county": "McCurtain / LeFlore",
+      "description": "The Ouachita National Forest extends from Arkansas into southeastern Oklahoma, and the Ouachita Mountains in this area share the same geological package as the Arkansas Ouachitas with their trace gold mineralization. Streams in McCurtain and LeFlore counties occasionally yield very small amounts of placer gold. This is a scenic area more notable for its wilderness character than its gold productivity.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Open for recreational mineral collecting on National Forest land. Contact the Choctaw or Kiamichi Ranger Districts for current access information.",
+      "url": "https://www.fs.usda.gov/ouachita",
+      "urlLabel": "Ouachita National Forest"
+    }
+  ],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "Ouachita National Forest",
+      "url": "https://www.fs.usda.gov/ouachita",
+      "description": "National Forest land in eastern Oklahoma and Arkansas — allows recreational mineral collecting for personal use."
+    },
+    {
+      "title": "Oklahoma Geological Survey",
+      "url": "https://ogs.ou.edu",
+      "description": "State geological survey with geologic maps and mineral occurrence data for Oklahoma."
+    },
+    {
+      "title": "Oklahoma DEQ — Water Quality Division",
+      "url": "https://www.deq.ok.gov/water-quality-division",
+      "description": "Oklahoma Department of Environmental Quality — oversees water quality permits for in-stream work."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
