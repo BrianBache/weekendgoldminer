@@ -3,6 +3,14 @@ import { notFound } from 'next/navigation';
 import { MDXRemote } from 'next-mdx-remote/rsc';
 import { getGuideBySlug, getAllGuideSlugs } from '@/lib/guides';
 
+// Placeholder component for illustration markers — renders as a styled callout
+// Pixel will replace these with actual images later
+const IllustrationNote = ({ children }: { children?: React.ReactNode }) => (
+  <div className="my-6 p-4 border-2 border-dashed border-gold-400 dark:border-gold-600 rounded-lg bg-gold-50 dark:bg-gold-900/20 text-sm text-earth-600 dark:text-earth-300 italic">
+    📐 Illustration placeholder: {children}
+  </div>
+);
+
 // Category badge colors
 const categoryColors: Record<string, string> = {
   Beginner: 'bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200',
@@ -111,7 +119,7 @@ export default async function GuidePage({
 
             {/* MDX Body */}
             <div className="prose prose-earth dark:prose-invert max-w-none prose-headings:text-earth-900 dark:prose-headings:text-dark-text prose-a:text-gold-600 hover:prose-a:text-gold-700 prose-strong:text-earth-900 dark:prose-strong:text-dark-text">
-              <MDXRemote source={content} />
+              <MDXRemote source={content} components={{ IllustrationNote }} />
             </div>
 
             {/* Affiliate Disclaimer */}
