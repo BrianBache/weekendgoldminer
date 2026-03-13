@@ -1,0 +1,39 @@
+{
+  "state": "missouri",
+  "displayName": "Missouri",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Missouri is not a gold state in any meaningful sense for recreational prospectors. The state is well-known for lead (galena), zinc, and iron production, and while trace gold has been reported associated with some sulfide ore bodies in the Ozarks, there are no documented productive placer gold deposits. The Mark Twain National Forest offers public land in the Ozarks, but prospectors would be better served focusing on Missouri's excellent rockhounding opportunities (geodes, calcite, galena) rather than gold. This entry is included for completeness with honest expectations.",
+    "keyRules": [
+      "Missouri does not have a recreational prospecting permit system for gold — the issue is that there are no practical gold prospecting destinations in the state.",
+      "Recreational rock and mineral collecting on Mark Twain National Forest land is allowed for personal use under USFS rules — commercial collection requires a permit.",
+      "In-stream work in Missouri waterways requires coordination with the Missouri Department of Natural Resources (DNR) under stream alteration permit rules.",
+      "Missouri state parks prohibit mineral and rock collecting — focus any rockhounding on National Forest land."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Missouri does not have a state HPA system. In-stream work beyond hand activities requires a Stream Alteration Permit from Missouri DNR. For casual in-stream activities (rock picking, hand panning in streams), no specific permit is required on National Forest land, but contact Missouri DNR for clarity on any streambed disturbance.",
+    "suctionDredgeStatus": "Not applicable — there are no productive gold-bearing streams in Missouri where suction dredging would be a viable activity.",
+    "handPanning": "Hand panning in Missouri streams for gold is possible but will yield little to no results — there are no documented productive placer gold streams in Missouri. The state has excellent rockhounding for other minerals (geodes, calcite crystals, galena) on National Forest land.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "Mark Twain National Forest",
+      "url": "https://www.fs.usda.gov/mtnf",
+      "description": "National Forest in the Missouri Ozarks — allows recreational rock and mineral collecting on forest land, though gold is not a realistic target."
+    },
+    {
+      "title": "Missouri Department of Natural Resources — Geology",
+      "url": "https://modnr.gov/geology",
+      "description": "Missouri geological survey information — confirms the state's mineral resources do not include significant gold deposits."
+    },
+    {
+      "title": "Missouri DNR — Stream Alteration Permits",
+      "url": "https://modnr.gov/water-protection/stream-alteration-permits",
+      "description": "Required for any significant in-stream work in Missouri waterways."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
