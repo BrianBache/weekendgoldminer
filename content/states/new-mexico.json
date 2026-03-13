@@ -1,0 +1,90 @@
+{
+  "state": "new-mexico",
+  "displayName": "New Mexico",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "New Mexico has a rich gold mining history, particularly in the southern and central portions of the state. BLM and USFS lands cover large areas of gold-bearing terrain, and recreational prospecting is allowed on open public lands. The state has a relatively permissive regulatory environment for non-motorized prospecting, though any significant ground disturbance or in-stream work requires coordination with the relevant federal agency.",
+    "keyRules": [
+      "Recreational hand panning and non-motorized prospecting are allowed on open BLM and USFS lands without a permit — confirm the area is open using BLM MLRS before going out.",
+      "Casual use (hand tools, small pans, shovels with minimal disturbance) on BLM land does not require a Notice of Intent; operations disturbing more than 5 cubic yards require filing a Notice with the BLM field office.",
+      "Motorized equipment (suction dredges, highbankers) in or near watercourses may require Army Corps of Engineers Section 404 coordination and review by the NM Environment Department.",
+      "Prospecting is prohibited in wilderness areas, National Monuments, and areas specifically closed by the managing agency — check with the relevant BLM or USFS office before visiting.",
+      "Active mining claims are common in productive areas — always verify land is open using BLM MLRS before prospecting to avoid trespassing on claimed ground."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "New Mexico does not have a state HPA system. In-stream and wetland work with motorized equipment may require a Section 404 permit from the Army Corps of Engineers Albuquerque District. For recreational hand panning, no state stream-work permit is required. Contact the relevant BLM or USFS office for guidance on specific watercourses.",
+    "suctionDredgeStatus": "Not subject to a statewide ban. Suction dredging may be possible on BLM land with prior approval from the field office and, for in-channel work, potential Army Corps coordination. Most of New Mexico's productive gold drainages are semi-arid with limited perennial flow, so traditional suction dredging opportunities are limited. Dry washing and metal detecting are the primary methods used.",
+    "handPanning": "Hand panning is freely allowed on open BLM and USFS lands in New Mexico without a permit. Confirm you are on open public land via BLM MLRS and carry a map or GPS to stay within open boundaries.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [
+    {
+      "name": "Elizabethtown (E-Town) Placer District",
+      "county": "Colfax",
+      "description": "Located near the ghost town of Elizabethtown in the Sangre de Cristo Mountains of northern New Mexico, this area was the site of New Mexico's first major gold rush in 1866. Placer gold was extensively worked along Moreno Creek and its tributaries. Carson National Forest and BLM land surround the area, offering public access. This is a historically significant and still moderately productive area for recreational hand panners.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Open for recreational prospecting on National Forest land. Contact Carson National Forest Cimarron Ranger District for current access status and any restrictions.",
+      "url": "https://www.fs.usda.gov/carson",
+      "urlLabel": "Carson National Forest"
+    },
+    {
+      "name": "Hillsboro / Kingston Gold District",
+      "county": "Sierra",
+      "description": "The Hillsboro and Kingston areas in Sierra County were important gold and silver producers in the 1880s and 1890s. The drainages flowing out of the Black Range (managed by Gila National Forest) carry placer gold, and BLM land in the surrounding valleys offers additional prospecting opportunities. This remote area requires some travel but rewards patient prospectors with real placer gold in stream gravels and dry washes.",
+      "goldType": "placer",
+      "landManagement": "Mixed",
+      "permitRequired": false,
+      "permitNotes": "National Forest lands are open for recreational prospecting. BLM lands nearby also open — verify via MLRS. Contact Gila NF Black Range Ranger District for guidance.",
+      "url": "https://www.fs.usda.gov/gila",
+      "urlLabel": "Gila National Forest"
+    },
+    {
+      "name": "Ortiz Mountains (Southern Placers)",
+      "county": "Santa Fe",
+      "description": "The Ortiz Mountains south of Santa Fe were the site of New Mexico's first documented gold discovery in 1828 — predating the California Gold Rush by over 20 years. The Ortiz Mine Grant and surrounding public lands have a long history of placer and lode gold production. Some BLM-managed areas in the foothills offer access for recreational prospectors. The placers here produce small flake and flour gold.",
+      "goldType": "placer",
+      "landManagement": "BLM",
+      "permitRequired": false,
+      "permitNotes": "Verify land ownership carefully — the Ortiz Mountains have complex private/BLM/state land ownership. Use BLM MLRS and contact the Rio Puerco Field Office for open access areas.",
+      "url": "https://www.blm.gov/office/rio-puerco-field-office",
+      "urlLabel": "BLM Rio Puerco Field Office"
+    },
+    {
+      "name": "Jicarilla Mining District",
+      "county": "Lincoln",
+      "description": "The Jicarilla Mountains in Lincoln County (not to be confused with the Jicarilla Apache Reservation) were productive gold producers in the 1890s. The Lincoln National Forest manages significant portions of the area, and recreational prospectors can access stream drainages that still carry placer gold. The area is remote and undervisited, making it a worthwhile destination for experienced prospectors.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Open for recreational prospecting on Lincoln National Forest land. Contact Smokey Bear Ranger District for current access information.",
+      "url": "https://www.fs.usda.gov/lincoln",
+      "urlLabel": "Lincoln National Forest"
+    }
+  ],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "BLM New Mexico State Office",
+      "url": "https://www.blm.gov/new-mexico",
+      "description": "Primary BLM office for New Mexico public land information and mineral program guidance."
+    },
+    {
+      "title": "BLM Mineral & Land Records System (MLRS)",
+      "url": "https://mlrs.blm.gov",
+      "description": "Search for active mining claims, land status, and withdrawals before prospecting in New Mexico."
+    },
+    {
+      "title": "New Mexico Bureau of Geology and Mineral Resources",
+      "url": "https://geoinfo.nmt.edu",
+      "description": "Geologic maps, historical mine records, and mineral resource data for New Mexico."
+    },
+    {
+      "title": "New Mexico Energy, Minerals and Natural Resources Department",
+      "url": "https://www.emnrd.nm.gov",
+      "description": "State agency overseeing mining activities in New Mexico, including permit requirements for mining operations."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
