@@ -1,0 +1,63 @@
+{
+  "state": "vermont",
+  "displayName": "Vermont",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Vermont has a real but modest gold prospecting tradition. The Gold Brook area near Stowe and the Missisquoi River drainage in the Northeast Kingdom have documented placer gold, and Vermont actually had several small-scale lode gold mines in the 19th century. The state is more famous for granite, marble, and talc, but recreational gold panning is a legitimate activity on public stream corridors. Vermont's Green Mountain National Forest provides the primary public land access.",
+    "keyRules": [
+      "Vermont does not require a specific permit for recreational hand panning on public stream corridors or Green Mountain National Forest land — the activity is treated as general public recreation.",
+      "In-stream work in Vermont beyond hand panning may require an Act 250 permit from the Vermont Environmental Court and/or a Stream Alteration Permit from the Vermont Agency of Natural Resources (ANR).",
+      "Suction dredging in Vermont streams requires a Stream Alteration Permit from VT ANR — contact the Department of Environmental Conservation Watershed Management Division.",
+      "Vermont state parks prohibit mineral collecting — focus on National Forest and public stream corridor access.",
+      "Vermont's cold-water brook trout streams have seasonal protections — respect posted seasonal restrictions when planning in-stream activities."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Vermont does not have a state HPA system. The Vermont Agency of Natural Resources regulates in-stream work through Stream Alteration Permits (for significant disturbance) and general water quality regulations. For recreational hand panning with no significant streambed disturbance, no specific permit is required. Contact Vermont ANR Watershed Management Division for specific stream guidance.",
+    "suctionDredgeStatus": "Regulated — suction dredging in Vermont requires a Stream Alteration Permit from VT ANR. The application process has real requirements. Vermont's cold-water trout stream system receives strong environmental protection — suction dredging is not commonly permitted for recreational use.",
+    "handPanning": "Hand panning is allowed without a specific permit on Green Mountain National Forest land and public stream corridors in Vermont. Gold Brook near Stowe is the most historically notable location. Gold is fine placer — manage expectations but the activity is real and the scenery is exceptional.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [
+    {
+      "name": "Gold Brook (Stowe / Morristown Area)",
+      "county": "Lamoille",
+      "description": "Gold Brook near Stowe is Vermont's most famous recreational gold panning location. The brook flows from the flanks of Mount Mansfield through a natural gorge called Smugglers' Notch and has produced fine placer gold for over a century. The Emily's Bridge area is a well-known access point. Some portions of Gold Brook are within Green Mountain National Forest or near public access points — confirm legal access before entering any private streambank.",
+      "goldType": "placer",
+      "landManagement": "Mixed",
+      "permitRequired": false,
+      "permitNotes": "Confirm public vs. private streambank access at your chosen entry point. Green Mountain National Forest boundary in this area — contact Rochester or Middlebury Ranger Districts for guidance. No federal prospecting permit required for hand panning.",
+      "url": "https://www.fs.usda.gov/greenmountain",
+      "urlLabel": "Green Mountain National Forest"
+    },
+    {
+      "name": "Missisquoi River Headwaters (Orleans / Essex County)",
+      "county": "Orleans / Essex",
+      "description": "The Missisquoi River headwaters in Vermont's Northeast Kingdom drain a region of ancient Precambrian and Cambrian metamorphic rocks with trace gold mineralization. The river and its tributaries have produced small amounts of placer gold reported by local prospectors. Public stream corridor access exists in several areas, and state-managed land in the Northeast Kingdom provides some public access.",
+      "goldType": "placer",
+      "landManagement": "State",
+      "permitRequired": false,
+      "permitNotes": "Focus on state-managed land and public stream corridor access. Vermont ANR manages some public land in this area — contact them for current access information.",
+      "url": "https://anr.vermont.gov",
+      "urlLabel": "Vermont Agency of Natural Resources"
+    }
+  ],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "Green Mountain National Forest",
+      "url": "https://www.fs.usda.gov/greenmountain",
+      "description": "Primary public land manager in Vermont — contact for recreational prospecting access on National Forest land."
+    },
+    {
+      "title": "Vermont Agency of Natural Resources",
+      "url": "https://anr.vermont.gov",
+      "description": "State environmental agency managing Vermont waterways, stream alteration permits, and state-managed lands."
+    },
+    {
+      "title": "Vermont Geological Survey",
+      "url": "https://geology.vermont.gov",
+      "description": "State geological survey with geologic maps and mineral occurrence data — includes Vermont's gold occurrences."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
