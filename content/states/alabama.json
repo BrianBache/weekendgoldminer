@@ -1,0 +1,52 @@
+{
+  "state": "alabama",
+  "displayName": "Alabama",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Alabama sits on the southern end of the Appalachian gold belt, and the state has documented gold occurrences in several central and eastern counties. The Arbacoochee District in Cleburne County and the Hillabee Greenstone Belt in Talladega and Clay counties have produced gold in the past. However, Alabama is not a well-developed recreational gold prospecting destination, and productive public access to gold-bearing streams is limited. The Talladega National Forest provides the primary public land access.",
+    "keyRules": [
+      "Alabama does not require a specific permit for recreational hand panning on public land — the activity is generally unregulated at the state level for casual non-motorized use.",
+      "In-stream work in Alabama waterways beyond hand panning requires coordination with the Alabama Department of Environmental Management (ADEM) and Army Corps of Engineers under Section 404.",
+      "Recreational prospecting on Talladega National Forest land is allowed under USFS rules for non-motorized casual use — contact the relevant ranger district for specific area information.",
+      "Motorized equipment (suction dredges) in Alabama streams requires Army Corps Section 404 and ADEM permits — not commonly practiced in Alabama.",
+      "Alabama state parks prohibit mineral and rock collecting."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Alabama does not have a state HPA system. In-stream work with any mechanized equipment requires ADEM coordination and Army Corps Section 404 permits. For recreational hand panning with no significant streambed disturbance on public land, no specific state permit is required. Contact ADEM for specific watercourse guidance.",
+    "suctionDredgeStatus": "Not commonly practiced in Alabama. Suction dredging requires ADEM permits and Army Corps Section 404 coordination. Alabama has not established a recreational dredging permit program. Hand panning is the practical choice for recreational prospectors.",
+    "handPanning": "Hand panning is the practical recreational method in Alabama. The Talladega National Forest provides the clearest public access to gold-bearing terrain. Gold is present in the Hillabee Greenstone Belt and associated stream drainages, but quantities are modest compared to western states.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [
+    {
+      "name": "Talladega National Forest (Hillabee District)",
+      "county": "Talladega / Clay / Cleburne",
+      "description": "The Talladega National Forest covers portions of the Hillabee Greenstone Belt in Talladega, Clay, and Cleburne counties — the primary gold-bearing geological unit in Alabama. Streams draining the National Forest carry trace placer gold associated with the greenstone and schist formations. The Hillabee Creek drainage is historically the most gold-productive area. This is a real but modest gold prospecting destination.",
+      "goldType": "placer",
+      "landManagement": "USFS",
+      "permitRequired": false,
+      "permitNotes": "Open for recreational hand panning on Talladega National Forest land. Contact the Oakmulgee or Shoal Creek Ranger Districts for current access information and any area-specific restrictions.",
+      "url": "https://www.fs.usda.gov/alabama",
+      "urlLabel": "Alabama National Forests (Talladega)"
+    }
+  ],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "Alabama National Forests (Talladega NF)",
+      "url": "https://www.fs.usda.gov/alabama",
+      "description": "Primary public land manager for central Alabama's gold-bearing terrain — contact ranger districts for prospecting access."
+    },
+    {
+      "title": "Geological Survey of Alabama",
+      "url": "https://gsa.state.al.us",
+      "description": "State geological survey with geologic maps and mineral occurrence data — includes Alabama's gold district information."
+    },
+    {
+      "title": "Alabama Department of Environmental Management",
+      "url": "https://www.adem.alabama.gov",
+      "description": "State environmental agency — oversees water quality permits and in-stream work regulations in Alabama."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
