@@ -1,0 +1,33 @@
+{
+  "state": "rhode-island",
+  "displayName": "Rhode Island",
+  "lastResearched": "2026-03-13",
+  "regulationSummary": {
+    "overview": "Rhode Island is the smallest US state and has no gold deposits or gold prospecting activity. The state's geology consists of Precambrian and Paleozoic metamorphic rocks and granites, with glacial deposits covering much of the surface. Rhode Island is known for mineral collecting at specific localities (chabazite zeolites, calcite), but gold prospecting is not a viable activity in the state. This entry is included for completeness.",
+    "keyRules": [
+      "Rhode Island does not have a recreational gold prospecting permit system — there are no gold deposits in the state.",
+      "In-stream work in Rhode Island waterways is regulated by the RI Department of Environmental Management (DEM) and the RI Coastal Resources Management Council.",
+      "Rhode Island state parks and natural areas prohibit mineral and rock collecting."
+    ],
+    "hpaRequired": false,
+    "hpaInfo": "Not applicable — there are no gold-bearing streams in Rhode Island.",
+    "suctionDredgeStatus": "Not applicable — Rhode Island has no productive placer gold streams.",
+    "handPanning": "Gold panning in Rhode Island streams is not a viable activity — the state has no gold-bearing geology. Rhode Island's small size and extensive residential development leave very limited public natural land for any type of mineral collecting.",
+    "disclaimer": "Regulations change. Verify current rules at the official sources listed below before going out."
+  },
+  "publicLocations": [],
+  "privateOptions": [],
+  "officialResources": [
+    {
+      "title": "Rhode Island Geological Survey",
+      "url": "https://www.uri.edu/rigs",
+      "description": "State geological survey — Rhode Island has no gold-bearing geology."
+    },
+    {
+      "title": "RI Department of Environmental Management",
+      "url": "https://dem.ri.gov",
+      "description": "Manages Rhode Island state lands and environmental regulations including in-stream work permits."
+    }
+  ],
+  "lastUpdated": "2026-03-13"
+}
