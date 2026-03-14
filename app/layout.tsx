@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
+import MetalsStrip from "@/components/MetalsStrip";
 import Footer from "@/components/Footer";
 import BetaBanner from "@/components/BetaBanner";
 import Providers from "@/components/Providers";
@@ -21,6 +22,7 @@ export default function RootLayout({
         <Providers>
           <BetaBanner />
           <Navbar />
+          <MetalsStrip />
           <main className="pt-[106px] min-h-screen">
             {children}
           </main>
