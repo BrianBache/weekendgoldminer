@@ -29,10 +29,13 @@ const freeItems: NavItem[] = [
     label: "Equipment & Reviews",
     href: "/equipment",
     children: [
-      { label: "Panning", href: "/equipment/panning" },
-      { label: "Sluices", href: "/equipment/sluices" },
-      { label: "Detectors", href: "/equipment/detectors" },
-      { label: "Accessories", href: "/equipment/accessories" },
+      { label: "Hand Panning", href: "/equipment/panning" },
+      { label: "Sluicing", href: "/equipment/sluices" },
+      { label: "Highbankers & Power Sluices", href: "/equipment/highbankers" },
+      { label: "Metal Detecting", href: "/equipment/detectors" },
+      { label: "Concentrators & Cleanup", href: "/equipment/concentrators" },
+      { label: "Digging & Recovery", href: "/equipment/digging" },
+      { label: "Field Gear", href: "/equipment/field-gear" },
     ],
   },
   {
